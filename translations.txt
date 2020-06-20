@@ -232,7 +232,6 @@ Please try again later=Spróbuj później
 Please wait=Czekaj
 Plugins=Wtyczki
 prefix_SI=K M G T P E Z Y
-prefix_IEC=Ki Mi Gi Ti Pi Ei Zi Yi
 Plus=Plus
 Private=Prywatny
 Pro=Pro
