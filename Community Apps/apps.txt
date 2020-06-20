@@ -1,6 +1,6 @@
 ; Translation Credit.  Will appear in CA's credits
-translationCredit=<Author> (<Language>)
-Cancel=
+translationCredit=Łukasz Szyper (Polish)
+Cancel=Anuluj
 
 ; My PSAs / banners
 Happy New Year=
