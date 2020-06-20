@@ -1,5 +1,5 @@
 Add Share=Dodaj udział
-All files encrypted=Wszustkie pliki zaszyfrowane
+All files encrypted=Wszystkie pliki zaszyfrowane
 All files protected=Wszystkie pliki chronione
 All files unprotected=Wszystkie pliki niechronione
 Allocation method=Metoda alokacji
@@ -51,7 +51,7 @@ Share Settings=Ustawienia udziału
 Share status=Status udziału
 Size=Rozmiar
 Some or all files unencrypted=Niektóre lub wszystkie pliki niezaszyfrowane
-Some or all files unprotected=Niektóre lub wsztskie pliki niechronione
+Some or all files unprotected=Niektóre lub wszystkie pliki niechronione
 Split level=Poziom podziału
 SSD=SSD
 There are no exportable disk shares=Nie ma eksportowalnych udziałów dyskowych
