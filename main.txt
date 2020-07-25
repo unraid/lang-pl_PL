@@ -67,6 +67,7 @@ Do not use user share names=Nie używaj nazw udziałów
 Download SMART report=Pobierz raport SMART
 Dual parity valid requires ALL disks in their original slots=Sprawdzenie *Podwójnej parzystości* wymaga **WSZYSTKICH** dysków zainstalowanych na swoich oryginalnych pozycjach.
 Elapsed time=Upłynęło
+Enable user share assignment=
 encrypted=zaszyfrowany
 Encryption input=Wejście szyfrowania
 Encryption status=Status szyfrowania
