@@ -1,5 +1,5 @@
 %s used of %s %s %%=Użyte %s z %s (%s %%)
----=
+---=---
 Active tunnels=Aktywne tunele
 Activity=Aktywność
 ago=temu
