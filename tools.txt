@@ -1,11 +1,11 @@
 A registration replacement key has been created for USB Flash GUID=Zamienny klucz rejestracyjny został utworzony dla dysku USB o GUID
-About=O
-alert=alert
+About=
+alert=
 An email has been sent to=Wiadomość została wysłana do
 and=i
-Anonymize diagnostics=Anonimizacja diagnostyki
+Anonymize diagnostics=
 Anytime=Zawsze
-Archived Notifications=Zarchiwizowane powiadomienia
+Archived Notifications=Zawrchiwizowane powiadomienia
 Are you sure=Czy na pewno
 Array has been Reset=Macierz została **Zresetowana**
 Array must be Started to change permissions=Macierz musi być **Uruchomiona** żeby zmienic uprawnienia
@@ -13,11 +13,11 @@ Array must be Stopped to change=Macierz musi być **Wyłączona** w celu zmiany
 Array=Macierz
 Author=Autor
 Blacklisted USB Flash GUID=
-Branch=Gałąź
-By using this software, you agree with our=Używając tego oprogramowania, zgadzasz się z naszymi
+Branch=
+By using this software, you agree with our=Używając tego oprogramowania, musisz zgodzić się z naszym
 Cache slots=Sloty cache
-Cannot connect to key-server=Nie można połączyć się z serwerem klucza
-Check for Updates=Sprawdź aktualizacje
+Cannot connect to key-server=Nie mogę się połączyć z serwerem klucza
+Check for Updates=Sprawdź aktualizację
 click Install Key=kliknij <i>Instaluj Klucz</i>
 collecting diagnostic information this may take several minutes=zbieram dane diagnostyczne (to może zająć kilka minut)
 Component=Komponenty
@@ -29,7 +29,7 @@ Diagnostics=Diagnostyka
 Disks=Dyski
 Display Settings=Ustawienia wyświetlania
 End-User License Agreement=Licencja użytkownika końcowego
-Enter URL of language pack XML file=Wprowadź adres URL pliku XML pakietu językowego
+Enter URL of language pack XML file=
 Error accessing your physical USB Flash boot device=
 EULA=Licencja użytownika końcowego
 Event=Zdarzenie
@@ -37,15 +37,15 @@ Expiration=Wygaśnięcie
 Extend=Przedłużene
 extended=przedłużony
 Get Trial Key=Zdobądź klucz testowy
-Hardware Profile=Profil sprzętowy
+Hardware Profile=Profil przętowy
 Hide Details=Ukryj szczegóły
 If you do not receive an email, please check your spam or junk-email folder=Jeżeli nie otrzymałeś wiadomości, sprawdź proszę folder Spam lub Niechciana poczta
-Importance=Znaczenie
+Importance=
 Important=Ważne
 Install=Instaluj
 Installed languages=Zainstalowane języki
 Invalid Trial Installation=Niepoprawna *Wersja próbna*
-It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=Będzie zbierać wszystkie informacje o sprzęcie systemowym, usuwać numery seryjne i bezpiecznie przesyłać je do LimeTech
+It will collect all of the system hardware information, remove any serial numbers, and securely upload it to LimeTech=
 Key file URL=URL pliku klucza
 Language support added=Dodano obsługę języka
 Language support deleted=Usunięto obsługę języka
@@ -55,13 +55,13 @@ Missing Language=Brakujacy język
 Network Settings=Ustawienia sieciowe
 New Config=Nowa konfiguracja
 New Permissions=Nowe uprawnienia
-No notifications present=Brak powiadomień
+No notifications present=Brak obecnie powiadomień
 No personal information such as user names, passwords, or any other file contents is included in the hardware profile=Żadne informacje typu nazwy użytkowników, hasła ani dodatkowe pliki nie są dołączane do profilu sprzętowego
-normal=normalny
-Only ZIP files are allowed=Dozwolone są tylko pliki ZIP
+normal=
+Only ZIP files are allowed=Tylko pliki ZIP są dozwolone
 Page Map=Mapa strony
 Parity slots=Sloty parzystości
-Please check your=Proszę, sprawdź twój
+Please check your=Proszę sprawdź twój
 Please select a language before proceeding=Proszę wybierz język zanim zaczniesz
 Please=Proszę
 Preserve current assignments=Zachowaj aktualne przypisania
@@ -87,10 +87,10 @@ slots=sloty
 Subject=Temat
 System Devices=Urządzenia systemowe
 System Update Check=Sprawdzanie aktualizacji systemu
-Text=Tekst
+Text=Teks
 Thank you for choosing Unraid OS=Dziękujemy za wybranie Unraid OS
 Thank you for registering USB Flash GUID=Dziękujemy za zarejestrowanie dysku USB GUID
-Thank you for trying Unraid OS=Dziękujemy za korzystanie z wersji próbnej Unraid OS
+Thank you for trying Unraid OS=Dziękujemy za korzystanie z wersji próbnej
 The registered GUID does not match the USB Flash boot device GUID=Zarejestriwany GUID nie jest zgodny z GUID dysku USB z którego uruchomiono system 
 There is a physical problem accessing your USB Flash boot device=Występuje fizyczny problem z dostępem do dysku USB
 this may take several minutes=to może zająć kilka minut
@@ -117,15 +117,15 @@ User=Użytkownik
 Vars=Zmienne
 warning=ostrzeżenie
 webGUI=webGUI
-When received, please paste the URL into the Key file URL box and=Kiedy otrzymasz, proszę wklej URL w polu <i>Plik Klucza</i> i
-Wrong File Extension=Błędne Rozszerzenie Pliku 
+When received, please paste the URL into the Key file URL box and=Kiedy otrzymasz, proszę wklej URL pola <i>Plik Klucza</i> i
+Wrong File Extension=Złe Rozszerzenie Pliku 
 You havent sent Limetech your hardware profile yet=Nie wysłałeś jeszcze swojego profilu sprzętowego do Limetech
 Your hardware profile was last submitted on=Twój profil sprzętowy był przesłany ostatni raz 
 Your Trial key has expired=Klucz twojej *Wersji próbnej* stracił ważność
 Your Trial key requires an internet connection=Twój klucz *Wersji próbnej* wymaga połączenia z internetem
 
 ; Sysdevs text - added May 18, 2020
-A reboot is required to apply changes=Aby zastosować zmiany, uruchom ponownie
+A reboot is required to apply changes=Wprowadzenie zmian wymaga ponownego uruchomienia
 ALERT=UWAGA
 Bind selected to VFIO at Boot=Przypisz wybrane do VIFO podczas uruchamiania
 CPU Thread Pairings=Paruj wątki CPU
@@ -145,11 +145,11 @@ USB Devices=Urządzenia USB
 Your system has booted with the PCIe ACS Override setting enabled=Twój system został uruchomiony z włączoną funkcją PCIe ACS Override
 
 :diagnostics_1_plug:
-To narzędzie służy do rozwiązywania problemów. Zbierze wszystkie informacje o systemie oraz pliki konfiguracyjne i spakuje te pliki w jeden plik ZIP, który można zapisać lokalnie.
-Następnie plik ten można dołączyć do korespondencji z firmą Limetech lub forum Unraid.
+This utility is used for troubleshooting purposes. It will collect all of the system information and configuration files, and package these files in a single ZIP file which can be saved locally.
+Subsequently, this file can be included in your correspondence with Limetech or the Unraid forum.
 
-Pomoże to innym w szybkim uzyskaniu wewnętrznych informacji o Twoim systemie i zapewni lepsze wsparcie w rozwiązaniu Twojego problemu. Następująca informacja
-i pliki konfiguracyjne są gromadzone:
+This will help others to quickly get the inside information of your system and provide better support to your problem. The following information
+and configuration files are collected:
 :end
 
 :diagnostics_2_plug:
@@ -172,9 +172,9 @@ i pliki konfiguracyjne są gromadzone:
 :end
 
 :diagnostics_3_plug:
-Kliknięcie **Pobierz** rozpocznie proces zbierania, a następnie poinstruuje przeglądarkę, aby zapisała plik zip lokalnie.
+Clicking **Download** will start the collection process and then instruct your browser to save the zip file locally.
 
-*Żadne dane osobowe, takie jak nazwy użytkowników, hasła lub inne treści plików, które nie zostały określone powyżej, nie są uwzględniane
+*No personal information such as user names, passwords, or any other file contents not specified above is included
 by Unraid OS; however, your server name, IP address, and user share names* **will** *be included.*
 
 *Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
