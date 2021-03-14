@@ -128,3 +128,8 @@ Was this container created using this plugin=Czy ten kontener został utworzony 
 Web=Sieć
 WebUI=WebUI
 Writable=Zapisywalny
+
+; New entries - 2021-03-14
+Drivers=
+Reset sorting=
+Start Container After Install=
