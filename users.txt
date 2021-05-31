@@ -17,3 +17,12 @@ Use a password up to 128 characters=Użyj hasła o maksymalnej długości 128 zn
 Use only lowercase letters, digits, underscores and dashes=Użyj wyłącznie małych liter, cyfr, podkreślenia i myślnika
 User %s has been deleted=Użytkownik %s został usunięty
 User name=Nazwa użytkownika
+; New entries (8) - 2021-05-31
+Click Add User to create a user for remote shares access=Click **Add User** to create a user for remote shares access
+Invalid Key=
+Management Access=
+No users are defined=
+Save=
+Shares Access=
+SSH authorized keys=
+Syntax of the key is incorrect=
