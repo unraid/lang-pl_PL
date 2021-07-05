@@ -1,7 +1,7 @@
 Cancel=Anuluj
 
 ; My PSAs / banners
-Happy New Year=Szczęśliwego nowego roku
+Happy New Year=Szczęśliwego Nowego Roku
 Happy Holidays from Andrew, Tracey, and family=Wesołych Świąt życzy Andrwe, Tracey, oraz rodzina
 Please Enjoy Responsibly=
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=
