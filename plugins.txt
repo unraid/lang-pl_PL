@@ -29,20 +29,20 @@ Upgrade=Aktualizuj
 View Release Notes=Zobacz informacje o wydaniu
 
 ; New entries (1) - 2021-05-08
-No plugins installed=
+No plugins installed=Żadna wtyczka nie została zainstalowana
 
 ; New entries (2) - 2021-05-09
-Checking connectivty=
-No response, aborting=
+Checking connectivty=Sprawdzanie połączenia
+No response, aborting=Brak odpowiedzi, przerywanie
 
 ; New entries (1) - 2021-05-10
-checking=
+checking=sprawdzanie
 
 ; New entries (3) - 2021-05-10
-Delete Plugin=
-Remove Plugin=
-Update Plugin=
+Delete Plugin=Skasuj wtyczkę
+Remove Plugin=Usuń wtyczkę
+Update Plugin=Zaktualizuj wtyczkę
 
 ; New entries (2) - 2021-05-15
-Plugin File Install Errors=
-Plugin History=
+Plugin File Install Errors=Błąd instalacji wtyczki
+Plugin History=Historia wtyczki

@@ -130,10 +130,10 @@ WebUI=WebUI
 Writable=Zapisywalny
 
 ; New entries (4) - 2021-05-08
-Drivers=
-Reset sorting=
-Start Container After Install=
-Total size=
+Drivers=Sterowniki
+Reset sorting=Reset sortowania
+Start Container After Install=Uruchom kontener po instalacji
+Total size=Rozmiar całkowity
 
 ; New entries (1) - 2021-06-12
-Crypto Currency=
+Crypto Currency=Kryptowaluta
