@@ -5,7 +5,7 @@ Add=Dodaj
 Always=Zawsze
 App to Host=Apliakcja do hosta
 Application=Aplikacja
-apply update=zaaplikuj aktualizację
+apply update=zaktualizuj
 Array must be Started to view Docker containers=Macierz musi być **uruchomiona** by przeglądać kontenery Dockera
 Are you sure=Czy na pewno
 Autostart=Autostart
@@ -24,7 +24,7 @@ Console shell command=Polecenie powłoki w konsoli
 Container ID=ID kontenera
 Container Path=Ścieżka kontenera
 Container Port=Port kontenera
-Container Size=Rozmiat kontenera
+Container Size=Rozmiar kontenera
 Container=Kontener
 CPU Memory load=Obciążenie pamięci procesora
 CPU Pinning=Przypinanie procesora
@@ -130,10 +130,10 @@ WebUI=WebUI
 Writable=Zapisywalny
 
 ; New entries (4) - 2021-05-08
-Drivers=
-Reset sorting=
-Start Container After Install=
-Total size=
+Drivers=Sterowniki
+Reset sorting=Reset sortowania
+Start Container After Install=Uruchom kontener po instalacji
+Total size=Rozmiar całkowity
 
 ; New entries (1) - 2021-06-12
-Crypto Currency=
+Crypto Currency=Kryptowaluta
