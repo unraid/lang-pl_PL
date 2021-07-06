@@ -11,4 +11,4 @@ This setting allows CA to periodically scan your system and alert you to the pre
 1 Known malware and security vulnerabilities within applications=Znane złośliwe oprogramowanie i luki w zabezpieczeniach aplikacji
 2 Critical security vulnerabilities within Unraid OS=Krytyczne luki w zabezpieczeniach w systemie operacyjnym Unraid
 3 Any installed applications which may seriously hinder the operation of your server=Wszelkie zainstalowane aplikacje, które mogą poważnie utrudnić działanie Twojego serwera
-Support Thread=Wsparcie wątku 
+Support Thread=Wątek wsparcia

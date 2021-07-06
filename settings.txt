@@ -684,19 +684,19 @@ Unable to register this Unraid Server=Ten serwer Unraid nie może zostać zareje
 Unraidnet Status=Unraid.net Status
 Updating=Aktualizacja
 UPnP forwarding not set=UPnP: przekierowanie nieaktywne
-UPnP state changed to=
+UPnP state changed to=Stan UPnP zmieniony na
 UPnP tunnel is inactive=UPnP: tunel nieaktywny
-Use image name dockerimg or docker-xfsimg or select a folder=Use image name docker.img or docker-xfs.img or select a folder
+Use image name dockerimg or docker-xfsimg or select a folder=Użyj nazwy obrazu docker.img lub docker-xfs.img lub wybierz folder
 Use only letters A-Z, digits or space,dash,underscore=
-View Local Config=
+View Local Config=Widok konfiguracji lokalnej
 View Peer Config=
-VM manager=
-VPN tunneled access=
-WAN Port=
+VM manager=Menadżer VM
+VPN tunneled access=Tunelowy dostęp VPN
+WAN Port=Port WAN
 WireGuard Configuration=
 xfs vDisk=
 Your server has been registered=
-Your Unraid Server is reachable from the internet=
+Your Unraid Server is reachable from the internet=Twój serwer Unraid jest dostępny z internetu
 
 ; New entries (2) - 2021-05-31
 Set password=Ustaw hasło
@@ -707,9 +707,9 @@ Manage password=Zarządzaj hasłem
 Restore default image=Przywróć domyślny obraz
 
 ; New entries (6) - 2021-07-02
-CA-signed certificate file=
-Certificate subject=
+CA-signed certificate file=Podpisany plik certyfikatu
+Certificate subject=Podmiot certyfikatu
 DNS Propagation is PENDING=
 DNS Rebinding Protection is ENABLED=
-Manage=
-Not present=
+Manage=Zarządzać
+Not present=Nieobecny
