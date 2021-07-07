@@ -1,0 +1,54 @@
+Click the 'Default' button to select the default Script File=Kliknij przycisk 'Domyślny' aby wybrać domyślny Plik Skryptu
+Default Script=Domyślny Skrypt
+Delete Script File=Usuń plik skryptu
+Edit Script=Edytuj skrypt
+Enter Script File Name=Wprowadź Nazwę Pliku Skryptu
+Enter and Edit the Script that runs when a udev or operator event occurs=Wprowadź i Edytuj Skrypt który zostanie uruchomionyw przypadku zdarzenia udev lub o użytkownika
+Enter the User Script that will be using this device=Wprowadź Skrypt Użytkownika który będzie używany z tym urządzeniem
+Load the default script=Wczytaj domyślny skrypt
+Remove Script File=Usuń Plik Skryptu
+Run in background=Uruchom w tle
+Mount Device Read only=Zamontuj urządzenie w trybie RO
+Mount Device when Plugged in or Array is Started=Zamontuj urządzenie po podłączeniu lub gdy Macież Uruchomiona
+Mount ISO File when Array is Started=Zamontuj plik ISO gdy Macież Uruchomiona
+Mount Remote SMB or NFS Share when Array is Started=Zamontuj zdalny zasób SMB/NFS gdy Macież jest Uruchomiona
+Run Script File in the background=Uruchom Skrypt w tle
+Save your Script File changes=Zapisz zmiany w pliku Skryptu
+Save=Zapisz
+Script content=Zawartość Skryptu
+Share Device with SMB and NFS=Współdzielenie urządzenia w SMB i NFS
+Share Remote Mount with SMB and NFS=Współdzielenie zdalnego montowania w SMB i NFS
+Mark this Device as passed through to a VM or Docker=Oznacz urządzenie jako bezpośrednio podłączony do VM lub Docker
+Unassigned Devices Settings=Ustawienia Nieprzypisanych Urządzeń
+Undo your changes since last Save=Cofnij zmiany od ostatniego Zapisu
+Volume=Wolumin
+;
+; Help
+;
+:ud_edit_script_device_settings_plug:
+> Wybierz opcje dla tego urządzenia/punktu montowania.  Zmiany obowiązywać będą natychmiast.  Nie musisz naciskać **Zapisz** aby je zapisać.
+:end
+
+:ud_apfs_volume_plug:
+> Wprowadź wolumin do zamontowania na tej partycji apfs. Naciśnij **Zapisz** aby wprowadzić zmiany.
+:end
+
+:ud_edit_script_choose_name_plug:
+> To jest skrypt uruchamiany gdy urządzenie zostanie zamontowane. Wybierz plik skryptu z rozwijanej listy, albo wprowadź jego nazwę.
+:end
+
+:ud_edit_user_script_choose_name_plug:
+> Jeśli zainstalowałeś wtyczkę Skrypty Użytkownika, Nieprzypisane Urządzenia mogą wyświetlać status uruchomienia Skryptu Użytkownika które używają tego urządzenia.  To pole będzie aktywne tylko jeśli Plik Skryptu istnieje.
+:end
+<?endif;?>
+
+:ud_edit_script_run_background_plug:
+> Włącz **Uruchamianie w tle** aby skrypt był uruchamiany jako zadanie w tle.  To zapobiega zawieszaniu Intefejsu Nieprzypisanych Urządzeń gdy skrypt jest uruchamiany z poziomu Interfejsu Użytkownika.
+:end
+
+:ud_edit_script_buttons_plug:
+> Naciśnij przycisk **Zapisz** aby potwierdzić wprowadzone zmiany.  Naciśnij **Resetuj** aby wycofać wprowadzone zmiany (przed Zapisaniem). Naciśnij **Zrobione** aby wyjść z tych ustawień.
+>
+> Naciśnij przycisk **Domyślny Skrypt** aby zainicjalizować pole edycji z domyślnym skryptem.
+> Wymagane jest naciśnięcie **Zapisz** aby potwierdzić zmiany.
+:end

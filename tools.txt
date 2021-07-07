@@ -12,7 +12,7 @@ Array must be Started to change permissions=Macierz musi być **Uruchomiona** ż
 Array must be Stopped to change=Macierz musi być **Wyłączona** w celu zmiany
 Array=Macierz
 Author=Autor
-Blacklisted USB Flash GUID=
+Blacklisted USB Flash GUID=Czarna lista USB GUID
 Branch=Gałąź
 By using this software, you agree with our=Używając tego oprogramowania, zgadzasz się z naszymi
 Cache slots=Sloty cache
@@ -21,7 +21,7 @@ Check for Updates=Sprawdź aktualizacje
 click Install Key=kliknij <i>Instaluj Klucz</i>
 collecting diagnostic information this may take several minutes=zbieram dane diagnostyczne (to może zająć kilka minut)
 Component=Komponenty
-Credits=
+Credits=Credists
 Data slots=Sloty Danych
 Delete notification=Skasuj powiadomienia
 Developer=Twórca
@@ -30,7 +30,7 @@ Disks=Dyski
 Display Settings=Ustawienia wyświetlania
 End-User License Agreement=Licencja użytkownika końcowego
 Enter URL of language pack XML file=Wprowadź adres URL pliku XML pakietu językowego
-Error accessing your physical USB Flash boot device=
+Error accessing your physical USB Flash boot device=Błąd przy próbie dostępu do Twojego fizycznego urządzenia rozruchowego USB
 EULA=Licencja użytownika końcowego
 Event=Zdarzenie
 Expiration=Wygaśnięcie
@@ -302,20 +302,20 @@ For more information, please [Contact Support](https://lime-technology.com/conta
 :end
 
 ; New entries (10) - 2021-05-08
-Array slots=
+Array slots=Sloty Macierzy
 Delete all notifications=Usuń wszystkie powiadomienia
 Downloading=Pobieranie
 Install Language=Zainstaluj język
 please configure=proszę skonfigurować
-Pool slots=
-Uploaded=
-VFIO-PCI Log=
-View VFIO-PCI Log=
+Pool slots=Sloty puli
+Uploaded=Przesłane
+VFIO-PCI Log=Log VFIO-PCI
+View VFIO-PCI Log=Pokaż log VFIO-PCI
 PCI Devices No IOMMU Groups Available=PCI Devices (No IOMMU Groups Available)
 
 ; New entries (2) - 2021-05-10
-Next=
-Stable=
+Next=Kolejny
+Stable=Stabilny
 
 ; New entries (1) - 2021-05-20
-Beta=
+Beta=Beta
