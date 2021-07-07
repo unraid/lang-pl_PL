@@ -7,7 +7,7 @@ Please Enjoy Responsibly=Proszę używaj odpowiedzialnie
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=Zablokowany Popup, CA wymaga odblokowania popapów w specyficznych okolicznościach, musisz dodać swój serwer do białej listy w przeglądarce aby zezwolić na wyskakujące okna.
 Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=Usługa Docker nieaktywna - Możliwość instalacji i zarządzania tylko wtyczkami
 Community Applications works best when cookies are enabled in your browser Certain features may not be available=Aplikacje społeczności działają najlepiej gdy ciasteczka są dozwolone w Twojej przeglądarce, niektóre funkcjonalności mogą być niedostępne
-Backup Server Active Some icons may not appear, and plugin installations may be affected=
+Backup Server Active Some icons may not appear, and plugin installations may be affected=Zapasowy Serwer Aktywny Część ikon może nie być widoczna, może mieć wpływ na instalację wtyczek
 
 ; Sorting Options
 Sorting options=Opcje sortowania
@@ -72,24 +72,24 @@ Yes, install it=Tak, Zainstaluj
 ; Multi-install popup
 Yes, install them=Tak, Zainstaluj je
 Cookies not enabled Plugins must be separately installed from docker applications=Zablokowane ciasteczka, Wtyczki muszą być instalowane oddzielnie od aplikacji docker
-Docker applications will be installed utilizing the most recently saved template with no user input on your part=
+Docker applications will be installed utilizing the most recently saved template with no user input on your part=Aplikacja Docker zostanie zainstalowana używając ostatnio zapisanego szablonu bez udziału użytkownika
 Updating Support Links=Aktualizacja odnośników wsparcia
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Instalacja zakończona, jeśli przycisk Zrobione nie pojawił się kliknij czerwony X w górnym prawym rogu
 
 ; error messages
 No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=Żadne dane nie zostały odebrane, prawdopodobnie w innej sesji przeglądarki serwer został zrestartowany, odświeżenie tej przeglądarki powinno rozwiązać ten problem
 An error occurred Could not find any %s Apps=Wystąpił błąd, nie można znaleźć żadnych %s aplikacji
-Download of appfeed failed=
+Download of appfeed failed=Błąd aktualizacja kanału aplikacji
 ; the %s here refers to a function being called
 Something really went wrong here=Naprawdę coś poszło nie tak
 Post the ENTIRE contents of this message in the Community Applications Support Thread=Opublikuj treść tego komunikatu w wątku wsparcia na forum
-Unknown error happened Please post a screenshot in the support thread of the Statistics screen=
+Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Nieznany błąd Zgłoś w wątku wsparcia Załącz zrzut ekranu z Widoku Statystyk
 Something really wrong happened Reloading the Apps tab will probably fix the problem=Coś naprawdę poszło nie tak odświeżenie zakładki aplikacji powinno rozwiązać problem
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Ta wtyczka ma zdublowaną nazwę z inną już zainstalowaną wtyczką %s co ma wpływ na możliwość instalacji obydwu wtyczek jednocześnie
 You have been logged out=Zostałeś wylogowany
 
 ; CA Sections Keep the length reasonable
-MENU=
+MENU=MENU
 Installed Apps=Zainstalowane
 Previous Apps=Wcześniej używane
 Pinned Apps=Przypięte
@@ -111,7 +111,7 @@ Change Log=Dziennik zmian
 Development=Autor/Rozwój
 Additional Contributions=Współautorzy
 GUI Layout Design=Projekt GUI
-Application Feed=
+Application Feed=Kanał aplikacji
 Additional Testing=Dodatkowe testy
 Moderation=Moderacja
 Additional Libraries=Dodatkowe biblioteki
@@ -124,15 +124,15 @@ The following applications are blacklisted CA will never allow you to install or
 While highly not recommended to do, incompatible applications can be installed by enabling Display Incompatible Applications within CAs General Settings=Wysoce nie zalecane, niekompatybilne aplikacje mogą być zainstalowane po aktywowaniu Wyświetlania Niekompatybilnych aplikacji w Ustawieniach głównych CA
 This display is informational ONLY=Ten widok jest TYLKO informacyjny
 unknown=nieznany
-Last Change To Application Feed=
+Last Change To Application Feed=Ostatnia zmiana na Kanale Aplikacji
 Number Of Docker Applications=Liczba aplikacji Docker
 Number Of Plugin Applications=Liczba wtyczek
 Number Of Templates=Liczba szablonów
 Number Of Repositories=Liczba repozytoriów
 Number Of Private Docker Applications=Liczba prywatnych aplikacji docker
-Number Of Invalid Templates=
-Number Of Template Errors=
-Number Of Blacklisted Apps=
+Number Of Invalid Templates=Liczba Nieważnych Szablonów
+Number Of Template Errors=Liczba Błędów Szablonu
+Number Of Blacklisted Apps=Liczba Aplikacji na czarnej liście
 Number Of Incompatible Applications=Liczba niekompatybilnych aplikacji
 Number Of Deprecated Applications=Liczba przestarzałych aplikacji
 Number Of Moderation Entries=Liczba wpisów moderacyjnych
@@ -140,24 +140,24 @@ Primary Server=Podstawowy serwer
 Backup Server=Serwer zapasowy
 
 ; Statistics Popup Titles
-Repository List=
-All Invalid Templates Found=
-Template Errors=
-All Moderation Entries=
+Repository List=Lista Repozytoriów
+All Invalid Templates Found=Wszystkie znalezione nieważne Szablony
+Template Errors=Błędy Szablonu
+All Moderation Entries=Wszystkie wpisy Moderacyjne
 
 ; Statistics Popup
-No invalid templates found=
-These templates are invalid and the application they are referring to is unknown=
-No templates were automatically fixed=
-All of these errors found have been fixed automatically=
-Note that many of these errors can be avoided by following the directions=
-HERE=
-The following plugins have duplicated filenames and are not able to be installed simultaneously=
-The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=
-If any of these entries are incorrect then contact the moderators of CA to discuss=
-Global Repository Comments=
-Applied to all applications=(Applied to all applications)
-Individual Application Moderation=
+No invalid templates found=Nie znaleziono nieważnych szablonów
+These templates are invalid and the application they are referring to is unknown=Te szablony są nieważne i aplikacje odwołujące się do nich są nieznane
+No templates were automatically fixed=Żaden szablon nie został automatycznie naprawiony
+All of these errors found have been fixed automatically=Wszystkie znalezione błędy zostały automatycznie naprawione
+Note that many of these errors can be avoided by following the directions=Wszystkie tych błędów można uniknąć stosując wskazówki
+HERE=TUTAJ
+The following plugins have duplicated filenames and are not able to be installed simultaneously=Te wtyczki mają zduplikowane nazwy plików i nie mogą być zainstalowane jednocześnie
+The following docker applications refer to the same docker repository but may have subtle changes in the template to warrant this=Te aplikacje docker odnoszą się do tego samego repozytorium ale mogą mieć subtelne zmiany w szablonie aby to zagwarantować
+If any of these entries are incorrect then contact the moderators of CA to discuss=Jeżeli któryś z wpisów jest niepoprawny skontaktuj się z moderatorami Aplikacji Społeczności aby omówić problem
+Global Repository Comments=Komentarz do globalnego repozytorium
+Applied to all applications=Zastosowane do wszystkich aplikacji
+Individual Application Moderation=Indywidualna Moderacja Aplikacji
 
 ; Misc
 Community Applications Changelog=Aplikacje Społeczności Dziennik Zmian
@@ -177,18 +177,18 @@ Video=Wideo
 Other=Inne
 Media Servers=Serwery mediów
 Network Services=Usługi sieciowe
-DNS=
-FTP=
+DNS=DNS
+FTP=FTP
 Management=Zarządzanie
 Messenger=Komunikacja
-Proxy=
-VOIP=
-VPN=
-Web=
-Productivity=
+Proxy=Proxy
+VOIP=VOIP
+VPN=VPN
+Web=Web
+Productivity=Produktywność
 Security=Bezpieczeństwo
 Tools Utilities=Przybory / Narzędzia
-System=
+System=System
 Themes=Motywy
 Utilities=Narzędzia
 Private Apps=Prywatne Aplikacje
@@ -230,21 +230,21 @@ Donate To Author=Wesprzyj autorów
 Donate To Maintainer=Wesprzyj opiekunów
 Author=Autor
 Maintainer=Opiekun
-DockerHub=
+DockerHub=DockerHub
 Application Template=Szablon aplikacji
-Base OS=
-DockerHub Stars=
+Base OS=Podstawowy OS
+DockerHub Stars=Gwiazdki DockerHub
 Added to CA=Dodano do CA
 Date Updated=Data aktualizacji
 Current Version=Aktualna wersja
-Minimum OS=
-Max OS=
+Minimum OS=Minimum OS
+Max OS=Max OS
 Total Downloads=Ilość pobrań
 Licence=Licencja
-30 Day Trend=30 dniowy trend
+30 Day Trend=30 dniowy tred
 Ranked #%s=W rankingu #%s
 ; as in Trending up or down arrow
-Trending %s=
+Trending %s=Trend %s
 ; as in As of some date
 As of %s=(As of %s)
 This application template has been blacklisted=Ta aplikacja / ten szablon został dodany do czarnej listy
@@ -252,14 +252,14 @@ This application template has been deprecated=Ta aplikacja / ten szablon został
 This application is not compatible with your version of Unraid=Ta aplikacja jest niekompatybilna z Twoją wersją Unraid
 Another browser tab or device has updated the displayed templates Some actions are not available=Wyświetlany szablon został zaktualizowanej za pomocą innej zakładki przeglądarki lub innego urządzenia. Część operacji jest niedostępna
 Reinstall default=Reinstaluj (domyślnie)
-WebUI=
+WebUI=Interfejs Web
 Reinstall=Reinstalacja
 Install=Instalacja
 Project=Projekt
 Install Using The Templates Default Tag=Zainstaluj używając Domyślnych Tagów Szablonu
-Moderator Comments=Komentarz moderatora:
-Note not all authors keep up to date on change logs=
-Note not all maintainers keep up to date on change logs=
+Moderator Comments=Komentarz moderatora
+Note not all authors keep up to date on change logs=Nie wszyscy autorzy śledzą na bieżąco dziennik zmian
+Note not all maintainers keep up to date on change logs=Nie wszyscy opiekunowie są na bieżąco z dziennikiem zmian
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 Donate=Wesprzyj
 Currently Installed Version=Aktualnie zainstalowana wersja

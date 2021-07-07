@@ -294,7 +294,7 @@ You may not add new disks and also remove existing disks=Nie możesz dodać ani 
 your server=twój serwer
 
 ; New entries (19) - 2021-05-08
-auto=
+auto=auto
 Click on FLASH above this message=Kliknij **FLASH** powyżej tej wiadomości
 completed=zakończone
 Convert to raid1c3 mode=Konwertuj do raid1c3
