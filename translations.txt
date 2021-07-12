@@ -677,9 +677,9 @@ Please also ensure you have cookies enabled=Proszę upewnij się również że m
 Please set a password for the root user account=Proszę ustawić hasło do konta użytkownika root
 
 ; New entries (6) - 2021-07-11
-Copied key url=
-Copy Key URL=
-Get quick real-time info on the status of your servers such as storage, container, and VM usage=
-Please copy the Key URL before closing this window=
-To manually install the key paste the key file url into the Key file URL field on the webGUI Registration page and then click Install Key=
+Copied key url=Skopiowany url klucza
+Copy Key URL=Skopiuj URL Klucza
+Get quick real-time info on the status of your servers such as storage, container, and VM usage=Uzyskaj szybką bieżącą informacje o stanie serwera w tym wykorzystanej powierzchni, kontenerach, VMach
+Please copy the Key URL before closing this window=Skopiuj proszę URL klucza zanim zamkniesz to okno
+To manually install the key paste the key file url into the Key file URL field on the webGUI Registration page and then click Install Key=Aby ręcznie zainstalować klucz wklej url pliku klucza do odpowiedniego pola na stronie Rejestracji i naciśnij Zainstaluj Klucz
 Unable to copy=Nie można skopiować
