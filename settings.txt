@@ -600,15 +600,15 @@ List of peers=
 Loading=Ładowanie
 Local endpoint=
 Local gateway uses UPnP=
-Local name=
-Local private key=
-Local public key=
-Local server configuration=
-Local server uses NAT=
-Local syslog port=
-Local tunnel address IPv6=
-Local tunnel address=
-Local tunnel firewall=
+Local name=Nazwa lokalna
+Local private key=Lokalny klucz prywatny
+Local public key=Lokalny klucz publiczny
+Local server configuration=Konfiguracja serwera lokalnego
+Local server uses NAT=Serwer lokalny używa NAT
+Local syslog port=Lokalny port syslog
+Local tunnel address IPv6=Lokalny adres tunelu IPv6
+Local tunnel address=Lokalny adres tunelu
+Local tunnel firewall=Lokalna zapora tunelu
 Local tunnel network pool IPv6=
 Local tunnel network pool=
 MAC address mismatch=Błąd MAC adresu
@@ -687,15 +687,15 @@ UPnP forwarding not set=UPnP: przekierowanie nieaktywne
 UPnP state changed to=Stan UPnP zmieniony na
 UPnP tunnel is inactive=UPnP: tunel nieaktywny
 Use image name dockerimg or docker-xfsimg or select a folder=Użyj nazwy obrazu docker.img lub docker-xfs.img lub wybierz folder
-Use only letters A-Z, digits or space,dash,underscore=
+Use only letters A-Z, digits or space,dash,underscore=Używaj tylko liter A-Z, cyfr, spacji, myślników, znaków podkreślenia
 View Local Config=Widok konfiguracji lokalnej
 View Peer Config=
 VM manager=Menadżer VM
 VPN tunneled access=Tunelowy dostęp VPN
 WAN Port=Port WAN
 WireGuard Configuration=
-xfs vDisk=
-Your server has been registered=
+xfs vDisk=vDisk xfs
+Your server has been registered=Twój serwer został zarejestrowany
 Your Unraid Server is reachable from the internet=Twój serwer Unraid jest dostępny z internetu
 
 ; New entries (2) - 2021-05-31
@@ -709,10 +709,10 @@ Restore default image=Przywróć domyślny obraz
 ; New entries (6) - 2021-07-02
 CA-signed certificate file=Podpisany plik certyfikatu
 Certificate subject=Podmiot certyfikatu
-DNS Propagation is PENDING=
-DNS Rebinding Protection is ENABLED=
+DNS Propagation is PENDING=Propagacja DNS oczekuje
+DNS Rebinding Protection is ENABLED=Zabezpieczenie DNS Rebinding jest AKTYWNE
 Manage=Zarządzać
 Not present=Nieobecny
 
 ; New entries (1) - 2021-07-11
-Unraidnet account status=Unraid.net account status
+Unraidnet account status=Status konta Unraid.net

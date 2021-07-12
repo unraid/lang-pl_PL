@@ -315,6 +315,6 @@ This will ERASE content of ALL devices in the pool=Ta operacja USUNIE zawartoś�
 To confirm your action type %s=Aby potwierdzić wykonanie wpisz: %s
 
 ; New entries (3) - 2021-07-11
-enter disk index and device name as applicable to your controller=
-next device=
-previous device=
+enter disk index and device name as applicable to your controller=wprowadź indeks dysku i nazwę urządzenia zgodne z kontrolerem 
+next device=następne urządzenie
+previous device=poprzednie urządzenie
