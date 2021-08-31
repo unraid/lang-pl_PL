@@ -9,11 +9,11 @@
 Bits per second=Bity na sekundę
 Bytes per second=Bajty na sekundę
 CPU graph scaling=Skalowanie wykresu CPU
-Disk Stats=STatystyki Dysku
+Disk Stats=Statystyki Dysku
 Ethernet interface=Interfejs Eternetowy
 Four=Cztery
 Header menu=Menu Nagłówka
-Initial graphing mode=
+Initial graphing mode=Początkowy tryb wykresu
 Initial real-time sliding window=Początkowe okno czasu rzeczywistego
 Last day=Ostatni dzień
 Last 2 days=Ostatnie 2 dni
