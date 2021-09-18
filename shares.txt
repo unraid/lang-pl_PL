@@ -60,6 +60,5 @@ Time Machine volume size limit=Limit rozmiaru woluminu Time Machine
 Unknown encryption state=Nieznany status szyfrowania
 Use cache pool for new filesdirectories=Używaj puli pamięci podręcznej dla nowych plików/katalogów
 User Shares=Udziały użytkowników
-Volume dbpath=dbpath woluminu
 Write=Zapis
 You cannot use the following within share names=Nie możesz użyć następujących znaków w nazwie udziału

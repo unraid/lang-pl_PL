@@ -36,8 +36,6 @@ DNS=DNS
 Docker Containers=Kontenery Dockera
 Docker Hub URL=Ścieżka URL w Docker Hub
 Docker Service failed to start=Usługa Dockera nie uruchomiła się
-Donation Link=Link do darowizny
-Donation Text=Opis darowizny
 Downloaders=Pobieracze
 Edit Configuration=Edytuj konfigurację
 Exited=Zakończył
@@ -58,7 +56,6 @@ Icon URL=URL ikony
 Image ID=ID grafiki
 Key=Klucz
 Label=Etykieta
-latest=najnowszy
 Management=Zarządzanie
 MediaApp=MediaApp
 MediaServer=MediaServer
@@ -109,7 +106,6 @@ Successfully removed container=Pomyślnie usunięto kontener
 Successfully removed orphan image=Pomyślnie usunięto osierocony obraz
 Successfully stopped container=Pomyślnie zatrzymano kontener
 Support Thread=Wątek wsparcia
-Template repositories=Repozytorium szablonów
 Template URL=URL szablonu
 Template=Szablon
 The command failed=Polecenie nie powiodło się
@@ -132,8 +128,11 @@ Writable=Zapisywalny
 ; New entries (4) - 2021-05-08
 Drivers=Sterowniki
 Reset sorting=Reset sortowania
-Start Container After Install=Uruchom kontener po instalacji
 Total size=Rozmiar całkowity
 
 ; New entries (1) - 2021-06-12
 Crypto Currency=Kryptowaluta
+
+; New entries (2) - 2021-09-18
+Additional Requirements=
+None Listed=

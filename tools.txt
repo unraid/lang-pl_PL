@@ -103,7 +103,6 @@ This will update folder file permissions=To zaktualizuje uprawnienia plików i f
 Time=Czas
 To install a registration key, paste the key file URL in the box below and click Install Key=W celu zainstalowania klucza rejestracyjnego wklej link URL klucza w polu poniżej i kliknij **Instaluj Klucz**
 to select your language=aby wybrać swój język
-To support more storage devices as your server grows, click Upgrade Key below=Aby obsłużyć wiekszą ilość urządzeń pamięci masowej wraz z rozbudową serwera, kliknij *Ulepsz klucz* poniżej
 Trial key expires on=***Wersja próbna*** wygaśnie
 Trial=Wersja próbna
 Update OS=Aktualizuj OS
