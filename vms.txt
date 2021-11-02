@@ -132,5 +132,5 @@ Windows 82012, newer Linux distros=Windows 8/2012, nowsze dystrybucje Linuxa
 XML View=Widok XML
 
 ; New entries (2) - 2021-09-18
-Pop-up Blocker is enabled Please add this site to your exception list=Pop-up Blocker is enabled! Please add this site to your exception list
-Verifying=
+Pop-up Blocker is enabled Please add this site to your exception list=Blokada wyskakujących okien aktywna! Proszę dodać tą witrynę do wyjątków
+Verifying=Weryfikacja
