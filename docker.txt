@@ -134,5 +134,5 @@ Total size=Rozmiar całkowity
 Crypto Currency=Kryptowaluta
 
 ; New entries (2) - 2021-09-18
-Additional Requirements=
-None Listed=
+Additional Requirements=Dodatkowe wymagania
+None Listed=Nie listowane
