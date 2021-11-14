@@ -2,6 +2,7 @@ Access Mode=Tryb dostęu
 Add another Path, Port, Variable, Label or Device=Dodaj kolejną Ścieżkę, Port, Zmienną, Etykietę lub Urządzenie
 Add Configuration=Dodaj konfigurację
 Add=Dodaj
+Additional Requirements=Dodatkowe wymagania
 Always=Zawsze
 App to Host=Apliakcja do hosta
 Application=Aplikacja
@@ -29,6 +30,7 @@ Container=Kontener
 CPU Memory load=Obciążenie pamięci procesora
 CPU Pinning=Przypinanie procesora
 Created=Utworzono
+Crypto Currency=Kryptowaluta
 Default Value=Wartośc domyślna
 Device=Urządzenie
 Display=Wyświetlacz
@@ -37,6 +39,7 @@ Docker Containers=Kontenery Dockera
 Docker Hub URL=Ścieżka URL w Docker Hub
 Docker Service failed to start=Usługa Dockera nie uruchomiła się
 Downloaders=Pobieracze
+Drivers=Sterowniki
 Edit Configuration=Edytuj konfigurację
 Exited=Zakończył
 Extra Parameters=Dodatkowe parametry
@@ -64,6 +67,7 @@ Missing parameters=Brakujące parametry
 Music=Muzyka
 Network Type=Typ sieci
 No Docker containers installed=Brak zainstalowanych kontenerów Dockera
+None Listed=Nie listowane
 of=z
 orphan image=osierocony obraz
 Other=Inne
@@ -79,6 +83,7 @@ Productivity=Produktywność
 Project Page=Strona projektu
 Proxy=Proxy
 Pulling image=Pobieranie obrazu
+Read Me First=
 Read Only - Shared=Tylko do odczytu - udostępniony
 Read Only - Slave=Tylko do odczytu - slave
 Read Only=Tylko do odczytu
@@ -91,6 +96,7 @@ Removing container=Usuwanie kontenera
 Removing orphan image=Usuwanie osieroconego obrazu
 Repository=Repozytorium
 Required=Wymagane
+Reset sorting=Reset sortowania
 Resume All=Wznów wszystkie
 Save=Zapisz
 Select a template=Wybierz szablon
@@ -111,6 +117,7 @@ Template=Szablon
 The command failed=Polecenie nie powiodło się
 The command finished successfully=Polecenie powiodło się
 TOTAL DATA PULLED=CAŁKOWITA ILOŚC POBRANYCH DANYCH
+Total size=Rozmiar całkowity
 Unknown action=Nieznana akcja
 Update All=Aktualizuj wszystkie
 update ready=aktualizacja gotowa
@@ -125,17 +132,4 @@ Web=Sieć
 WebUI=WebUI
 Writable=Zapisywalny
 
-; New entries (4) - 2021-05-08
-Drivers=Sterowniki
-Reset sorting=Reset sortowania
-Total size=Rozmiar całkowity
-
-; New entries (1) - 2021-06-12
-Crypto Currency=Kryptowaluta
-
-; New entries (2) - 2021-09-18
-Additional Requirements=Dodatkowe wymagania
-None Listed=Nie listowane
-
-; New entries (1) - 2021-11-07
-Read Me First=
+; Note: November 14, 2021 - 1 missing translations

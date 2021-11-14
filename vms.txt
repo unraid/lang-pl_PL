@@ -28,6 +28,7 @@ Download, Click and Select virtio drivers image=Pobierz, kliknij i wybierz obraz
 Downloading=Pobieranie
 eg=np.
 Emulated=Emulowany
+ETA=
 Extracting=Rozpakowywanie
 Folder to save the LibreELEC image to=Katalog, do którego zostanie zapisany obraz LibreELEC
 Folder to save the OpenELEC image to=Katalog, do którego zostanie zapisany obraz OpenELEC
@@ -44,6 +45,7 @@ Icon=Ikona
 Initial=Wstępny
 Invalid VM to edit=Nieprawidłowa maszyna wirtualna do edycji
 ISO storage path doesnt exist=Ścieżka dostęu do katalogu przechowywania ISO nie istnieje
+ISO storage path doesnt exist, please create the user share or empty folder first=ISO storage path doesn't exist, please create the user share (or empty folder) first
 ISO storage path was empty=ścieżka dostępu do katalogu przechowywania ISO była pusta
 keyboard for VNC=klawiatura dla VNC
 LibreELEC Version=Wersja LibreELEC
@@ -72,6 +74,7 @@ OS Install ISO=Obraz ISO systemu operacyjnego
 Other PCI Devices=Inne urządzenia PCI
 OVMF requires a UEFI-compatable OS=OVMF wymaga systemu operacyjnego kompatybilnego z UEFI
 OVMF=OVMF
+OVMF TPM=
 password for VNC=hasło do VNC
 path of Unraid share=ścieżka do udziału Unraid
 path on Unraid share to save LibreELEC settings=Ścieżka do udziału Unraid w której zostaną zapisane ustawienia LibreELEC
@@ -79,6 +82,7 @@ path on Unraid share to save OpenELEC settings=Ścieżka do udziału Unraid w kt
 Path to ROM BIOS file=Ścieżka do pliku ROM BIOS
 Please choose a folder the LibreELEC image will download to=Wybierz katalog do którego zostanie pobrany obraz LibreELEC
 Please choose a folder the OpenELEC image will download to=Wybierz katalog do którego zostanie pobrany obraz OpenELEC
+Pop-up Blocker is enabled Please add this site to your exception list=Blokada wyskakujących okien aktywna! Proszę dodać tą witrynę do wyjątków
 Primary=Podstawowy
 Q35 for a newer machine model with PCIE=Q35 dla nowszej maszyny z PCIE=Q35
 QEMU64=QEMU64
@@ -99,6 +103,7 @@ Separate sub-folder and image will be created based on Name=Osobny katalog lub p
 shares=udziały
 Some OSes wont support USB3=Niektóre systemu operacyjne nie wspierają USB3
 Sound Card=Karta dźwiękowa
+Specify a ISO storage path first=
 Start All=Uruchom wszystkie
 Start VM after creation=Po jej utworzeni,uruchom maszynę wirtualną
 Stop All=Zatrzymaj wszystkie
@@ -116,6 +121,7 @@ vDisk Location=Lokalizacja vDisk
 vDisk Size=Rozmiat vDisk
 vDisk Type=Typ vDisk
 vDisks=vDiski
+Verifying=Weryfikacja
 video for VNC=wideo dla VNC
 VirtIO Drivers CDRom Bus=Szyna płyty sterowników virtio
 VirtIO Drivers ISO=Obraz sterowników virtio
@@ -131,12 +137,4 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, nowsze dystrybucje Linuxa
 XML View=Widok XML
 
-; New entries (2) - 2021-09-18
-Pop-up Blocker is enabled Please add this site to your exception list=Blokada wyskakujących okien aktywna! Proszę dodać tą witrynę do wyjątków
-Verifying=Weryfikacja
-
-; New entries (4) - 2021-11-06
-ETA=
-ISO storage path doesnt exist, please create the user share or empty folder first=ISO storage path doesn't exist, please create the user share (or empty folder) first
-OVMF TPM=
-Specify a ISO storage path first=
+; Note: November 14, 2021 - 3 missing translations

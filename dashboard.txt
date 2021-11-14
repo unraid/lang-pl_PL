@@ -1,4 +1,9 @@
+%s ago=%s temu
 %s used of %s %s %%=Użyte %s z %s (%s %%)
+10 s=10 s
+30 s=30 s
+1 m=1 m
+2 m=2 m
 Active tunnels=Aktywne tunele
 Activity=Aktywność
 ago=temu
@@ -7,6 +12,7 @@ All Apps=Wszystkie kontenery Dockera
 All VMs=Wszystkie maszyny wirtualne
 Battery charge=Stan naładowania baterii
 BIOS dated=BIOS z dnia
+Click to toggle CPU chart=Klik przełącza wykres CPU
 Click to toggle details=Kliknij by zobaczyć więcej informacji
 Completed=Zakończone
 Counters info=Liczniki
@@ -53,6 +59,7 @@ Last check incomplete on %s=Ostatnie przerwanie sprawdzenia **%s**
 Last checked on %s=Ostatnie sprawdzenie **%s**
 Maximum size=Maksymalny rozmiar
 Mode of operation=Tryb pracy
+Network traffic=Ruch sieciowy
 Next check scheduled on %s=Następne sprawdzenie zaplanowano na **%s**
 No docker containers defined=Brak zdefiniowanych kontenerów Dockera
 No running docker containers=Brak uruchomionych kontenerów Dockera
@@ -61,6 +68,7 @@ No shares present=Brak udziałów
 No virtual machines defined=Brak zdefiniowanych maszyn wirtualnych
 Nominal power=Moc nominalna
 not received=nieodebrany
+Only PNG images are allowed=Dozwolony są tylko obrazy PNG!
 Outbound=Wychodzący
 Overall Load=Obciążenie całkowite
 Parity disk not present=Dysk parzystości nie istnieje
@@ -75,16 +83,19 @@ Received packets=Odebrane pakiety
 Runtime left=Pozostały czas pracy
 Scheduled parity check is disabled=Zaplanowane sprawdzenie parzystości jest wyłączone
 Select Case Model=Wybierz model obudowy
+Select time frame=Wybierz przedział czasu
 Share count %s with %s cache only and %s encrypted=Liczba udziałów: %s, w tym %s tylko w pamięci podręcznej i %s zaszyfrowanych
 Show details=Pokaż szczegóły
 Show Information=Pokaż informacje
 Shutdown the system=Zamknij system
 SMART error=Błąd SMART
+SMART health-check failed=Kontrola SMART zwraca błąd
 SMART=SMART
 sn=numer seryjny
 Start the array=Uruchom macierz
 Started only=Tylko uruchomione
 Stop the array=Zatrzymaj macierz
+Temp=Tymczasowy
 This will put the system to sleep=To uśpi system
 This will reboot the system=To uruchomi system ponownie
 This will shutdown the system=To zamknie system
@@ -99,22 +110,3 @@ User count %s with %s unprotected=Liczba użytkowników: %s, w tym %s niezabezpi
 utilization warning=ostrzeżenie o poziomie użycia
 View Running Processes=Pokaż uruchomione procesy
 Virtual Machines=Maszyny wirtualne
-
-; New entries (3) - 2021-05-08
-%s ago=%s temu
-Only PNG images are allowed=Dozwolony są tylko obrazy PNG!
-Temp=Tymczasowy
-
-; New entries (1) - 2021-05-15
-SMART health-check failed=Kontrola SMART zwraca błąd
-
-; New entries (2) - 2021-05-20
-Click to toggle CPU chart=Klik przełącza wykres CPU
-Network traffic=Ruch sieciowy
-
-; New entries (5) - 2021-05-31
-10 s=10 s
-30 s=30 s
-1 m=1 m
-2 m=2 m
-Select time frame=Wybierz przedział czasu

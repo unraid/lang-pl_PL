@@ -24,6 +24,7 @@ Ok=Ok
 Pause=Pauza
 Proceed=Kontynuuj
 Project Page=Strona Projektu
+Read Me First=
 Remove container=Usuń kontener
 Remove definition=Usuń definicje
 Remove image=Usuń obraz
@@ -56,12 +57,11 @@ Autostart disabled=Autouruchamianie wyłączone
 Missing encryption key=Brak klucza szyfrującego
 Opening encrypted volumes=Otwieranie zaszyfrowanych woluminów
 
-; New entries (5) - 2021-05-08
+; docker variables
 Container Path=Ścieżka kontonera
 Container Port=Port kontenera
 Container Variable=Zmienne kontenera
 Container Label=Nazwa kontenera
 Container Device=Urządzenia kontenera
 
-; New entries (1) - 2021-11-14
-Read Me First=
+; Note: November 14, 2021 - 1 missing translations
