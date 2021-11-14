@@ -17,6 +17,7 @@ must be enabled in SMB Settings to enable SMB v1=musi być aktywowane w Ustawien
 NFS Security=Zabezpieczenia NFS
 NFS Settings=Ustawienia NFS
 NFS must be enabled to enable NFS Export=NFS musi być aktywny aby aktywować Eksport NFS
+NFS Version to use when Mounting Remote Shares=
 Rule=Reguła
 SMB Security=Zabezpieczenia SMB
 Select Disk to change UUID=Wybierz dysk do zmiany UUID
@@ -29,6 +30,7 @@ Spin down disks=Zatrzymaj dyski
 The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=Aby aktywować Tryb Destrukcyjny musi być zainstalowana wtyczka Nieprzypisane Urządzenia Plus
 to SMB share config=do konfiguracji współdzielenia SMB
 Unassigned Devices=Nieprzypisane Urządzenia
+Unraid 6.10 is required for NFSv4 support=
 
 ; Help
 ;
@@ -71,6 +73,14 @@ Unassigned Devices=Nieprzypisane Urządzenia
 > Set to **Yes** for Unassigned Devices to only mount SMB remote shares specifying the SMB version.
 >
 > Some remote servers need to have the version specified.
+:end
+
+:ud_settings_specify_nfs_vers_plug:
+> Set to **NFSv3** to mount all NFS Remote Shares with NFSv3.
+>
+> Set to **NFSv4** to mount all NFS Remote Shares with NFSv4.
+>
+> All NFS remote shares will be mounted with the specified version.
 :end
 
 :ud_settings_smb_security_plug:

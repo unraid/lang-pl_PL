@@ -136,7 +136,7 @@ Other Highlight Color=Kolor podświetlania innych logów
 
 :enhanced_log_custom_plug:
 > Enter any custom events you want highlighted in the log.  Any custom events you enter will be processed after the built in events.
-> The events are entered as: "search string", "event"
+> The events are entered as: "search string", "event" 
 > Case is ignored in the search string and wild cards are allowed.
 > Examples:
 > "found.*chip" will match any string with 'found' and 'chip' with any text in between,

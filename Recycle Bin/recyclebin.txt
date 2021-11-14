@@ -1,41 +1,39 @@
-Recycle Bin=Kosz
+Age Days=Ilość Dni
+Array=Macierz
+Array is stopped=Macież jest zatrzymana
+Browse the Share Recycle Bin=Przeglądaj zasób Kosz
 Deleted Files=Usunięte pliki
-Stop the Recycle Bin=Zatrzymaj Kosz
-Restart the Recycle Bin=Zrestartuj Kosz
-Start the Recycle Bin=Uruchom Kosz
-Recycle Bin Total Size=Całkowity rozmiar Kosza
-Remove Aged Files=Usuń stare pliki
-Remove aged files from the Recycle Bin=Usuń stare pliki z Kosza
-Empty All Trash=Opróżnij Kosz
-Remove all files from the Recycle Bin=Usuń wszystkie pliki z Kosza
-Refresh the Recycle Bin page=Odśwież zawartość Kosza
-Enable Recycle Bin for deleted files=Aktywuj Kosz dla usuwanych plików
-Update Recycle Bin Size in Background=Zaktualizuj rozmiar Kosza w tle
-Enable on Unassigned Devices for Deleted Files=Aktywuj w Nieprzypisanych Urządzeniach dla Usuwanych plików
-Recycle Bin parameters=Parametry Kosza
+Deleted Files Log=Log usuniętych plików
+Empty=Pusty
+Empty the=Opróżnij
+Empty All Trash=Usuń wszystkie Śmieci
+Empty Trash=Opróżnij Kosz
+Enable on Unassigned Devices=
+Enable Recycle Bin=
 Excluded Directories=Wykluczone Foldery
 Excluded Files=Wykluczone Pliki
 Excluded Shares=Wykluczone Zasoby Udostępnione
-Age Days=Ilość Dni
-Remove Aged Files on Schedule=Usuwaj stare pliki zgodnie z Harmonogramem
-Remove Aged Files Notification=Powiadom o usunięciu starych plików
 Log Deleted Files=Log skasowanych Plików
-Empty=Pusty
-Array is stopped=Macież jest zatrzymana
-SMB Share=Zasób SMB
-Share Type=Typ udostępnienia
-Trash Size=Rozmiar śmieci
-Empty Trash=Opróżnij Kosz
-Array=Macierz
-Browse the Share Recycle Bin=Przeglądaj zasób Kosz
-Empty the=Opróżnij
 Recycle Bin=Kosz
-Deleted Files Log=Log usuniętych plików
 Recycle Bin Log=Log kosza
-Yes I want to do this=Tak, chcę to zrobić
-to remove deleted files older than the 'Age Days' setting=ustawienie kasowania usuniętych plików starszych niż "Ilość Dni"
-Empty All Trash=Usuń wszystkie Śmieci
-to remove all deleted files=aby usunąć wszystkie skasowane pliki
+Recycle Bin parameters=Parametry Kosza
+Recycle Bin permissions=
+Recycle Bin Total Size=Całkowity rozmiar Kosza
+Refresh the Recycle Bin page=Odśwież zawartość Kosza
+Remove Aged Files=Usuń stare pliki
+Remove aged files from the Recycle Bin=Usuń stare pliki z Kosza
+Remove Aged Files Notification=Powiadom o usunięciu starych plików
+Remove Aged Files on Schedule=Usuwaj stare pliki zgodnie z Harmonogramem
+Remove all files from the Recycle Bin=Usuń wszystkie pliki z Kosza
+Restart the Recycle Bin=Zrestartuj Kosz
+Share Type=Typ udostępnienia
+SMB Share=Zasób SMB
+Start the Recycle Bin=Uruchom Kosz
+Starting and stopping the Recycle Bin can cause SMB shares to go offline for a short period=
+Stop the Recycle Bin=Zatrzymaj Kosz
+These actions apply to all shares=
+Trash Size=Rozmiar śmieci
+Update Recycle Bin Size in Background=Zaktualizuj rozmiar Kosza w tle
 ;
 ; Help
 ;
@@ -55,7 +53,10 @@ These actions apply to all shares:
 
 :recycle_bin_enable_plug:
 > Set to **Yes** to enable the Recycle Bin functionality for deleted files when the server is started.
+> To hide the Recycle Bin folder, set 'Hide Dot Files to 'Yes' in the SMB settings <a href='/Settings/SMB'>here</a>.
+> To hide the Recycle Bin folder, set 'Hide Dot Files to 'Yes' in the SMB settings <a href='/Settings/SMB'>here</a>.
 :end
+
 
 :recycle_bin_background_plug:
 > Set to **Yes** to enable the Recycle Bin Size to be updated in the background every minute.  This can make the Recycle Bin Settings and Shares pages more responsive and prevent disk spinups when accessing the Recycle Bin.  The Recycle Bin size can take up to a minute to refresh when this is enabled.
