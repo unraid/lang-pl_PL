@@ -53,7 +53,7 @@ These actions apply to all shares:
 
 :recycle_bin_enable_plug:
 > Set to **Yes** to enable the Recycle Bin functionality for deleted files when the server is started.
-> To hide the Recycle Bin folder, set 'Hide Dot Files to 'Yes' in the SMB settings <a href='/Settings/SMB'>here</a>.
+>
 > To hide the Recycle Bin folder, set 'Hide Dot Files to 'Yes' in the SMB settings <a href='/Settings/SMB'>here</a>.
 :end
 
