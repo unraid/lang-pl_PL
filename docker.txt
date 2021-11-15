@@ -132,4 +132,4 @@ Web=Sieć
 WebUI=WebUI
 Writable=Zapisywalny
 
-; Note: November 14, 2021 - 1 missing translations
+; Note: November 15, 2021 - 1 missing translations

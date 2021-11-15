@@ -9,6 +9,7 @@ day=dzień
 days=dni
 disk image and definition=definicja i obraz dysku
 Disks=Dysk
+Donate=
 Done=Gotowe
 Edit=Edytuj
 Execution error=Błąd wykonania
@@ -64,4 +65,4 @@ Container Variable=Zmienne kontenera
 Container Label=Nazwa kontenera
 Container Device=Urządzenia kontenera
 
-; Note: November 14, 2021 - 1 missing translations
+; Note: November 15, 2021 - 2 missing translations
