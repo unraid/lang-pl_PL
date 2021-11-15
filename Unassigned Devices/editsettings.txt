@@ -40,6 +40,7 @@ Volume=Wolumin
 :ud_edit_user_script_choose_name_plug:
 > Jeśli zainstalowałeś wtyczkę Skrypty Użytkownika, Nieprzypisane Urządzenia mogą wyświetlać status uruchomienia Skryptu Użytkownika które używają tego urządzenia.  To pole będzie aktywne tylko jeśli Plik Skryptu istnieje.
 :end
+<?endif;?>=
 
 :ud_edit_script_run_background_plug:
 > Włącz **Uruchamianie w tle** aby skrypt był uruchamiany jako zadanie w tle.  To zapobiega zawieszaniu Intefejsu Nieprzypisanych Urządzeń gdy skrypt jest uruchamiany z poziomu Interfejsu Użytkownika.
@@ -51,3 +52,5 @@ Volume=Wolumin
 > Naciśnij przycisk **Domyślny Skrypt** aby zainicjalizować pole edycji z domyślnym skryptem.
 > Wymagane jest naciśnięcie **Zapisz** aby potwierdzić zmiany.
 :end
+
+; Note: November 15, 2021 - 11 missing translations
