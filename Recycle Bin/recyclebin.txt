@@ -126,4 +126,4 @@ These actions apply to all shares:
 > Click on the 'Clear' button to clear the log.
 :end
 
-; Note: November 15, 2021 - 5 missing translations
+; Note: December 16, 2021 - 5 missing translations

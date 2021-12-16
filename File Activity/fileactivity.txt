@@ -6,7 +6,7 @@ Clear the File Activity log=Wyczyść Log Aktywności Plików
 Refresh log=Odśwież log
 Enable File Activity Monitoring=Aktywuj Monitorowanie Aktywności Plików
 Enable for Unassigned Devices=Aktywuj dla Nieprzypisanych Urządzeń
-Enable for Cache and Pool=Aktywuj dla Cache i Puli
+Enable for Cache and Pool Disks=
 ;
 ; Help
 ;
@@ -37,3 +37,5 @@ Enable for Cache and Pool=Aktywuj dla Cache i Puli
 :file_activity_log_by_plug:
 	> Ustaw **Dysk** aby monitorować aktywność dysków.  Ustaw **Zasób** aby monitorować aktywność zasobów.
 :end
+
+; Note: December 16, 2021 - 1 missing translations
