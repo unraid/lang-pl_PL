@@ -10,6 +10,7 @@ Disk spin down is managed by Unraid=Kręcenie dyskiem jest zarządzane przez Unr
 Enable NFS export=Aktywuj eksport NFS
 Enable SMB Security=Aktywuj zabezpieczenia SMB
 Enter Disk Password=Wprowadź hasło dysku
+Enter Pool Mount Point=
 Legacy Mount Point Compatibility=Kompatybilność punktów montowania w trybie starszej wersji
 Mount SSDs with discard option=Montuj SSD z opcją odrzucania
 NFS Security=Zabezpieczenia NFS
@@ -18,17 +19,19 @@ NFS must be enabled in Settings->NFS to enable NFS Export=
 NFS Version to use when Mounting Remote Shares=
 Rule=Reguła
 SMB Security=Zabezpieczenia SMB
-Select Disk to change UUID=Wybierz dysk do zmiany UUID
 Select Disk=Wybierz Dysk
 Set Encrypted Disk Password=Ustaw Zaszyfrowane hasło Dysku
 Set Password=Ustaw hasło
+Set Pool Mount Point=
+Set the Pool Mount Point for this disk=
 Set the disk Password=Ustaw hasło Dysku
 Specify SMB Version when Mounting Remote Shares=Wskaż wersję SMB aby montować zdalne zasoby
 Spin down disks=Zatrzymaj dyski
 The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=Aby aktywować Tryb Destrukcyjny musi być zainstalowana wtyczka Nieprzypisane Urządzenia Plus
 to SMB share config=do konfiguracji współdzielenia SMB
 Unassigned Devices=Nieprzypisane Urządzenia
-Unraid 6.10 is required for NFSv4 support=
+Unraid 6.10 or later is required for NFSv4 support=
+Use only when directed for support=
 
 ; Help
 ;
@@ -127,4 +130,4 @@ Unraid 6.10 is required for NFSv4 support=
 > Select the disk that you want to change the UUID.  This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
 :end
 
-; Note: December 16, 2021 - 3 missing translations
+; Note: January 8, 2022 - 7 missing translations

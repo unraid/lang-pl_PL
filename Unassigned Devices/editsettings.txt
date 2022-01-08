@@ -53,4 +53,4 @@ Volume=Wolumin
 > Wymagane jest naciśnięcie **Zapisz** aby potwierdzić zmiany.
 :end
 
-; Note: December 16, 2021 - 11 missing translations
+; Note: January 8, 2022 - 11 missing translations
