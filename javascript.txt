@@ -47,6 +47,8 @@ Yes, update it=Tak, uaktualnij to!
 Yes=Tak
 
 ; footer messages
+Array Copying=
+Array Clearing=
 Array Starting=Uruchamianie macierzy
 Array Stopping=Zatrzymywanie macierzy
 Mounting disks=Montowanie dysków
@@ -65,4 +67,4 @@ Container Variable=Zmienne kontenera
 Container Label=Nazwa kontenera
 Container Device=Urządzenia kontenera
 
-; Note: February 8, 2022 - 2 missing translations
+; Note: February 8, 2022 - 4 missing translations
