@@ -46,6 +46,7 @@ ISO File is=Plik ISO
 ISO File Shares=Udziały plików ISO
 Identification=Identyfikacja
 If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Jeśli używasz hasła dysku upewnij się, że wprowadziłeś hasło dla tego dysku w ustawieniach UD aby dysk mógł zostać zamontowany
+Device=
 Leave blank to use the array passwordpassphrase=Pozostaw puste jeśli używasz hasła macierzy
 Load Shares=Wczytaj udziały
 Loading=Wczytywanie
@@ -179,4 +180,4 @@ You will need to enter credentials for Windows shares just to list them=
 > Be careful using the /dev/sdX designation because it can change after a reboot.
 :end
 
-; Note: January 8, 2022 - 22 missing translations
+; Note: February 19, 2022 - 23 missing translations
