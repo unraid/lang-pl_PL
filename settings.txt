@@ -709,4 +709,4 @@ Your server has been registered=Twój serwer został zarejestrowany
 Your Unraid Server is reachable from the internet=Twój serwer Unraid jest dostępny z internetu
 YYYY-MM-DD=RRRR-MM-DD
 
-; Note: February 21, 2022 - 5 missing translations
+; Note: February 25, 2022 - 5 missing translations
