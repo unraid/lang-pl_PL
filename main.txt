@@ -258,6 +258,7 @@ Unmountable Missing encryption key=Niemontowalny: brak klucza szyfrującego
 Unmountable No file system=Niemontowalny: brak systemu plików
 Unmountable No pool uuid=Niemontowalny: brak uuid puli
 Unmountable not btrfs pool=Niemontowalny: to nie jest pula brtfs
+Unmountable Unsupported or no file system=Unmountable: Unsupported or no file system
 Unmountable Volume not encrypted=Niemontowalny: wolumin niezaszyfrowany
 Unmounted=Odmontowany
 Upgrading diskswapping parity=Wymiana dysku/zamiana dysku parzystości
@@ -347,4 +348,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: February 25, 2022 - 33 missing translations
+; Note: February 27, 2022 - 33 missing translations

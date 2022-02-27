@@ -38,4 +38,4 @@ Enable for Cache and Pool Disks=
 	> Ustaw **Dysk** aby monitorować aktywność dysków.  Ustaw **Zasób** aby monitorować aktywność zasobów.
 :end
 
-; Note: February 25, 2022 - 1 missing translations
+; Note: February 27, 2022 - 1 missing translations
