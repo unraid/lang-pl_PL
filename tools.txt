@@ -187,66 +187,63 @@ i pliki konfiguracyjne są gromadzone:
 Kliknięcie **Pobierz** rozpocznie proces zbierania, a następnie poinstruuje przeglądarkę, aby zapisała plik zip lokalnie.
 
 *Żadne dane osobowe, takie jak nazwy użytkowników, hasła lub inne treści plików, które nie zostały określone powyżej, nie są uwzględniane
-by Unraid OS; however, your server name, IP address, and user share names* **will** *be included.*
+przez Unraid OS, jednak dane takie jak nazwa twojego serwera, adres IP oraz nazwy udziałów sieciowych **będą** *dołączone.*
 
-*Note that 3rd-party plugins **may** or may not store personal information in plugin-specific configuration files and/or output
-to the system log.*
+*Uwaga niektóre pluginy zewnętrzne mogą lub nie przechowywać informacje prywatne w swoich własnych plikach konfiguracyjnych oraz/lub zapisywać je do logu systemowego.*
 
-*Use* **Anonymize diagnostics** *when publishing the diagnostics file in the public forum. In private communication with Limetech it is recommended to uncheck this setting and capture all information unaltered.*
+*Użyj* **Anonymizuj diagnostykę** *kiedy publikujesz plik diagnostyna na forum publicznym. W przypadku prywatnej komunikacji z obsługą Limetech zalecamy odzaczyć tą opcję i przechwycić wszystkie dostępnę informacje.*
 :end
 
 :newconfig_plug:
-This is a utility to reset the array disk configuration so that all disks appear as "New" disks, as
-if it were a fresh new server.
+To narzędzie resetuje konfigurację dysków dzięki czemu pojawią się one jako "nowe" dyski, tak jakby był to nie skonfigurowany nowy sewer.
 
-This is useful when you have added or removed multiple drives and wish to rebuild parity based on
-the new configuration.
+Jest to użyteczne gdy dodajesz lub usuwasz wiele dysków i chcesz wykonać odbudowę danych parzystości bazując na nowej konfiguracji.
 
-Use the *'Preserve current assignments'* selection to populate the desired disk slots ***after*** the array has been reset. By default **no** disk slots are populated.
+Użyj opcji *'Zachowaj obecne przypisania'* do uzupełnienia porządanych slotów dysków **po** resecie konfiguracji macierzy. Domyślnie **żadne** sloty dysków nie są uzupełniane.
 
-**DO NOT USE THIS UTILITY THINKING IT WILL REBUILD A FAILED DRIVE** - it will have the opposite
-effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!
+**NIE UŻYWAJ TEGO NARZĘDZIA MYŚLĄC O ODBUDOWIE USZKODZONEGO DYSKU** - będzie to miało odwrotny
+skutek powodując **brak możliwości** odbudowy aktualnie uszkodzonego dysku - zostałeś ostrzeżony!
 :end
 
 :newperms_1_plug:
-This is a mandatory one-time action to be taken after upgrading from a pre-5.0 Unraid server release to Unraid v5 or a later release.
-Select **ALL DISKS** when performing this one-time action.
+To jest obowiązkowe jednorazowe działanie, które należy wykonać po aktualizacji z wersji serwera Unraid starszej niż 5.0 do wersji Unraid v5 lub nowszej.
+Podczas wykonywania tej jednorazowej czynności wybierz **WSZYSTKIE DYSKI**.
 
-This utility is also useful for restoring default ownership/permissions on files and
-directories when transitioning back from Active Directory to non-Active Directory integration.
+To narzędzie jest również przydatne do przywracania domyślnego właściciela/uprawnień do plików i
+katalogi podczas przechodzenia z powrotem z Active Directory do integracji innej niż Active Directory.
 
-The utility starts a background process that goes to each of your data disks and cache disks and selected user shares
-and changes file and directory ownership to *nobody/users* (i.e., uid/gid to 99/100), and sets permissions
-as follows:
+Narzędzie uruchamia proces w tle, który przechodzi do każdego z dysków z danymi i dysków z pamięcią podręczną oraz wybranych udziałów użytkowników
+i zmienia właściciela pliku i katalogu na *nobody/users* (tj. uid/gid na 99/100) i ustawia uprawnienia
+następujące:
 :end
 
 :newperms_2_plug:
-For directories:
+Dla katalogów:
   drwxrwxrwx
 
-For read/write files:
+Dla odczytywanych/zapisywanych plików:
   -rw-rw-rw-
 
-For readonly files:
+Dla plików tylko do odczytu:
   -r--r--r--
 :end
 
 :newperms_3_plug:
-Clicking **Start** will open another window and start the background process.
+Kliknięcie **Start** otworzy kolejne okno i rozpocznie proces w tle.
 
-Closing the window before completion will terminate the background process - so don't do that. This process can take a long time if you have many files.
+Zamknięcie okna przed zakończeniem spowoduje zakończenie procesu w tle - więc nie rób tego. Ten proces może zająć dużo czasu, jeśli masz wiele plików.
 
-Note that this tool may negatively affect any docker containers if you allow your appdata share to be included.
+Pamiętaj, że to narzędzie może negatywnie wpłynąć na wszystkie kontenery Docker, jeśli zezwolisz na uwzględnienie udziału danych aplikacji.
 :end
 
 :registration_1_plug:
-Your server will not be usable until you purchase a Registration key or install a free 30-day *Trial* key. A *Trial*
-key provides all the functionality of a *Pro* Registration key.
+Twój serwer nie będzie działał, dopóki nie kupisz klucza rejestracyjnego lub nie zainstalujesz darmowego 30-dniowego klucza *Trial*. Klucz *Trial*
+zapewnia wszystkie funkcje klucza rejestracyjnego *Pro*.
 
-Registration keys are bound to your USB Flash boot device serial number (GUID).  Please use a high quality name brand device
-at least 1GB in size.
+Klucze rejestracyjne są powiązane z numerem seryjnym urządzenia rozruchowego USB Flash (GUID). Użyj urządzenia marki wysokiej jakości
+co najmniej 1 GB.
 
-Note: USB memory card readers are generally **not** supported because most do not present unique serial numbers.
+Uwaga: Czytniki kart pamięci USB są generalnie **nie** obsługiwane, ponieważ większość z nich nie posiada unikalnych numerów seryjnych.
 :end
 
 :registration_2_plug:
@@ -255,60 +252,60 @@ Note: USB memory card readers are generally **not** supported because most do no
 :end
 
 :registration_3_plug:
-Your *Trial* key includes all the functionality and device support of a *Pro* Registration key.
+Twój klucz *Trial* zawiera wszystkie funkcje i obsługę urządzenia z klucza rejestracyjnego *Pro*.
 
-After your *Trial* key has reached expiration, your server **still functions normally** until the next time you **Stop** the array.
+Po wygaśnięciu klucza *Trial* Twój serwer **nadal działa normalnie** do następnego **Zatrzymania** macierzy.
 
-At that point, you may either purchase a Registration key, or request a *Trial* extension.
+W tym momencie możesz kupić klucz rejestracyjny lub poprosić o rozszerzenie *Trial*.
 :end
 
 :registration_4_plug:
-To continue using Unraid OS you may purchase a Registration key. Alternately, you may request a *Trial* extension key.
+Aby kontynuować korzystanie z Unraid OS, możesz zakupić klucz rejestracyjny. Alternatywnie możesz poprosić o klucz rozszerzenia *Trial*.
 
-Most *Trial* extension requests are processed immediately but please allow up to one business day to receive your *Trial* extension key.
+Większość próśb o rozszerzenie *próbne* jest przetwarzanych natychmiast, ale otrzymanie klucza rozszerzenia *próbnego* może zająć do jednego dnia roboczego..
 :end
 
 :registration_5_plug:
-It is not possible to use a *Trial* key with an existing Unraid OS installation.
+Nie można użyć klucza *Trial* z istniejącą instalacją Unraid OS.
 
-You may purchase a Registration key corresponding to this USB Flash device to continue using this installation.
+Możesz zakupić klucz rejestracyjny odpowiadający temu urządzeniu flash USB, aby kontynuować korzystanie z tej instalacji.
 
-For more information, please [Contact Support](https://lime-technology.com/contact).
+Aby uzyskać więcej informacji, proszę [Skontaktować się z pomocą techniczną](https://lime-technology.com/contact).
 :end
 
 :registration_6_plug:
-It appears that your Registration key file is corrupted or missing.  The key file should be located in the
-[config](/Registration/Browse?dir&#61;/boot/config) directory on your USB Flash boot device.
+Wygląda na to, że plik klucza rejestracyjnego jest uszkodzony lub go brakuje. Plik klucza powinien znajdować się w
+[config](/Registration/Browse?dir&#61;/boot/config)  katalogu na urządzeniu rozruchowym USB Flash.
 
-If you do not have a backup copy of your Registration key file, [Contact Support](https://lime-technology.com/contact).
+Jeśli nie masz kopii zapasowej pliku klucza rejestracyjnego, [Skontaktuj się z pomocą techniczną](https://lime-technology.com/contact).
 
-If this was a *Trial* installation, you may purchase a Registration key.
+Jeśli była to instalacja *Trial*, możesz kupić klucz rejestracyjny.
 :end
 
 :registration_7_plug:
-*Trial* installations are only valid with the originally registered USB Flash device.
+Instalacje *Trial* są ważne tylko z oryginalnie zarejestrowanym urządzeniem USB Flash.
 
-To continue using this installation with this USB Flash device, you may purchase a Registration key.
+Aby kontynuować korzystanie z tej instalacji z tym urządzeniem USB Flash, możesz zakupić klucz rejestracyjny.
 :end
 
 :registration_8_plug:
-The Registration key file does not correspond to the USB Flash boot device.
-Please copy the correct key file to the [config](/Registration/Browse?dir&#61;/boot/config) directory
-on your USB Flash boot device. If you do not have a backup copy of your key file, [Contact Support](https://lime-technology.com/contact).
+Plik klucza rejestracji nie odpowiada urządzeniu rozruchowemu USB Flash.
+Skopiuj poprawny plik klucza do katalogu [config](/Registration/Browse?dir&#61;/boot/config) na urządzeniu 
+rozruchowym USB Flash. Jeśli nie masz kopii zapasowej pliku klucza, [Skontaktuj się z pomocą techniczną](https://lime-technology.com/contact).
 
-If you want to replace your Registration key with a new key bound to this USB Flash device, click Replace Key below. An original key may be
-replaced anytime. Thereafter, a replacement key may be replaced again after one year has passed.  If you require
-another replacement key sooner, [Contact Support](https://lime-technology.com/contact).
+Jeśli chcesz zastąpić klucz rejestracyjny nowym kluczem powiązanym z tym urządzeniem flash USB, kliknij opcję Zamień klucz poniżej. Oryginalny klucz może być
+wymieniony w dowolnym momencie. Następnie klucz zastępczy można wymienić ponownie po upływie roku. Jeśli potrzebujesz
+inny klucz zastępczy wcześniej, [Skontaktuj się z pomocą techniczną](https://lime-technology.com/contact).
 
-**Note:** Replacing a Registration key results in permanently *blacklisting* the previous USB Flash GUID.
+**Uwaga:** zastąpienie klucza rejestracyjnego powoduje trwałe *umieszczenie na czarnej liście* poprzedniego identyfikatora GUID pamięci USB.
 :end
 
 :registration_9_plug:
-This USB Flash boot device has been *blacklisted*. This can occur as a result of transfering your Registration key to
-a replacement USB Flash device, and you are currently booted from your old USB Flash device.
+To urządzenie rozruchowe USB Flash zostało wpisane *na czarnej liście*. Może to nastąpić w wyniku przeniesienia klucza rejestracyjnego na
+zastępcze urządzenie USB Flash, a obecnie jesteś uruchamiłeś system ze starego urządzenia USB Flash.
 
-A USB Flash device may also be *blacklisted* if there is no serial number, or if we discover the serial number
-is not unique (this is common with USB card readers).
+Urządzenie flash USB może być również *na czarnej liście*, jeśli nie ma numeru seryjnego lub jeśli wykryjemy że numer seryjny
+nie jest unikalny (jest to powszechne w przypadku czytników kart USB).
 
-For more information, please [Contact Support](https://lime-technology.com/contact).
+Aby uzyskać więcej informacji, [Skontaktuj się z pomocą techniczną](https://lime-technology.com/contact).
 :end
