@@ -37,14 +37,17 @@ free=wolne
 Graphics Card=Karta graficzna
 Graphics ROM BIOS=BIOS karty graficznej
 Graphics=Grafika
+Guest not running or guest agent not installed=
 Host Passthrough=Bezpośrdnie przekazanie do hosta
 Hyperv tweaks for Windows=Ulepszenia hyperV dla Windows
 Hyper-V=Hyper-V
 i440fx will work for most=i440fx będzie działać dla większości
 Icon=Ikona
 Initial=Wstępny
+Interfaces=
 Invalid storage path=
 Invalid VM to edit=Nieprawidłowa maszyna wirtualna do edycji
+IP Address=
 ISO storage path doesnt exist=Ścieżka dostęu do katalogu przechowywania ISO nie istnieje
 ISO storage path doesnt exist, please create the user share or empty folder first=ISO storage path doesn't exist, please create the user share (or empty folder) first
 ISO storage path was empty=ścieżka dostępu do katalogu przechowywania ISO była pusta
@@ -84,6 +87,7 @@ Path to ROM BIOS file=Ścieżka do pliku ROM BIOS
 Please choose a folder the LibreELEC image will download to=Wybierz katalog do którego zostanie pobrany obraz LibreELEC
 Please choose a folder the OpenELEC image will download to=Wybierz katalog do którego zostanie pobrany obraz OpenELEC
 Pop-up Blocker is enabled Please add this site to your exception list=Blokada wyskakujących okien aktywna! Proszę dodać tą witrynę do wyjątków
+Prefix=
 Primary=Podstawowy
 Q35 for a newer machine model with PCIE=Q35 dla nowszej maszyny z PCIE=Q35
 QEMU64=QEMU64
@@ -138,4 +142,4 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, nowsze dystrybucje Linuxa
 XML View=Widok XML
 
-; Note: April 2, 2022 - 4 missing translations
+; Note: May 7, 2022 - 8 missing translations
