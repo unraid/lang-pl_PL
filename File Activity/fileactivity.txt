@@ -35,7 +35,7 @@ Enable for Cache and Pool Disks=
 :end
 
 :file_activity_log_by_plug:
-	> Ustaw **Dysk** aby monitorować aktywność dysków.  Ustaw **Zasób** aby monitorować aktywność zasobów.
+> Ustaw **Dysk** aby monitorować aktywność dysków.  Ustaw **Zasób** aby monitorować aktywność zasobów.
 :end
 
 ; Note: May 20, 2022 - 1 missing translations
