@@ -77,6 +77,7 @@ Partition and Format Disk=Partycjonowanie i Formatowanie Dysku
 Pass Thru=Bezpośredni
 Password=Hasło
 Read only=Tylko do odczytu
+Reboot=
 Refresh Disks and Configuration=Odśwież DYski i Konfigurację
 Remember your password It cannot be recovered=Zapamiętaj swoje hasło Nie da się go odzyskać
 Remote Share is=Zdalny udział
@@ -194,4 +195,4 @@ You will need to enter credentials to list the shares=
 > Be careful using the /dev/sdX designation because it can change after a reboot.
 :end
 
-; Note: May 26, 2022 - 37 missing translations
+; Note: May 29, 2022 - 38 missing translations

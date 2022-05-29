@@ -15,6 +15,7 @@ Excluded Files=Wykluczone Pliki
 Excluded Shares=Wykluczone Zasoby Udostępnione
 Log Deleted Files=Log skasowanych Plików
 Recycle Bin=Kosz
+Recycle Bin is empty=
 Recycle Bin Log=Log kosza
 Recycle Bin parameters=Parametry Kosza
 Recycle Bin permissions=
@@ -125,4 +126,4 @@ These actions apply to all shares:
 > Click on the 'Clear' button to clear the log.
 :end
 
-; Note: May 26, 2022 - 5 missing translations
+; Note: May 29, 2022 - 6 missing translations
