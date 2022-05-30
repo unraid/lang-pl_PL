@@ -22,6 +22,7 @@ Changing the Mount Point will also change the disk label=Zmiana punktu montowani
 Click to select ISO file=Naciśnij aby wybrać plik ISO
 Click to view/hide partitions and mount points=Naciśnij aby pokazać/ukryć partycje i punkty montowannia
 Complete=Kompletny
+Device=
 Disks=Dyski
 Disk Label=
 Disk Log Information=Informacje z dziennika dysku
@@ -46,12 +47,13 @@ Formatting=Formatowanie
 Free=Wolne
 from disk=z dysku
 Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=
+Historical=
 Historical Devices=Urządzenia historyczne
-If this disk was pre-cleared, you will remove the pre-clear signature.=
+Identification=Identyfikacja
+If this disk was pre-cleared, you will remove the pre-clear signature=
 If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=
 ISO File is=Plik ISO
 ISO File Shares=Udziały plików ISO
-Identification=Identyfikacja
 If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Jeśli używasz hasła dysku upewnij się, że wprowadziłeś hasło dla tego dysku w ustawieniach UD aby dysk mógł zostać zamontowany
 Device=
 Leave blank to use the array passwordpassphrase=Pozostaw puste jeśli używasz hasła macierzy
@@ -59,6 +61,7 @@ Load Shares=Wczytaj udziały
 Loading=Wczytywanie
 Log=Log
 Mount=Montuj
+Mount Point=
 Mounting=Montowanie
 NFS Mount Point=
 NFS or ISO File Shares configured=
@@ -89,14 +92,15 @@ Remove Remote SMB=
 Remove partition=Usuń partycję
 Run with CORRECT flag=Uruchom z WŁAŚCIWĄ flagą
 Running=Uruchomiony
-Shares=Udziały
 Script=Skrypt
 Search For Servers=Wyszukaj Serwery
 Search for Servers, or enter the Server nameIP address manually=Wyszukaj serwery, lub wprowadź nazwę adres IP ręcznie
 Search for Shares or enter the Share name manually=Wyszukaj udziały lub wprowadź nazwę ręcznie
 Searching=Wyszukiwanie
 Select the Mount Point to Root Share=
-Serial Number Mountpoint=Numer Seryjny Punktu Montowania
+Serial Number (Mount Point)=
+Shares=Udziały
+Share Type=
 share for=udostępnione dla
 Simple=Prosty
 SMB Shares=Udziały SMB
@@ -195,4 +199,4 @@ You will need to enter credentials to list the shares=
 > Be careful using the /dev/sdX designation because it can change after a reboot.
 :end
 
-; Note: May 29, 2022 - 38 missing translations
+; Note: May 30, 2022 - 43 missing translations
