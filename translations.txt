@@ -335,6 +335,7 @@ Sorry, an error occurred=Wybacz, wystąpił błąd
 Sorry, this feature is not supported by MSIEEdge=Przepraszamy, ta funckcja jest nie wspierana przez MSIE/Edge
 Standby=Oczekuje
 standby=oczekuje
+Stale configuration=
 Start=Uruchom
 Started=Uruchomiony
 started=uruchomiony
@@ -874,4 +875,4 @@ Local T2FA requires Unraid 610 or higher=Local T2FA requires Unraid 6.10 or high
 Local T2FA requires Unraid 610 or higher and a myunraidnet certificate=Local T2FA requires Unraid 6.10 or higher and a *.myunraid.net certificate
 Local T2FA requires a myunraidnet certificate=Local T2FA requires a *.myunraid.net certificate
 
-; Note: May 29, 2022 - 169 missing translations
+; Note: June 6, 2022 - 170 missing translations
