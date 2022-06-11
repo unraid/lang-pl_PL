@@ -72,4 +72,4 @@ Container Variable=Zmienne kontenera
 Container Label=Nazwa kontenera
 Container Device=Urządzenia kontenera
 
-; Note: June 6, 2022 - 9 missing translations
+; Note: June 11, 2022 - 8 missing translations
