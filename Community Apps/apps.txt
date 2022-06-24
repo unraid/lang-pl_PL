@@ -10,7 +10,7 @@ Docker system failed to start - Only Plugins Available To Be Installed Or Manage
 Array not started - Only Plugins Available To Be Installed Or Managed=Macierz nie uruchomiona - Możliwość instalacji i zarządzania tylko wtyczkami
 Community Applications works best when cookies are enabled in your browser Certain features may not be available=Aplikacje społeczności działają najlepiej gdy ciasteczka są dozwolone w Twojej przeglądarce, niektóre funkcjonalności mogą być niedostępne
 Backup Server Active Some icons may not appear, and plugin installations may be affected=Zapasowy Serwer Aktywny Część ikon może nie być widoczna, może mieć wpływ na instalację wtyczek
-Debugging enabled This significantly increases the memory used by your browser=Aktywowano debufowanie, może to znacząco zwiększyć zużycie pamięci przez Twoją przeglądarkę
+Debugging enabled This significantly increases the memory used by your browser=Aktywowano debugowanie, może to znacząco zwiększyć zużycie pamięci przez Twoją przeglądarkę
 Browser translation detected Display issues may result=Wykryto tłumaczenie przeglądarki, może skutkować problemami z wyświetlaniem.
 Running Background Application Tests=Uruchomiono testowanie Aplikacji w tle
 Action Centre Enabled=Centrum akcji włączone
