@@ -83,7 +83,7 @@ Productivity=Produktywność
 Project Page=Strona projektu
 Proxy=Proxy
 Pulling image=Pobieranie obrazu
-Read Me First=
+Read Me First=Najpierw przeczytaj
 Read Only - Shared=Tylko do odczytu - udostępniony
 Read Only - Slave=Tylko do odczytu - slave
 Read Only=Tylko do odczytu
@@ -131,5 +131,3 @@ Was this container created using this plugin=Czy ten kontener został utworzony 
 Web=Sieć
 WebUI=WebUI
 Writable=Zapisywalny
-
-; Note: June 6, 2022 - 1 missing translations
