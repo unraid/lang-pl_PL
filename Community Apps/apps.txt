@@ -437,7 +437,7 @@ Determine configuration=Ustalona konfiguracja
 Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Would you like CA to attempt to determine any applicable paths, ports, and variables for the template?  This will entail performing a test installation of the container.  It will be automatically deleted after processing.  Kontener nie zostanie uruchomiony.
 An error occurred - Could not determine configuration=Wystąpił błąd - Nie można ustawić konfiguracji.
 ; WebGui
-Click Install to download and install the Community Applications plugin=Click **Install** to download and install the **Community Applications** plugin
+Click Install to download and install the Community Applications plugin=Kliknij **Instaluj** aby pobrać i zainstalować wtyczkę **Community Applications**
 
 
 ; Note: June 24, 2022 - 3 missing translations
