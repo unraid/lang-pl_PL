@@ -10,28 +10,28 @@ Disk spin down is managed by Unraid=Kręcenie dyskiem jest zarządzane przez Unr
 Enable NFS export=Aktywuj eksport NFS
 Enable SMB Security=Aktywuj zabezpieczenia SMB
 Enter Disk Password=Wprowadź hasło dysku
-Enter Pool Mount Point=
+Enter Pool Mount Point=Wprowadź punkt mocowania puli
 Legacy Mount Point Compatibility=Kompatybilność punktów montowania w trybie starszej wersji
 Mount SSDs with discard option=Montuj SSD z opcją odrzucania
 NFS Security=Zabezpieczenia NFS
 NFS Settings=Ustawienia NFS
-NFS must be enabled in Settings->NFS to enable NFS Export=
-NFS Version to use when Mounting Remote Shares=
+NFS must be enabled in Settings->NFS to enable NFS Export=NFS musi być włączony w Ustawienia->NFS, aby włączyć eksport NFS
+NFS Version to use when Mounting Remote Shares=Wersja NFS używana podczas montowania udziałów zdalnych
 Rule=Reguła
 SMB Security=Zabezpieczenia SMB
 Select Disk=Wybierz Dysk
 Set Encrypted Disk Password=Ustaw Zaszyfrowane hasło Dysku
 Set Password=Ustaw hasło
-Set Pool Mount Point=
-Set the Pool Mount Point for this disk=
+Set Pool Mount Point=Ustaw punkt montowania puli
+Set the Pool Mount Point for this disk=Ustaw punkt montowania puli dla tego dysku
 Set the disk Password=Ustaw hasło Dysku
 Specify SMB Version when Mounting Remote Shares=Wskaż wersję SMB aby montować zdalne zasoby
 Spin down disks=Zatrzymaj dyski
 The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=Aby aktywować Tryb Destrukcyjny musi być zainstalowana wtyczka Nieprzypisane Urządzenia Plus
 to SMB share config=do konfiguracji współdzielenia SMB
 Unassigned Devices=Nieprzypisane Urządzenia
-Unraid 6.10 or later is required for NFSv4 support=
-Use only when directed for support=
+Unraid 6.10 or later is required for NFSv4 support=Unraid 6.10 lub nowszy jest wymagany do obsługi NFSv4
+Use only when directed for support=Używaj tylko wtedy, gdy jest to skierowane do wsparcia
 
 ; Help
 ;
