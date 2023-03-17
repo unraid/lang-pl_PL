@@ -25,7 +25,7 @@ Ok=Ok
 Pause=Pauza
 Proceed=Kontynuuj
 Project Page=Strona Projektu
-Read Me First= Przeczytaj najpierw
+Read Me First=Przeczytaj najpierw
 Remove container=Usuń kontener
 Remove definition=Usuń definicje
 Remove image=Usuń obraz
@@ -71,5 +71,3 @@ Container Port=Port kontenera
 Container Variable=Zmienne kontenera
 Container Label=Nazwa kontenera
 Container Device=Urządzenia kontenera
-
-; Note: June 11, 2022 - 8 missing translations

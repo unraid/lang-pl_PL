@@ -1,4 +1,5 @@
 %s An update is available=%s: dostępna jest aktualizacja
+Alert Message=
 anonymous=anonimowy
 Author=Autor
 Check For Updates=Sprawdź dostępnośc aktualizacji
@@ -19,13 +20,14 @@ Next=Następny
 No plugins installed=Żadna wtyczka nie została zainstalowana
 No release notes available=Brak informacji o wydaniu
 No response, aborting=Brak odpowiedzi, przerywanie
-Plugin File=Plik wtyczki
 Plugin File Install Errors=Błąd instalacji wtyczki
+Plugin File=Plik wtyczki
 Plugin History=Historia wtyczki
 Plugin Update Check=Sprawdzenie aktualizacji wtyczki
 Plugin=Wtyczka
 Release Notes=Informacje o wydaniu
 Remove Plugin=Usuń wtyczkę
+Remove Selected Plugins=
 remove=usuń
 Select local plugin file=Wybierz lokalny plik wtyczki
 Stable=Stabilna
@@ -36,3 +38,5 @@ Update All Plugins=Odśwież wszystkie wtyczki
 Update Plugin=Zaktualizuj wtyczkę
 Upgrade=Aktualizuj
 View Release Notes=Zobacz informacje o wydaniu
+
+; Note: March 17, 2023 - 2 missing translations
