@@ -37,5 +37,3 @@ Enable for Cache and Pool Disks=Włącz dla dysków cache i puli
 :file_activity_log_by_plug:
 > Ustaw **Dysk** aby monitorować aktywność dysków.  Ustaw **Zasób** aby monitorować aktywność zasobów.
 :end
-
-; Note: June 6, 2022 - 1 missing translations

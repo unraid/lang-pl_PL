@@ -60,5 +60,3 @@ Volume=Wolumin
 > Naciśnij przycisk **Domyślny Skrypt** aby zainicjalizować pole edycji z domyślnym skryptem.
 > Wymagane jest naciśnięcie **Zapisz** aby potwierdzić zmiany.
 :end
-
-; Note: June 6, 2022 - 12 missing translations

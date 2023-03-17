@@ -92,6 +92,7 @@ Update Plugin=Aktualizuj wtyczkę
 Requirements not met=Niespełnione wymagania
 The requirements for this upgrade have not been met on your system=Wymagania dla tej aktualizacji nie zostały spełnione w Twoim systemie.
 The sidebar for the app click info will list the details=Pasek boczny aplikacji wyświetli szczegóły po kliknięciu
+
 BACK=WSTECZ
 
 ; Remove App from previously installed
@@ -145,7 +146,10 @@ This usually means your flash drive is corrupted or has dropped offline The rest
 Fatal Docker Image Error=Fatalny błąd obrazu Dockera
 Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=Twój obraz docker lub folder jest albo tylko do odczytu albo zapełniony. Zgłoś problem na forum Unraid załączając Dane Diagnostyczne.
 This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=Ten szablon jest skonfigurowany do używania niestandardowej sieci. Być może powinieneś skonfigurować sieć lub ustawić adres IP lub inne.
+This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=
 One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=Conajmniej jeden port używany przez tą aplikację jest używany przez inny serwis lub uruchomioną aplikację. Powinieneś dostosować ustawienie portów hosta dla tego szablonu.
+Not Enough Memory=
+Community Applications (and Unraid OS) have a minimum required installed memory of 4G CA cannot run without those mimimums being met=
 
 ; CA Sections Keep the length reasonable
 Home=Strona główna
@@ -307,6 +311,7 @@ Current Version=Aktualna wersja
 Min OS=Minimalna wersja OS
 Max OS=Maksymalna wersja OS
 Total Downloads=Całkowita ilość pobrań
+Popularity=
 Licence=Licencja
 Ranked #%s=W rankingu #%s
 ; as in Trending up or down arrow
