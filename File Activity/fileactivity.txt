@@ -3,7 +3,7 @@ File Activity Monitoring=Monitorowanie aktywności plików
 Start File Activity=Uruchom Aktywność Plików
 Stop File Activity Monitoring=Zatrzymaj Monitorowanie Aktywości Plików
 Clear the File Activity log=Wyczyść Log Aktywności Plików
-Refresh log=Odśwież log
+Refresh Page=
 Enable File Activity Monitoring=Aktywuj Monitorowanie Aktywności Plików
 Enable for Unassigned Devices=Aktywuj dla Nieprzypisanych Urządzeń
 Enable for Cache and Pool Disks=Włącz dla dysków cache i puli
@@ -34,6 +34,5 @@ Enable for Cache and Pool Disks=Włącz dla dysków cache i puli
 > Ustaw **Tak** aby aktywować monitorowanie Aktywności Plików dla dysków Cache i Puli.  Działa dla dysków w Puli tylko w wersji Unraid 6.9.
 :end
 
-:file_activity_log_by_plug:
-> Ustaw **Dysk** aby monitorować aktywność dysków.  Ustaw **Zasób** aby monitorować aktywność zasobów.
-:end
+
+; Note: April 11, 2023 - 1 missing translations
