@@ -35,8 +35,9 @@ STALE=PRZESTARZAŁA
 Support Thread=Wątek wsparcia
 Uninstall=Odinstaluj
 Update All Plugins=Odśwież wszystkie wtyczki
+Update Incompatible=
 Update Plugin=Zaktualizuj wtyczkę
 Upgrade=Aktualizuj
 View Release Notes=Zobacz informacje o wydaniu
 
-; Note: March 17, 2023 - 2 missing translations
+; Note: April 11, 2023 - 3 missing translations

@@ -195,6 +195,8 @@ raidz3=
 Raw Value=Surowa wartość
 Raw View=Surowy widok
 Read-Check in progress=Sprawdzanie poprzez odczyt w toku
+Read errors corrected=
+Read errors detected=
 Reading=Odczytuję
 Reboot in safe mode=Uruchom ponownie w trybie bezpiecznym
 Registration Key Manager=Manager kluczy licencyjnych
@@ -373,4 +375,4 @@ System in sleep mode=System w trybie uśpienia
 This will put the system in sleep mode=To spowoduje uśpienie systemu
 wiki entry=wpis wikipedii
 
-; Note: March 17, 2023 - 26 missing translations
+; Note: April 11, 2023 - 28 missing translations
