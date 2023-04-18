@@ -72,4 +72,4 @@ User Shares=Udziały użytkowników
 Write=Zapis
 You cannot use the following within share names=Nie możesz użyć następujących znaków w nazwie udziału
 
-; Note: April 18, 2023 - 9 missing translations
+; Note: April 18, 2023 - 8 missing translations
