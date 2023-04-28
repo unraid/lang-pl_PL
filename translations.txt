@@ -498,7 +498,6 @@ Confirm closure then continue to webGUI=Potwierdź zamknięcie i kontynuuj w int
 Confirm Password=Potwierdź hasło
 Confirm=Potwierdź
 Connect your Unraidnet account to get started=Connect your Unraid.net account to get started
-Connected to Mothership=połączony ze statkiem-matką
 Continue to Unraid=Kontynuuj Unraid
 Continue Trial=Kontynuuj okres próbny
 Copied key url=Skopiowany url klucza
@@ -692,7 +691,7 @@ Your trial will expire in 30 days=Okres testowy wygasa za 30 dni
 Your Unraid registration key is ineligible for replacement as it has been replaced within the last 12 months=Twój klucz rejestracyjny Unraid nie kwalifikuje się do wymiany, ponieważ został wymieniony w ciągu ostatnich 12 miesięcy
 Your USB Flash GUID and other relevant server data will also be sent=Twój identyfikator GUID pamięci USB i inne odpowiednie dane serwera również zostaną wysłane
 
-; Note: April 28, 2023 - 223 missing translations
+; Note: April 28, 2023 - 224 missing translations
 Array Clearing=
 Array Copying=
 bond down=
@@ -852,15 +851,16 @@ Confirm Connect plugin removal=
 Connect Error=
 Connect plugin install failed=
 Connect=
+Connected=
 Continue using Connect=
 Customizable Dashboard Tiles=
 Deep Linking=
+Disconnected=
 Download latest backup from Connect Dashboard before signing out=
 Download latest backup from Go to Connect before signing out=
 Download unraid-api Logs=
 Dynamic Remote Access=
 Enhance your experience with Connect=
-Executes `unraid-api start`; no terminal needed=
 For best results, use one of these urls=
 Get started by installing the plugin=
 Go to Connect=
