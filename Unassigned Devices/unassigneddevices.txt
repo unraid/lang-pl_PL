@@ -96,7 +96,6 @@ Search For Servers=Wyszukaj Serwery
 Search for Servers, or enter the Server nameIP address manually=Wyszukaj serwery, lub wprowadź nazwę adres IP ręcznie
 Search for Shares or enter the Share name manually=Wyszukaj udziały lub wprowadź nazwę ręcznie
 Searching=Wyszukiwanie
-Serial Number Mount Point=Serial Number (Mount Point)
 Shares=Udziały
 Share Type=Typ udziału
 share for=udostępnione dla
@@ -178,13 +177,14 @@ You will need to enter credentials to list the shares=Aby wyświetlić akcje, mu
 > Be careful using the /dev/sdX designation because it can change after a reboot.
 :end
 
-; Note: April 28, 2023 - 10 missing translations
+; Note: April 29, 2023 - 11 missing translations
 An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=
 Clear=
 Historical Device is=
 is offline=
 offilne=
 Select the Mount Point to Root Share=
+Serial Number Mount Point=Serial Number (Mount Point)
 This is a way to gather Unraid shares into one Root Share=
 Use caution when gathering shares into one Root Share=
 Working=
