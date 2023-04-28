@@ -146,10 +146,7 @@ This usually means your flash drive is corrupted or has dropped offline The rest
 Fatal Docker Image Error=Fatalny błąd obrazu Dockera
 Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=Twój obraz docker lub folder jest albo tylko do odczytu albo zapełniony. Zgłoś problem na forum Unraid załączając Dane Diagnostyczne.
 This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=Ten szablon jest skonfigurowany do używania niestandardowej sieci. Być może powinieneś skonfigurować sieć lub ustawić adres IP lub inne.
-This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=
 One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=Conajmniej jeden port używany przez tą aplikację jest używany przez inny serwis lub uruchomioną aplikację. Powinieneś dostosować ustawienie portów hosta dla tego szablonu.
-Not Enough Memory=
-Community Applications (and Unraid OS) have a minimum required installed memory of 4G CA cannot run without those mimimums being met=
 
 ; CA Sections Keep the length reasonable
 Home=Strona główna
@@ -311,7 +308,6 @@ Current Version=Aktualna wersja
 Min OS=Minimalna wersja OS
 Max OS=Maksymalna wersja OS
 Total Downloads=Całkowita ilość pobrań
-Popularity=
 Licence=Licencja
 Ranked #%s=W rankingu #%s
 ; as in Trending up or down arrow
@@ -445,4 +441,13 @@ An error occurred - Could not determine configuration=Wystąpił błąd - Nie mo
 Click Install to download and install the Community Applications plugin=Kliknij **Instaluj** aby pobrać i zainstalować wtyczkę **Community Applications**
 
 
-; Note: September 16, 2022 - 4 missing translations
+; Note: April 28, 2023 - 9 missing translations
+This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=
+Not Enough Memory=
+Community Applications and Unraid OS have a minimum required installed memory of 4G CA cannot run without those mimimums being met=
+Installation already in progress=
+Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=
+%s is incompatible with your OS version Please update the OS to proceed=
+%s is incompatible with your OS version Either uninstall %s or update the OS=
+Featured Applications=
+Popularity=

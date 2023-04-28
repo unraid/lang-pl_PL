@@ -1,11 +1,9 @@
 Hide Deprecated Applications=Ukryj Wycofane Aplikacje
-This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections= To ustawienie ukryje wycofane aplikacje z listy dostępnych aplikacji Wycofane aplikacje będą jednak nadal wyświetlane w sekcji zainstalowanych i poprzednich aplikacji 
+This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=To ustawienie ukryje wycofane aplikacje z listy dostępnych aplikacji Wycofane aplikacje będą jednak nadal wyświetlane w sekcji zainstalowanych i poprzednich aplikacji
 Hide Incompatible Applications=Ukryj Niekompatybilne Aplikacje
 This setting will hide applications that are listed as being incompatible with your version of Unraid=To ustawienie ukryje aplikacje, które są wymienione jako niezgodne z Twoją wersją Unraid
 Allow install of second instance=Zezwól na instalacje drugiej instancji
 This option enables another button on the cards and popups which will allow you to reinstall an installed application using its default template values This option can be confusing at times, and is only generally used if you wish to install and have an application running twice simultaneously=Ta opcja uaktywnia przycisk na kartach i wyskakujących okienkach, co pozwala na ponowną instalację zainstalowanej aplikacji przy użyciu domyślnych wartości Ta opcja może być myląca i jest używana tylko wtedy, gdy chcesz zainstalować i mieć uruchomione aplikacje równolegle
-Automatically open the sidebar=
-Allows CA to automatically open the sidebar for more information when hovering over an application's icon=
 Allow CA to check for updates to applications=Zezwalaj CA na sprawdzanie dostępności aktualizacji aplikacji
 This setting enables CA to check for updates to applications Note that Community Applications will always check for updates to itself=To ustawienie umożliwia CA sprawdzanie dostępności aktualizacji aplikacji. Należy pamiętać, że aplikacje społecznościowe zawsze sprawdzają dostępność swoich aktualizacji
 Allow CA to send any emergency notifications=Zezwól CA na wysyłanie powiadomień awaryjnych
@@ -19,4 +17,6 @@ Enable developer mode=Włącz tryb dewelopera
 This unlocks some extra features within CA generally only used by developers Not recommended to enable=To odblokowuje dodatkowe funkcje w CA, które są zwykle używane tylko przez programistów. Nie zaleca się włączania
 Support Thread=Wątek wsparcia
 
-; Note: March 17, 2023 - 2 missing translations
+; Note: April 28, 2023 - 2 missing translations
+Automatically open the sidebar=
+Allows CA to automatically open the sidebar for more information when hovering over an application's icon=

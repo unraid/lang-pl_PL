@@ -3,7 +3,6 @@ Auto Mount USB Devices=Automatycznie Montuj Urządzenia USB
 Change Disk UUID=Zmień UUID Dysku
 Change UUID=Zmień UUID
 Change the disk UUID=Zmień UUID dysku
-Command times=
 Common Script=Skrypt Wspólny
 Common Settings=Ustawienia Wspólne
 Destructive Mode=Tryb Destrukcyjny
@@ -18,7 +17,6 @@ NFS Security=Zabezpieczenia NFS
 NFS Settings=Ustawienia NFS
 NFS must be enabled in Settings->NFS to enable NFS Export=NFS musi być włączony w Ustawienia->NFS, aby włączyć eksport NFS
 NFS Version to use when Mounting Remote Shares=Wersja NFS używana podczas montowania udziałów zdalnych
-Refresh and Update=
 Rule=Reguła
 SMB Security=Zabezpieczenia SMB
 Select Disk=Wybierz Dysk
@@ -31,7 +29,6 @@ Specify SMB Version when Mounting Remote Shares=Wskaż wersję SMB aby montować
 Spin down disks=Zatrzymaj dyski
 The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=Aby aktywować Tryb Destrukcyjny musi być zainstalowana wtyczka Nieprzypisane Urządzenia Plus
 to SMB share config=do konfiguracji współdzielenia SMB
-Udev and Hotplug=
 Unassigned Devices=Nieprzypisane Urządzenia
 Unraid 6.10 or later is required for NFSv4 support=Unraid 6.10 lub nowszy jest wymagany do obsługi NFSv4
 Use only when directed for support=Używaj tylko wtedy, gdy jest to skierowane do wsparcia
@@ -129,4 +126,7 @@ Use only when directed for support=Używaj tylko wtedy, gdy jest to skierowane d
 > Select the disk that you want to change the UUID.  This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
 :end
 
-; Note: April 11, 2023 - 3 missing translations
+; Note: April 28, 2023 - 3 missing translations
+Command times=
+Refresh and Update=
+Udev and Hotplug=
