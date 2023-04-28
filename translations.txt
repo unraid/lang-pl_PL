@@ -691,7 +691,7 @@ Your trial will expire in 30 days=Okres testowy wygasa za 30 dni
 Your Unraid registration key is ineligible for replacement as it has been replaced within the last 12 months=Twój klucz rejestracyjny Unraid nie kwalifikuje się do wymiany, ponieważ został wymieniony w ciągu ostatnich 12 miesięcy
 Your USB Flash GUID and other relevant server data will also be sent=Twój identyfikator GUID pamięci USB i inne odpowiednie dane serwera również zostaną wysłane
 
-; Note: April 28, 2023 - 224 missing translations
+; Note: April 28, 2023 - 230 missing translations
 Array Clearing=
 Array Copying=
 bond down=
@@ -851,6 +851,7 @@ Confirm Connect plugin removal=
 Connect Error=
 Connect plugin install failed=
 Connect=
+Connected to Mothership=
 Connected=
 Continue using Connect=
 Customizable Dashboard Tiles=
@@ -865,10 +866,12 @@ For best results, use one of these urls=
 Get started by installing the plugin=
 Go to Connect=
 Go to Go to Connect=
+Go to My Servers Dashboard=
 If this was an expired Trial installation, you may purchase a license key=
 If you need to change flash drives, generate a backup from Connect and be up and running in minutes=
 Important=
 Install Plugin=
+Installing Connect beta=Installing Connect (beta)
 Invalid 2FA token=
 Invalid username or password=
 Key file not valid=
@@ -886,6 +889,7 @@ Online Flash Backup=
 Open Dropdown=
 Password confirmation must match=
 Please access this server via the Go to Connect=
+Please access this server via the My Servers Dashboard=
 Please make sure there is a DNS server specified=
 Please make sure your server time is accurate to within 5 minutes=
 Please uninstall and reinstall the Connect plugin=
@@ -913,6 +917,8 @@ The Connect dashboard links to relevant sections of the webgui, allowing quick a
 The Connect plugin install is incomplete=
 This will register your server with Connect <sup>BETA</sup>=
 Transparent 2FA Token timed out=
+Trial key expired at %s=
 We have sent a verifcation email to %s=
+With an Unraidnet account you can start using Connect beta which gives you access to the following features=With an Unraid.net account you can start using Connect (beta) which gives you access to the following features:
 Your server will not be usable until you purchase a Registration key or install a free 30-day Trial key=
 Your Unraid registration key is ineligible for replacement as it is blacklisted=
