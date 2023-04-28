@@ -52,7 +52,6 @@ Array Clearing=Czyszczenie macierzy
 Array Starting=Uruchamianie macierzy
 Array Stopping=Zatrzymywanie macierzy
 Mounting disks=Montowanie dysków
-Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Rozkręcanie wszystkich dysków
 Stale configuration=Nieaktualna konfiguracja
 Starting services=Uruchamianie usług
@@ -71,3 +70,6 @@ Container Port=Port kontenera
 Container Variable=Zmienne kontenera
 Container Label=Nazwa kontenera
 Container Device=Urządzenia kontenera
+
+; Note: April 29, 2023 - 1 missing translations
+Retry unmounting user shares=Retry unmounting user share(s)
