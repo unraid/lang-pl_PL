@@ -133,6 +133,10 @@ Unraid 6.10 or later is required for NFSv4 support=Unraid 6.10 lub nowszy jest w
 > Select the disk that you want to change the UUID.  This is useful when a XFS formatted disk has been removed from the array and has the same UUID as an array disk.  Drive must be unmounted to change the UUID.
 :end
 
+:ud_settings_zfs_upgrade_plug:
+> Select the disk that you want to upgrade to the latest ZFS version. Drive must be mounted to upgrade ZFS.
+:end
+
 ; Note: June 18, 2023 - 10 missing translations
 Command times=
 Disabled=
