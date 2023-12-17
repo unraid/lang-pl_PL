@@ -334,6 +334,7 @@ xfs_repair status=Status naprawy xfs
 You may not add new disks and also remove existing disks=Nie możesz dodać ani usunąć istniejącego dysku
 your server=twój serwer
 
+
 ; Sleep plugin translations
 Check this=Sprawdź to
 for more information=po więcej inforamcji
@@ -344,20 +345,34 @@ System in sleep mode=System w trybie uśpienia
 This will put the system in sleep mode=To spowoduje uśpienie systemu
 wiki entry=wpis wikipedii
 
-; Note: April 29, 2023 - 31 missing translations
+; Note: December 17, 2023 - 51 missing translations
+Add Subpool=
+Add ZFS Subpool=
 Attributes not available=
 Autotrim=
+cache - Cache Devices=
 Capabilities not available=
 Compression=
+Critical NVME temperature threshold=
+Critical SSD temperature threshold=
+dedup - Deduplication Tables=
+Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
+Device contents invalid=
+Device is disabled=
+Device is missing disabled=Device is missing disabled=Device is missing disabled=Device is missing (disabled)
 Disable Spin down delay to run a SMART extended self-test=Disable **Spin down delay** to run a SMART extended self-test
 Identity is not available=
 If this is a new array, move the largest disk into the parity slot=If this is a new array, move the largest disk into the *parity* slot
 Incorrect confirmation=
+logs - ZFS Intent Log=
 mirror=
+Missing pool disk=
 no devices=
 Not present=
 Please try again=
 Pool Status=
+Power=
+Power=
 raid0=
 raid1=
 raid10=
@@ -372,7 +387,13 @@ Read errors corrected=
 Read errors detected=
 ReiserFS is deprecated, please use another file system=
 single=
+spares - Hot Spares=
+special - Special Allocation Class=
 Unmountable Unsupported or no file system=Unmountable: Unsupported or no file system
+W=
+Warning NVME temperature threshold=
+Warning SSD temperature threshold=
+will remove the missing pool disk and then bring the array on-line=
 Wrong Pool State=
 zfs pool status=
 zfs=

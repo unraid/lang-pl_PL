@@ -309,17 +309,26 @@ nie jest unikalny (jest to powszechne w przypadku czytników kart USB).
 Aby uzyskać więcej informacji, [Skontaktuj się z pomocą techniczną](https://lime-technology.com/contact).
 :end
 
-; Note: April 29, 2023 - 25 missing translations
+; Note: December 17, 2023 - 41 missing translations
 Alert Message=
 Alerts=
 All Categories=
 Clear Log=
+Creating Flash backup=
+Creation error=
+Delete Modprobe config=
 Deprecated Only=
+Downgrade OS=
+Driver=
+Edit Modprobe config=
 Error reporting level=
 Errors Only=
+Flash backup=
+Insufficient free disk space available=
 Log file cleared=
 Log size=
 LOG size=
+Modprobed config file=Modprobe.d config file
 No filter=
 Notices Only=
 Notices=
@@ -329,7 +338,14 @@ PHP Log File=
 PHP Settings=
 Please provide diagnostics when experiencing problems=
 Post these in the forums=
+Rebuild Modules=
+Remove custom modprobed configuration=Remove custom modprobe.d configuration?
+Save Modprobe config=
+Select View=
 Show errors on screen=
+State=
+Support page=
+System Drivers=
 This will delete the selected notification files=
 View Log=
 Warnings Only=
