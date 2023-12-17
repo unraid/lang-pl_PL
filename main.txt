@@ -58,10 +58,10 @@ Date of purchase=Data zakupu
 Date=Data
 Delete Pool=Usuń pulę
 detected=wykryty
-Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
+Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
 Device encrypted and unlocked=Urządzenie zaszyfrowane i odblokowane
 Device encrypted=Urządzenie zaszyfrowane
-Device is missing disabled=Device is missing disabled=Device is missing disabled=Device is missing (disabled)
+Device is missing disabled=Device is missing (disabled)
 Device is part of a pool=Urządzenie jest częścią puli
 Device locked unknown error=Urządzenie zablokowane: nieznany błąd
 Device locked wrong encryption key=Urządzenie zablokowane: błędny klucz szyfrujący
