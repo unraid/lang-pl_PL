@@ -58,10 +58,8 @@ Date of purchase=Data zakupu
 Date=Data
 Delete Pool=Usuń pulę
 detected=wykryty
-Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
 Device encrypted and unlocked=Urządzenie zaszyfrowane i odblokowane
 Device encrypted=Urządzenie zaszyfrowane
-Device is missing disabled=Device is missing (disabled)
 Device is part of a pool=Urządzenie jest częścią puli
 Device locked unknown error=Urządzenie zablokowane: nieznany błąd
 Device locked wrong encryption key=Urządzenie zablokowane: błędny klucz szyfrujący
@@ -347,7 +345,7 @@ System in sleep mode=System w trybie uśpienia
 This will put the system in sleep mode=To spowoduje uśpienie systemu
 wiki entry=wpis wikipedii
 
-; Note: December 17, 2023 - 48 missing translations
+; Note: December 17, 2023 - 50 missing translations
 Add Subpool=
 Add ZFS Subpool=
 Attributes not available=
@@ -358,8 +356,10 @@ Compression=
 Critical NVME temperature threshold=
 Critical SSD temperature threshold=
 dedup - Deduplication Tables=
+Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
 Device contents invalid=
 Device is disabled=
+Device is missing disabled=Device is missing (disabled)
 Disable Spin down delay to run a SMART extended self-test=Disable **Spin down delay** to run a SMART extended self-test
 Identity is not available=
 If this is a new array, move the largest disk into the parity slot=If this is a new array, move the largest disk into the *parity* slot
