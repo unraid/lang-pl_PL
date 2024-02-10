@@ -1,8 +1,6 @@
 Process=Proces
 Kill Process=Zabij proces
 Process ID=ID procesu
-Open Files=Otwarte pliki
-Files that may prevent shutdown=Pliki mogące blokować wyłączenie
 File Name and Path=Nazwa pliku i Ścieżka
 An entry for bash means you have a terminal session open with the working directory on the array=Wpis bash oznacza, że masz otwartą sesję terminalową z aktywnym folderem zlokalizowanym na macierzy
 If smbd is listed, it means that another computer has a samba share mounted=Jeśli smbd jest na liście, to oznacza, że inny komputer ma zamontowany zasób samby
@@ -20,3 +18,7 @@ Cannot get list of open files=Nie można pobrać listy otwartych plików
 >
 > Naciśnij **Proces**, **ID Procesu**, **Pliki mogące blokować wyłączenie**, or **Nazwa pliku i ścieżka** aby zmienić kolejność sortowania.
 :end
+
+; Note: February 10, 2024 - 2 missing translations
+Open=
+May prevent shutdown=
