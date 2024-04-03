@@ -72,4 +72,4 @@ Container Label=Nazwa kontenera
 Container Device=Urządzenia kontenera
 
 ; Note: April 29, 2023 - 1 missing translations
-Retry unmounting user shares=Retry unmounting user share(s)
+Retry unmounting user shares=Próbuj ponownie odłączyć udziały użytkownika
