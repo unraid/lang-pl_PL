@@ -38,7 +38,7 @@ Upgrade=Aktualizuj
 View Release Notes=Zobacz informacje o wydaniu
 
 ; Note: July 9, 2023 - 4 missing translations
-Alert Message=
-I have read the release notes=
-Remove Selected Plugins=
-Update Incompatible=
+Alert Message=Komunikat alarmowy
+I have read the release notes=Przeczytałem informacje o wydaniu
+Remove Selected Plugins=Usuń wybrane wtyczki
+Update Incompatible=Aktualizacja niekompatybilna
