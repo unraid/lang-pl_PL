@@ -129,3 +129,8 @@ These actions apply to all shares:
 > The deleted files will show in the log as unlinked files.
 > Click on the 'Clear' button to clear the log.
 :end
+
+; Note: December 8, 2024 - 3 missing translations
+Enable Empty All Trash Button=
+Enable Empty Share Trash Button=
+Enable Remove Aged Files Button=

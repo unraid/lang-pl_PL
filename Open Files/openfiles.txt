@@ -19,6 +19,8 @@ Cannot get list of open files=Nie można pobrać listy otwartych plików
 > Naciśnij **Proces**, **ID Procesu**, **Pliki mogące blokować wyłączenie**, or **Nazwa pliku i ścieżka** aby zmienić kolejność sortowania.
 :end
 
-; Note: February 10, 2024 - 2 missing translations
+; Note: December 8, 2024 - 4 missing translations
+Enable Kill Button=
+Kill this Process holding files open=
 Open=
 May prevent shutdown=
