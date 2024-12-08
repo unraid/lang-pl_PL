@@ -1,4 +1,5 @@
 %s An update is available=%s: dostępna jest aktualizacja
+Alert Message=Komunikat alarmowy
 anonymous=anonimowy
 Author=Autor
 Check For Updates=Sprawdź dostępnośc aktualizacji
@@ -9,6 +10,7 @@ Delete Plugin=Skasuj wtyczkę
 DOWNGRADE TO VERSION=PRZYWRÓC WERSJĘ
 Enter URL of remote plugin file or local plugin file=Wpisz adres URL zdalnej lokalizacji pliku z wtyczką lub ścieżkę do lokalnego pliku
 ERROR=BŁĄD
+I have read the release notes=Przeczytałem informacje o wydaniu
 Install Plugin=Zainstaluj wtyczkę
 Install=Instaluj
 install=instaluj
@@ -26,6 +28,7 @@ Plugin Update Check=Sprawdzenie aktualizacji wtyczki
 Plugin=Wtyczka
 Release Notes=Informacje o wydaniu
 Remove Plugin=Usuń wtyczkę
+Remove Selected Plugins=Usuń wybrane wtyczki
 remove=usuń
 Select local plugin file=Wybierz lokalny plik wtyczki
 Stable=Stabilna
@@ -33,12 +36,7 @@ STALE=PRZESTARZAŁA
 Support Thread=Wątek wsparcia
 Uninstall=Odinstaluj
 Update All Plugins=Odśwież wszystkie wtyczki
+Update Incompatible=Aktualizacja niekompatybilna
 Update Plugin=Zaktualizuj wtyczkę
 Upgrade=Aktualizuj
 View Release Notes=Zobacz informacje o wydaniu
-
-; Note: July 9, 2023 - 4 missing translations
-Alert Message=Komunikat alarmowy
-I have read the release notes=Przeczytałem informacje o wydaniu
-Remove Selected Plugins=Usuń wybrane wtyczki
-Update Incompatible=Aktualizacja niekompatybilna

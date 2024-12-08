@@ -59,6 +59,7 @@ Icon URL=URL ikony
 Image ID=ID grafiki
 Key=Klucz
 Label=Etykieta
+Lock sortable items=Zablokuj sortowanie elementów
 Management=Zarządzanie
 MediaApp=MediaApp
 MediaServer=MediaServer
@@ -119,6 +120,7 @@ The command finished successfully=Polecenie powiodło się
 TOTAL DATA PULLED=CAŁKOWITA ILOŚC POBRANYCH DANYCH
 Total size=Rozmiar całkowity
 Unknown action=Nieznana akcja
+Unlock sortable items=Odblokuj sortowanie elementów
 Update All=Aktualizuj wszystkie
 update ready=aktualizacja gotowa
 Value=Wartość
@@ -131,7 +133,3 @@ Was this container created using this plugin=Czy ten kontener został utworzony 
 Web=Sieć
 WebUI=WebUI
 Writable=Zapisywalny
-
-; Note: April 28, 2023 - 2 missing translations
-Lock sortable items=Zablokuj sortowanie elementów
-Unlock sortable items=Odblokuj sortowanie elementów
