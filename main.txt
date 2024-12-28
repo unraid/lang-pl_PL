@@ -26,9 +26,9 @@ btrfs scrub status=Status sprzątania btrfs
 cache - Cache Devices=cache - urządzenia pamięci podręcznej
 Canceled=Anulowano
 Cannot contact key-server Please check your=Nie można połączyć się z serwerem licencji. Proszę sprawdź
-Caution=**Caution**
 Capabilities not available=Parametry niedostępne
 Capabilities=Możliwości
+Caution=**Caution**
 Check Filesystem Status=Sprawdź status systemu plików
 Clear Stats=Wyczyść statystyki
 Clearing in progress=Trwa czyszczenie
@@ -383,7 +383,6 @@ your server=twój serwer
 zfs pool status=Zły stan puli ZFS
 zfs=ZFS
 
-
 ; Sleep plugin translations
 Check this=Sprawdź to
 for more information=po więcej inforamcji
@@ -394,15 +393,21 @@ System in sleep mode=System w trybie uśpienia
 This will put the system in sleep mode=To spowoduje uśpienie systemu
 wiki entry=wpis wikipedii
 
-; Note: December 8, 2024 - 14 missing translations
+; Note: December 28, 2024 - 20 missing translations
 After renaming the pool, check that your shares are assigned to the proper primary and secondary storage locations=
 After upgrading the volume may not be mountable in previous versions of Unraid=
 btrfs filesystem usage=
+cache - L2ARC=
 Dirty log detected=
 File system corruption detected=
 Fix=
+Ineligible to run this version of Unraid OS Please consider extending your=Ineligible to run this version of Unraid OS. Please consider extending your
+logs - Separate Intent Log SLOG=logs - Separate Intent Log (SLOG)
+No array devices have been assigned=
+No devices=
 No file system corruption detected=
 Renaming the pool will change the share storage allocations=
+special - Metadata storage=
 The ZFS volume will be upgraded=
 This operation cannot be reversed=
 To confirm type %s=To confirm type: %s

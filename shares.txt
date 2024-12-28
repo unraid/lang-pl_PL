@@ -60,9 +60,9 @@ Secondary storage=Pamięć dodatkowa
 Select cache pool=Wybierz pulę pamięci podręcznej
 Set when adding new share only=Ustaw tylko gdy dodajesz nowy udział
 Share contains data=Udział zawiera dane
-Share name contains invalid characters for ZFS use=Nazwa udziału zawiera nieprawidłowe znaki dla ZFS
 Share is empty=Udział jest pusty
 Share is outside the list of designated disks=Udział poza listą przeznaczonych dla niego dysków
+Share name contains invalid characters for ZFS use=Nazwa udziału zawiera nieprawidłowe znaki dla ZFS
 Share Settings=Ustawienia udziału
 Share status=Status udziału
 Size=Rozmiar
@@ -80,11 +80,15 @@ User Shares=Udziały użytkowników
 Write=Zapis
 You cannot use the following within share names=Nie możesz użyć następujących znaków w nazwie udziału
 
-; Note: December 8, 2024 - 7 missing translations
+; Note: December 28, 2024 - 11 missing translations
 Free Space will be calculated=
 is missing=
 it references storage that does not exist=
+It references storage that does not exist=
 Share is empty and is safe to delete=
 Share must be empty to be deleted=
+There are no mountable array or pool disks - cannot add shares=
 This share is invalid=
+Unknown cache usage=
+Unknown protection status=
 Warning: Configured Pool=
