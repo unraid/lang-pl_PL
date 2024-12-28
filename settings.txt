@@ -947,4 +947,4 @@ Transient errors in this log can be ignored unless you are having issues=rzejśc
 Unraid API extra origins=Dodatkowe źródła API Unraid
 View Flash Backup Error Log=Wyświetl dziennik błędów kopii zapasowej Flash
 
-; Note: December 28, 2024 - 171 missing translations
+; Note: December 28, 2024 - 170 missing translations
