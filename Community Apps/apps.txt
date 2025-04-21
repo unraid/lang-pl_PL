@@ -131,14 +131,12 @@ Downloading docker icons=Pobieranie ikon dockera
 Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Instalacja zakończona, jeśli przycisk Zrobione nie pojawił się kliknij czerwony X w górnym prawym rogu
 
 ; error messages
-No data was returned It is probable that another browser session has rebooted your server Reloading this browser tab will probably fix this error=Żadne dane nie zostały odebrane, prawdopodobnie w innej sesji przeglądarki serwer został zrestartowany, odświeżenie tej przeglądarki powinno rozwiązać ten problem
 An error occurred Could not find any %s Apps=Wystąpił błąd, nie można znaleźć żadnych %s aplikacji
 Download of appfeed failed=Błąd aktualizacja kanału aplikacji
 ; the %s here refers to a function being called
 Something really went wrong here=Naprawdę coś poszło nie tak
 Post the ENTIRE contents of this message in the Community Applications Support Thread=Opublikuj treść tego komunikatu w wątku wsparcia na forum
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Nieznany błąd Zgłoś w wątku wsparcia Załącz zrzut ekranu z Widoku Statystyk
-Something really wrong happened Reloading the Apps tab will probably fix the problem=Coś naprawdę poszło nie tak odświeżenie zakładki aplikacji powinno rozwiązać problem
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Ta wtyczka ma zdublowaną nazwę z inną już zainstalowaną wtyczką %s co ma wpływ na możliwość instalacji obydwu wtyczek jednocześnie
 You have been logged out=Zostałeś wylogowany
 Fatal Flash Drive Error=Fatalny błąd dysku Flash
@@ -440,7 +438,7 @@ An error occurred - Could not determine configuration=Wystąpił błąd - Nie mo
 Click Install to download and install the Community Applications plugin=Kliknij **Instaluj** aby pobrać i zainstalować wtyczkę **Community Applications**
 
 
-; Note: December 8, 2024 - 20 missing translations
+; Note: April 21, 2025 - 21 missing translations
 Deprecated OS version No further updates to Community Applications will be issued for this OS version=
 Update Application=
 This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=
@@ -455,6 +453,7 @@ Clear Flag=
 %s is incompatible with your OS version Either uninstall %s or update the OS=
 Browser failed to communicate with Unraid Server=
 For unknown reasons, your browser was unable to communicate with Community Applications running on your server=
+Additional information may be within Tools, PHPSettings - View Log=
 Attempt to Fix Via Reload Page=
 External Link=
 Clicking OK will take you to a 3rd party website not associated with Limetech=
