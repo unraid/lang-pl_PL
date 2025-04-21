@@ -40,3 +40,6 @@ Update Incompatible=Aktualizacja niekompatybilna
 Update Plugin=Zaktualizuj wtyczkę
 Upgrade=Aktualizuj
 View Release Notes=Zobacz informacje o wydaniu
+
+; Note: April 21, 2025 - 1 missing translations
+cannot check=
