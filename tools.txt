@@ -55,6 +55,7 @@ Key file URL=URL pliku klucza
 Language support added=Dodano obsługę języka
 Language support deleted=Usunięto obsługę języka
 Language=Język
+Log Viewer new=Log Viewer (new)
 Missing Key File=Brakujący plik klucza
 Missing Language=Brakujacy język
 Network Settings=Ustawienia sieciowe
@@ -309,7 +310,7 @@ nie jest unikalny (jest to powszechne w przypadku czytników kart USB).
 Aby uzyskać więcej informacji, [Skontaktuj się z pomocą techniczną](https://lime-technology.com/contact).
 :end
 
-; Note: April 21, 2025 - 42 missing translations
+; Note: May 31, 2025 - 41 missing translations
 Alert Message=
 Alerts=
 All Categories=
@@ -328,7 +329,6 @@ Insufficient free disk space available=
 Log file cleared=
 Log size=
 LOG size=
-Log Viewer new=Log Viewer (new)
 Modprobed config file=Modprobe.d config file
 No filter=
 Notices Only=
