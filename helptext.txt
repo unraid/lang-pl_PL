@@ -2132,7 +2132,7 @@ To pole jest wypełniane automatycznie po utworzeniu lokalnej puli sieci tuneli.
 :end
 
 :wg_local_tunnel_address_help:
-This field is auto filled-in when a local tunnel network pool is created. It is allowed to overwrite the assignment, but this is normally not necessary. Use with care when changing manually.
+To pole jest wypełniane automatycznie po utworzeniu lokalnej puli sieci tuneli. Przypisanie można nadpisać, ale zwykle nie jest to potrzebne. Ręczne zmiany należy wprowadzać ostrożnie.
 :end
 
 :wg_local_endpoint_help:
