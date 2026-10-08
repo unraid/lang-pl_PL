@@ -2061,17 +2061,17 @@ Devices you select will be bound to the vfio-pci driver at boot, which makes the
 :end
 
 :sysdevs_thread_pairings_help:
-This displays a list of CPU thread pairings.
+Wyświetla listę par wątków procesora.
 :end
 
 :sysdevs_usb_devices_help:
-This displays the output of the `lsusb` command.  The numeric identifiers are used to configure PCI pass-through.
+Wyświetla wynik polecenia `lsusb`.  Identyfikatory numeryczne służą do konfigurowania przekazywania urządzeń PCI (PCI pass-through).
 :end
 
 :sysdevs_scsi_devices_help:
-This displays the output of the `lsscsi` command.  The numeric identifiers are used to configure PCI pass-through.
+Wyświetla wynik polecenia `lsscsi`.  Identyfikatory numeryczne służą do konfigurowania przekazywania urządzeń PCI (PCI pass-through).
 
-Note that linux groups ATA, SATA and SAS devices with true SCSI devices.
+Należy pamiętać, że Linux grupuje urządzenia ATA, SATA i SAS razem z prawdziwymi urządzeniami SCSI.
 :end
 
 ; unraid.net help - added March 11, 2021
