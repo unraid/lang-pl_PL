@@ -2260,23 +2260,23 @@ Określa, jak długo trwa każdy akumulowany okres, w godzinach. **Pora dnia** w
 ; New entries (7) - 2022-02-19
 
 :display_tty_size_help:
-Changes the font size of terminal windows.
+Zmienia rozmiar czcionki w oknach terminala.
 :end
 
 :display_page_view_help:
-Changes how certain pages are displayed. In **Tabbed** mode different sections will be displayed in different tabs,
-while in **Non-tabbed** mode sections are displayed under each other.
+Zmienia sposób wyświetlania niektórych stron. W trybie **Oznaczony** poszczególne sekcje są wyświetlane na osobnych kartach,
+a w trybie **Bez kart** sekcje są wyświetlane jedna pod drugą.
 :end
 
 :display_users_menu_help:
-The Users Menu can be part of the header or part of the Settings menu.
-You can move the Users Menu if insufficient space in the header is available to display all menus.
+Menu użytkowników może być częścią nagłówka lub częścią menu ustawień.
+Menu użytkowników można przenieść, jeśli w nagłówku brakuje miejsca na wyświetlenie wszystkich menu.
 :end
 
 :display_listing_height_help:
-**Automatic** : long listings are displayed as is, and the user needs to scroll the whole page to see the bottom
+**Automatycznie** : długie listy są wyświetlane w całości, a aby zobaczyć ich koniec, trzeba przewijać całą stronę
 
-**Fixed** : long listings are displayed in a window with a fixed size, user can scroll this window to see the bottom
+**Naprawiony** : długie listy są wyświetlane w oknie o stałym rozmiarze, a aby zobaczyć ich koniec, można przewijać to okno
 :end
 
 :unraidnet_extraorigins_help:
@@ -2419,9 +2419,9 @@ Click the edit button to add/modify/delete any modprobe.d config file in the con
 ; New entries (6) - 2023-11-17
 
 :display_width_help:
-**Boxed** is the legacy setting which constrains the content width to maximum 1920 pixels
+**W pudełku** to dawne ustawienie ograniczające szerokość treści do maksymalnie 1920 pikseli
 
-**Unlimited** allows content to use all available width, which maybe useful on wide screens
+**Nieograniczony** pozwala treści wykorzystać całą dostępną szerokość, co może być przydatne na szerokich ekranach
 :end
 
 :vms_disable_help:
@@ -2434,23 +2434,23 @@ Wartość 0 wyłącza automatyczne zamykanie.
 :end
 
 :console_keyboard_help:
-Select your default keymap for the local console (not the web Terminal).
+Należy wybrać domyślny układ klawiatury dla konsoli lokalnej (nie dla terminala w przeglądarce).
 :end
 
 :console_screen_help:
-**Default:** 'Default' will set the blank timeout to 15 minutes and powersave to 60 minutes.
+**Domyślny:** 'Domyślny' ustawia limit czasu wygaszenia ekranu na 15 minut, a oszczędzania energii na 60 minut.
 
-**Disabled:** 'Disabled' will disable the blank and powersave timeout.
+**Wyłączony:** 'Wyłączony' wyłącza limity czasu wygaszenia ekranu i oszczędzania energii.
 
-**All other values:** Will set the blank timout to the selected value and disable the powersave timeout.
+**Wszystkie pozostałe wartości:** Ustawiają limit czasu wygaszenia ekranu na wybraną wartość i wyłączają limit czasu oszczędzania energii.
 :end
 
 :console_bash_help:
-If set to 'Yes' the bash history will persist reboots, set to 'No' to disable.
+Ustawienie 'Tak' sprawia, że historia basha jest zachowywana po ponownym uruchomieniu, ustawienie 'Nie' to wyłącza.
 
-**ATTENTION:** The bash history will be written to the USB Boot device so this will introduce higher wear and tear!
+**UWAGA:** Historia basha jest zapisywana na urządzeniu rozruchowym USB, co powoduje jego szybsze zużycie!
 
-**Note:** Disabling and Enabling will remove the entire bash history.
+**Uwaga:** Wyłączenie i ponowne włączenie usuwa całą historię basha.
 :end
 
 ; New entries (2) - 2023-12-17
@@ -2565,7 +2565,7 @@ Select the identifier for the remote system (used in the logfile name).
 :end
 
 :display_favorites_enabled_help:
-Enables favorite support. If set to no, will stop heart icon showing for additions. If existing favorites are saved, favorites tab and pre-saved options will still continue to show and function until all are deleted.
+Włącza obsługę ulubionych. Po wyłączeniu ikona serca przestanie się pojawiać przy nowych pozycjach. Jeśli istniejące ulubione są zapisane, karta ulubionych i wcześniej zapisane opcje będą nadal wyświetlane i działać, dopóki wszystkie nie zostaną usunięte.
 :end
 
 :vms_rdpopt_help:
