@@ -2322,8 +2322,8 @@ Przy użyciu wielu serwerów Unraid każdy z nich musi mieć skonfigurowany inny
 :end
 
 :mgmt_local_access_urls_help:
-The Local Access URLs shown above are based on your current settings. 
-To adjust URLs or redirects, see the help text for "Use SSL/TLS".
+Powyższe lokalne adresy URL dostępu wynikają z bieżących ustawień. 
+Aby zmienić adresy URL lub przekierowania, patrz pomoc dla „Użyj SSL/TLS”.
 :end
 
 :vms_network_source_help:
@@ -2548,11 +2548,11 @@ Jest to sterownik magazynowania Dockera.
 :end
 
 :mgmt_wg_access_urls_help:
-These URLs will only work when connected via the appropriate WireGuard tunnel as configured on ***Settings > VPN Manager***
+Te adresy URL będą działać tylko po połączeniu przez odpowiedni tunel WireGuard skonfigurowany w ***Ustawienia > Menadżer VPN***
 :end
 
 :mgmt_tailscale_access_urls_help:
-These URLs will only work when connected to the appropriate Tailscale Tailnet.
+Te adresy URL będą działać tylko po połączeniu z odpowiednią siecią Tailnet w Tailscale.
 :end
 
 :syslog_remote_system_identifier_help:
