@@ -2589,36 +2589,36 @@ This allows your container to utilize the network configuration of another conta
 :end
 
 :docker_tailscale_help:
-Enable Tailscale to add this container as a machine on your Tailnet.
+Włączenie Tailscale dodaje ten kontener jako maszynę w sieci Tailnet.
 :end
 
 :docker_tailscale_hostname_help:
-Provide the hostname for this container. It does not need to match the container name, but it must be unique on your Tailnet. Note that an HTTPS certificate will be generated for this hostname, which means it will be placed in a public ledger, so use a name that you don't mind being public.
-For more information see <a href="https://tailscale.com/kb/1153/enabling-https" target="_blank">enabling https</a>.
+Należy podać nazwę hosta tego kontenera. Nie musi ona odpowiadać nazwie kontenera, ale musi być unikalna w sieci Tailnet. Dla tej nazwy hosta zostanie wygenerowany certyfikat HTTPS, co oznacza, że trafi ona do publicznego rejestru, dlatego należy użyć nazwy, której upublicznienie nie przeszkadza.
+Więcej informacji: <a href="https://tailscale.com/kb/1153/enabling-https" target="_blank">enabling https</a>.
 :end
 
 :docker_tailscale_be_exitnode_help:
-Enable this if other machines on your Tailnet should route their Internet traffic through this container, this is most useful for containers that connect to commercial VPN services. 
-Be sure to authorize this Exit Node in your <a href="https://login.tailscale.com/admin/machines" target="_blank">Tailscale Machines Admin Panel</a>.
-For more details, see the Tailscale documentation on <a href="https://tailscale.com/kb/1103/exit-nodes" target="_blank">Exit Nodes</a>.
+Tę opcję należy włączyć, jeśli inne maszyny w sieci Tailnet mają kierować swój ruch internetowy przez ten kontener; jest to najbardziej przydatne w kontenerach łączących się z komercyjnymi usługami VPN. 
+Należy pamiętać o autoryzacji tego węzła wyjściowego (Exit Node) w <a href="https://login.tailscale.com/admin/machines" target="_blank">panelu administracyjnym maszyn Tailscale</a>.
+Więcej szczegółów w dokumentacji Tailscale o <a href="https://tailscale.com/kb/1103/exit-nodes" target="_blank">węzłach wyjściowych (Exit Nodes)</a>.
 :end
 
 :docker_tailscale_exitnode_ip_help:
-Optionally route this container's outgoing Internet traffic through an Exit Node on your Tailnet. Choose the Exit Node or input its Tailscale IP address.
-For more details, see <a href="https://tailscale.com/kb/1103/exit-nodes" target="_blank">Exit Nodes</a>.
+Opcjonalnie pozwala kierować wychodzący ruch internetowy tego kontenera przez węzeł wyjściowy (Exit Node) w sieci Tailnet. Można wybrać węzeł wyjściowy lub wpisać jego adres IP w Tailscale.
+Więcej szczegółów: <a href="https://tailscale.com/kb/1103/exit-nodes" target="_blank">Exit Nodes</a>.
 :end
 
 :docker_tailscale_lanaccess_help:
-Only applies when this container is using an Exit Node. Enable this to allow the container to access the local network.
+Dotyczy tylko sytuacji, gdy kontener korzysta z węzła wyjściowego (Exit Node). Włączenie pozwala kontenerowi na dostęp do sieci lokalnej.
 
-<b>WARNING:</b>&nbsp;Even with this feature enabled, systems on your LAN may not be able to access the container unless they have Tailscale installed.
+<b>OSTRZEŻENIE:</b>&nbsp;Nawet po włączeniu tej funkcji systemy w sieci LAN mogą nie mieć dostępu do kontenera, jeśli nie mają zainstalowanego Tailscale.
 :end
 
 :docker_tailscale_userspace_networking_help:
-When enabled, this container will operate in a restricted environment. Tailscale DNS will not work, and the container will not be able to initiate connections to other Tailscale machines. However, other machines on your Tailnet will still be able to communicate with this container.
+Po włączeniu kontener będzie działał w ograniczonym środowisku. DNS Tailscale nie będzie działał, a kontener nie będzie mógł inicjować połączeń z innymi maszynami Tailscale. Inne maszyny w sieci Tailnet nadal będą jednak mogły komunikować się z tym kontenerem.
 
-When disabled, this container will have full access to your Tailnet. Tailscale DNS will work, and the container can fully communicate with other machines on the Tailnet.
-However, systems on your LAN may not be able to access the container unless they have Tailscale installed.
+Po wyłączeniu kontener będzie miał pełny dostęp do sieci Tailnet. DNS Tailscale będzie działał, a kontener będzie mógł w pełni komunikować się z innymi maszynami w sieci Tailnet.
+Systemy w sieci LAN mogą jednak nie mieć dostępu do kontenera, jeśli nie mają zainstalowanego Tailscale.
 :end
 
 :docker_tailscale_ssh_help:
@@ -2656,7 +2656,7 @@ For more details see the <a href="https://tailscale.com/kb/1242/tailscale-serve"
 :end
 
 :docker_tailscale_show_advanced_help:
-Here there be dragons!
+Tu mieszkają smoki! (Here there be dragons!)
 :end
 
 :docker_tailscale_serve_local_path_help:
@@ -2684,11 +2684,11 @@ For more details see the <a href="https://tailscale.com/kb/1242/tailscale-serve"
 :end
 
 :docker_tailscale_serve_webui_help:
-If <b>Serve</b> is enabled this will be an https url with a proper domain name that is accessible over your Tailnet, no port needed!
+Jeśli włączona jest opcja <b>Serve</b>, będzie to adres https z właściwą nazwą domeny, dostępny w sieci Tailnet, bez potrzeby podawania portu!
 
-If <b>Funnel</b> is enabled the same url will be available on the Internet.
+Jeśli włączona jest opcja <b>Funnel</b>, ten sam adres będzie dostępny w Internecie.
 
-If they are disabled then the url will be generated from the container's main "Web UI" field, but modified to use the Tailscale IP. If the wrong port is specified here then switch from "Basic View" to "Advanced View" and review the "Web UI" field for this container.
+Jeśli obie są wyłączone, adres zostanie wygenerowany z głównego pola "Web UI" kontenera, ale zmodyfikowany tak, by używał adresu IP w Tailscale. Jeśli podano tu zły port, należy przełączyć z "Widoku podstawowego" na "Widok zaawansowany" i sprawdzić pole "Web UI" tego kontenera.
 :end
 
 :docker_tailscale_advertise_routes_help:
