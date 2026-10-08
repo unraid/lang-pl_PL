@@ -7,7 +7,7 @@
 
 <i class='fa fa-warning orb yellow-orb'></i>Zawartość urządzenia jest emulowana.
 
-<i class='fa fa-times orb red-orb'></i>Urządzenie zablokowane, zawartość emulowana.
+<i class='fa fa-times orb red-orb'></i>Urządzenie wyłączone, zawartość emulowana.
 
 <i class='fa fa-square orb blue-orb'></i>Nowe urządzenie.
 
