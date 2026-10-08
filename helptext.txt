@@ -1781,24 +1781,24 @@ Ustawienie *Tak* wyłącza zasilanie UPS po zamknięciu systemu.
 :end
 
 :parity_check_scheduled_help:
-By default no parity check is scheduled. Select here the desired schedule. This can be one of the preset schedules for daily, weekly, monthly, yearly or a custom schedule.
+Domyślnie nie jest zaplanowane żadne sprawdzanie parzystości. Tutaj można wybrać żądany harmonogram: jeden z gotowych (dzienny, tygodniowy, miesięczny, roczny) albo własny.
 :end
 
 :parity_day_of_the_week_help:
-When a **weekly** or **custom** schedule is selected then choose here the preferred *day of the week*, in the other schedules this setting is not used and unavailable.
+Po wybraniu harmonogramu **tygodniowego** lub **własnego** należy tu wskazać preferowany *dzień tygodnia*; w pozostałych harmonogramach to ustawienie nie jest używane i jest niedostępne.
 :end
 
 :parity_week_of_the_month_help:
-When a **monthly** or **yearly** schedule is selected then choose here the preferred *day of the month*.
-When a **custom** schedule is selected then choose here the preferred *week of the month*, in the other schedules this setting is not used and unavailable.
+Po wybraniu harmonogramu **miesięcznego** lub **rocznego** należy tu wskazać preferowany *dzień miesiąca*.
+Po wybraniu harmonogramu **własnego** należy tu wskazać preferowany *tydzień miesiąca*; w pozostałych harmonogramach to ustawienie nie jest używane i jest niedostępne.
 :end
 
 :parity_time_of_the_day_help:
-Choose the desired *time of the day* to start the schedule. Time granularity is given in half hour periods.
+Należy wybrać żądaną *porę dnia* rozpoczęcia harmonogramu. Czas wybiera się z dokładnością do pół godziny.
 :end
 
 :parity_month_of_the_year_help:
-When a **yearly** or **custom** schedule is selected then choose here the preferred *month of the year*, in the other schedules this setting is not used and unavailable.
+Po wybraniu harmonogramu **rocznego** lub **własnego** należy tu wskazać preferowany *miesiąc roku*; w pozostałych harmonogramach to ustawienie nie jest używane i jest niedostępne.
 :end
 
 :parity_write_corrections_help:
@@ -1806,27 +1806,27 @@ Choose here whether any parity errors found during the check, need to be correct
 :end
 
 :mover_schedule_help:
-Choose a mover schedule ranging from hourly, daily, weekly and monthly.
+Należy wybrać harmonogram movera: godzinowy, dzienny, tygodniowy lub miesięczny.
 
-The interval determines how fast the mover will activated, it runs in the background.
+Interwał określa, jak często mover będzie uruchamiany; działa w tle.
 :end
 
 :mover_day_of_the_week_help:
-Choose a day when the weekly schedule is selected. Otherwise disabled.
+Dzień wybiera się po wskazaniu harmonogramu tygodniowego. W przeciwnym razie pole jest wyłączone.
 :end
 
 :mover_day_of_the_month_help:
-Choose a date when the monthly schedule is selected. Otherwise disabled.
+Datę wybiera się po wskazaniu harmonogramu miesięcznego. W przeciwnym razie pole jest wyłączone.
 :end
 
 :mover_time_of_the_day_help:
-When an hourly schedule is selected this will set the interval in hours. An interval always starts on the whole hour (minute 0).
+Po wybraniu harmonogramu godzinowego ustawia to interwał w godzinach. Interwał zawsze zaczyna się o pełnej godzinie (minuta 0).
 
-For the other schedules choose here the time of the day the mover should start.
+W pozostałych harmonogramach należy tu wskazać porę dnia, o której mover ma się uruchomić.
 :end
 
 :mover_logging_help:
-Write mover messages to the syslog file.
+Zapisuje komunikaty movera w pliku syslog.
 :end
 
 :notifications_display_help:
@@ -2250,7 +2250,7 @@ Specifies how accumulation periods are executed.
 :end
 
 :parity_accumulation_duration_help:
-Specifies how long each accumulated period runs, expressed in hours. The **Time of the day** speficies the start time of the period.
+Określa, jak długo trwa każdy akumulowany okres, w godzinach. **Pora dnia** wyznacza czas rozpoczęcia okresu.
 :end
 
 ; New entries (7) - 2022-02-19
