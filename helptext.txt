@@ -1713,17 +1713,17 @@ Wartość metryki jest opcjonalna, domyślnie wynosi 1. Służy do wskazania pre
 :end
 
 :apc_ups_daemon_help:
-Set to 'Yes' to enable apcupsd and start the daemon, set to 'No' to disable apcupsd and stop the daemon.
+Ustawienie 'Tak' włącza apcupsd i uruchamia demona, ustawienie 'Nie' wyłącza apcupsd i zatrzymuje demona.
 :end
 
 :apc_ups_cable_help:
-Defines the type of cable connecting the UPS to your computer.Possible generic choices for 'cable' are:
+Określa typ kabla łączącego UPS z komputerem. Dostępne ogólne wybory dla 'kabla' to:
 
-+ USB, Simple, Smart, Ether, or Custom to specify a special cable.
++ USB, Simple, Smart, Ether lub Custom (Własny), aby wskazać specjalny kabel.
 :end
 
 :apc_ups_custom_cable_help:
-Specify a special cable by model number, only applicable when *UPS cable* is set to Custom.
+Pozwala wskazać specjalny kabel według numeru modelu; ma zastosowanie tylko wtedy, gdy *Kabel UPS* ma wartość Własny.
 
 + 940-0119A, 940-0127A, 940-0128A, 940-0020B
 + 940-0020C, 940-0023A, 940-0024B, 940-0024C
@@ -1732,52 +1732,52 @@ Specify a special cable by model number, only applicable when *UPS cable* is set
 :end
 
 :apc_ups_type_help:
-Define a *UPS type*, which corresponds to the type of UPS you have (see the Description for more details).
+Określa *typ UPS*, który odpowiada posiadanemu zasilaczowi awaryjnemu (więcej szczegółów w opisie).
 
-+ **USB** - most new UPSes are USB
-+ **APCsmart** - newer serial character device, appropriate for SmartUPS models using a serial cable (not USB)
-+ **Net** - network link to a master apcupsd through apcupsd's Network Information Server. This is used if the UPS powering your computer is connected to a different computer for monitoring
-+ **SNMP** - SNMP network link to an SNMP-enabled UPS device
-+ **Dumb** - old serial character device for use with simple-signaling UPSes
-+ **PCnet** - PowerChute Network Shutdown protocol which can be used as an alternative to SNMP with the AP9617 family of smart slot cards
-+ **ModBus** - serial device for use with newest SmartUPS models supporting the MODBUS protocol
++ **USB** - większość nowych zasilaczy UPS jest typu USB
++ **APCsmart** - nowsze szeregowe urządzenie znakowe, odpowiednie dla modeli SmartUPS korzystających z kabla szeregowego (nie USB)
++ **Net** - łącze sieciowe do głównego apcupsd przez serwer informacji sieciowych (Network Information Server) apcupsd. Używane, gdy UPS zasilający ten komputer jest podłączony do innego komputera, który go monitoruje
++ **SNMP** - łącze sieciowe SNMP do urządzenia UPS obsługującego SNMP
++ **Dumb** - stare szeregowe urządzenie znakowe do zasilaczy UPS z prostą sygnalizacją
++ **PCnet** - protokół PowerChute Network Shutdown, który może być alternatywą dla SNMP w rodzinie kart AP9617 do gniazd smart
++ **ModBus** - urządzenie szeregowe do najnowszych modeli SmartUPS obsługujących protokół MODBUS
 :end
 
 :apc_ups_device_help:
-Enter the *device* which corresponds to your situation, only applicable when *UPS type* is not set to USB.
+Należy wpisać *urządzenie* odpowiednie dla danej sytuacji; ma zastosowanie tylko wtedy, gdy *Typ UPS* nie jest ustawiony na USB.
 
 + **apcsmart** - /dev/tty**
-+ **net** - hostname:port. Hostname is the IP address of the NIS server. The default port is 3551
-+ **snmp** - hostname:port:vendor:community. Hostname is the ip address or hostname of the UPS on the network. Vendor can be can be "APC" or "APC_NOTRAP". "APC_NOTRAP" will disable SNMP trap catching; you usually want "APC". Port is usually 161. Community is usually "private"
++ **net** - nazwa_hosta:port. Nazwa hosta to adres IP serwera NIS. Domyślny port to 3551
++ **snmp** - nazwa_hosta:port:dostawca:community. Nazwa hosta to adres IP lub nazwa hosta UPS w sieci. Dostawca może mieć wartość "APC" lub "APC_NOTRAP". "APC_NOTRAP" wyłącza przechwytywanie komunikatów trap SNMP; zwykle właściwa jest wartość "APC". Port to zwykle 161. Community to zwykle "private"
 + **dumb** - /dev/tty**
-+ **pcnet** - ipaddr:username:passphrase:port. ipaddr is the IP address of the UPS management card. username and passphrase are the credentials for which the card has been configured. port is the port number on which to listen for messages from the UPS, normally 3052. If this parameter is empty or missing, the default of 3052 will be used
++ **pcnet** - adres_ip:nazwa_użytkownika:hasło:port. adres_ip to adres IP karty zarządzającej UPS. Nazwa użytkownika i hasło to dane uwierzytelniające, dla których skonfigurowano kartę. Port to numer portu, na którym nasłuchiwane są komunikaty z UPS, zwykle 3052. Jeśli parametr jest pusty lub go brak, używana jest wartość domyślna 3052
 + **modbus** - /dev/tty**
 :end
 
 :apc_battery_level_help:
-If during a power failure, the remaining battery percentage (as reported by the UPS) is below or equal to *Battery level*, apcupsd will initiate a system shutdown.
+Jeśli podczas zaniku zasilania pozostały procent baterii (zgłaszany przez UPS) jest równy lub niższy od wartości *Poziom baterii*, apcupsd zainicjuje zamknięcie systemu.
 :end
 
 :apc_runtime_left_help:
-If during a power failure, the remaining runtime in minutes (as calculated internally by the UPS) is below or equal to this field, apcupsd, will initiate a system shutdown.
+Jeśli podczas zaniku zasilania pozostały czas pracy w minutach (obliczany wewnętrznie przez UPS) jest równy lub niższy od wartości w tym polu, apcupsd zainicjuje zamknięcie systemu.
 :end
 
 :apc_battery_time_help:
-If during a power failure, the UPS has run on batteries for *time-out* many seconds or longer; apcupsd will initiate a system shutdown. A value of zero disables this timer.
+Jeśli podczas zaniku zasilania UPS pracuje na bateriach przez *limit czasu* sekund lub dłużej, apcupsd zainicjuje zamknięcie systemu. Wartość zero wyłącza ten licznik.
 
-If you have a Smart UPS, you will most likely want to disable this timer by setting it to zero.
-That way, your UPS will continue on batteries until either the % charge remaining drops to or below *Battery level* or the remaining battery runtime drops to or below *minutes*.
+W przypadku zasilacza Smart UPS najprawdopodobniej warto wyłączyć ten licznik, ustawiając zero.
+Wtedy UPS będzie pracował na bateriach, dopóki pozostały procent naładowania nie spadnie do wartości *Poziom baterii* lub niższej albo pozostały czas pracy na baterii nie spadnie do wartości *minut* lub niższej.
 
-Of course - when testing - setting this to 60 causes a quick system shutdown if you pull the power plug.
-If you have an older dumb UPS, you will want to set this to less than the time you know you can run on batteries.
+Oczywiście podczas testów ustawienie 60 spowoduje szybkie zamknięcie systemu po wyciągnięciu wtyczki z gniazdka.
+W przypadku starszego zasilacza typu dumb należy ustawić wartość mniejszą niż znany czas pracy na bateriach.
 :end
 
 :apc_note_help:
-**Note:** *Battery level*, *Runtime left*, and *Time on battery* work in conjunction, so the first that occurs will cause the initiation of a shutdown.
+**Uwaga:** *Poziom baterii*, *Pozostały czas* i *Czas pracy na baterii* działają łącznie, więc zamknięcie zostanie zainicjowane po spełnieniu pierwszego z tych warunków.
 :end
 
 :apc_killups_help:
-Set to *Yes* to turn off the power to the UPS after a shutdown.
+Ustawienie *Tak* wyłącza zasilanie UPS po zamknięciu systemu.
 :end
 
 :parity_check_scheduled_help:
