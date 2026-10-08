@@ -1541,156 +1541,156 @@ Po włączeniu tagowania wszystkie sieci VLAN na tym interfejsie będą korzysta
 :end
 
 :eth_enable_bonding_help:
-Bonding is a feature that combines multiple physical Ethernet interfaces into a single *bonded* interface named **bond0**.
-This can be used to improve the connection redundancy and/or throughput of the system.
-Different bonding modes are supported (see below), but some modes require proper switch support.
+Spajanie (bonding) łączy kilka fizycznych interfejsów Ethernet w jeden interfejs *spojony* o nazwie **bond0**.
+Pozwala to zwiększyć redundancję połączenia i/lub przepustowość systemu.
+Obsługiwane są różne tryby spajania (patrz niżej), ale niektóre z nich wymagają odpowiedniej obsługi po stronie przełącznika.
 :end
 
 :eth_bonding_mode_help:
-**Mode 0 (balance-rr)**<br>
-This mode transmits packets in a sequential order from the first available slave through the last.
-If two real interfaces are slaves in the bond and two packets arrive destined out of the bonded interface the first will be transmitted on the first slave and the second frame will be transmitted on the second slave.
-The third packet will be sent on the first and so on. This provides load balancing and fault tolerance.
+**Tryb 0 (balance-rr)**<br>
+W tym trybie pakiety są wysyłane po kolei, od pierwszego dostępnego interfejsu podrzędnego do ostatniego.
+Jeśli w spojeniu są dwa interfejsy podrzędne i do wysłania przez interfejs spojony trafią dwa pakiety, pierwszy zostanie wysłany przez pierwszy interfejs podrzędny, a drugi przez drugi.
+Trzeci pakiet pójdzie znów przez pierwszy i tak dalej. Zapewnia to równoważenie obciążenia i odporność na awarie.
 
-**Mode 1 (active-backup) - default**<br>
-This mode places one of the interfaces into a backup state and will only make it active if the link is lost by the active interface.
-Only one slave in the bond is active at an instance of time. A different slave becomes active only when the active slave fails.
-This mode provides fault tolerance.
+**Tryb 1 (active-backup) - domyślny**<br>
+W tym trybie jeden z interfejsów jest w stanie zapasowym i staje się aktywny tylko wtedy, gdy aktywny interfejs utraci łącze.
+W danej chwili aktywny jest tylko jeden interfejs podrzędny. Inny staje się aktywny wyłącznie po awarii aktywnego.
+Zapewnia to odporność na awarie.
 
-**Mode 2 (balance-xor)**<br>
-This mode transmits packets based on an XOR formula. Source MAC address is XOR'd with destination MAC address modula slave count.
-This selects the same slave for each destination MAC address and provides load balancing and fault tolerance.
+**Tryb 2 (balance-xor)**<br>
+W tym trybie pakiety są wysyłane na podstawie wzoru XOR. Źródłowy adres MAC jest poddawany operacji XOR z docelowym adresem MAC, modulo liczba interfejsów podrzędnych.
+Dla każdego docelowego adresu MAC wybierany jest ten sam interfejs podrzędny, co zapewnia równoważenie obciążenia i odporność na awarie.
 
-**Mode 3 (broadcast)**<br>
-This mode transmits everything on all slave interfaces. This mode is least used (only for specific purpose) and provides only fault tolerance.
+**Tryb 3 (broadcast)**<br>
+W tym trybie wszystko jest wysyłane przez wszystkie interfejsy podrzędne. Jest to tryb najrzadziej używany (tylko do szczególnych zastosowań) i zapewnia wyłącznie odporność na awarie.
 
-**Mode 4 (802.3ad)**<br>
-This mode is known as *Dynamic Link Aggregation*. It creates aggregation groups that share the same speed and duplex settings.
-It requires a switch that supports IEEE 802.3ad dynamic link.
-Slave selection for outgoing traffic is done according to the transmit hash policy, which may be changed from the default simple XOR policy via the xmit_hash_policy option.
-Note that not all transmit policies may be 802.3ad compliant, particularly in regards to the packet mis-ordering requirements of section 43.2.4 of the 802.3ad standard.
-Different peer implementations will have varying tolerances for noncompliance.
+**Tryb 4 (802.3ad)**<br>
+Ten tryb nazywa się *Dynamicznym agregowaniem łączy* (Dynamic Link Aggregation). Tworzy grupy agregacji o tej samej prędkości i ustawieniach dupleksu.
+Wymaga przełącznika obsługującego dynamiczne łącze IEEE 802.3ad.
+Wybór interfejsu podrzędnego dla ruchu wychodzącego odbywa się według polityki skrótu transmisji, którą można zmienić z domyślnej prostej polityki XOR za pomocą opcji xmit_hash_policy.
+Należy pamiętać, że nie wszystkie polityki transmisji muszą być zgodne z 802.3ad, zwłaszcza w zakresie wymagań dotyczących kolejności pakietów z punktu 43.2.4 standardu 802.3ad.
+Różne implementacje po drugiej stronie mają różną tolerancję na niezgodności.
 
-**Mode 5 (balance-tlb)**<br>
-This mode is called *Adaptive transmit load balancing*. The outgoing traffic is distributed according to the current load and queue on each slave interface.
-Incoming traffic is received by the current slave.
+**Tryb 5 (balance-tlb)**<br>
+Ten tryb nazywa się *Adaptacyjnym równoważeniem obciążenia transmisji* (Adaptive transmit load balancing). Ruch wychodzący jest rozdzielany według bieżącego obciążenia i kolejki każdego interfejsu podrzędnego.
+Ruch przychodzący jest odbierany przez bieżący interfejs podrzędny.
 
-**Mode 6 (balance-alb)**<br>
-This mode is called *Adaptive load balancing*. This includes balance-tlb + receive load balancing (rlb) for IPV4 traffic.
-The receive load balancing is achieved by ARP negotiation.
-The bonding driver intercepts the ARP Replies sent by the server on their way out and overwrites the src hw address with the unique hw address of one of the slaves in the bond
-such that different clients use different hw addresses for the server.
+**Tryb 6 (balance-alb)**<br>
+Ten tryb nazywa się *Adaptacyjnym równoważeniem obciążenia* (Adaptive load balancing). Obejmuje balance-tlb oraz równoważenie obciążenia odbioru (rlb) dla ruchu IPv4.
+Równoważenie odbioru realizowane jest przez negocjację ARP.
+Sterownik spajania przechwytuje odpowiedzi ARP wysyłane przez serwer i zastępuje w nich źródłowy adres sprzętowy unikalnym adresem sprzętowym jednego z interfejsów podrzędnych,
+dzięki czemu różni klienci używają różnych adresów sprzętowych serwera.
 
-*Mode 1 (active-backup) is the recommended setting. Other modes allow you to set up a specific environment, but may require proper switch support.
-Choosing a unsupported mode can result in a disrupted communication.*
+*Zalecane jest ustawienie Tryb 1 (active-backup). Pozostałe tryby pozwalają zbudować określone środowisko, ale mogą wymagać odpowiedniej obsługi po stronie przełącznika.
+Wybranie nieobsługiwanego trybu może zakłócić komunikację.*
 :end
 
 :eth_bonding_members_help:
-Select which interfaces are member of the *bonded* interface. By default eth0 is a member, while other interfaces are optional.
+Należy wybrać, które interfejsy są członkami interfejsu *spojonego*. Domyślnie członkiem jest eth0, pozostałe interfejsy są opcjonalne.
 :end
 
 :eth_enable_bridging_help:
-Bridging is a feature which creates a virtual bridge and allows VMs and Docker containers to communicate directly with the physical Ethernet port.
-Both bonding and bridging can be combined to let VMs or containers communicate over a *bonded* interface.
+Mostkowanie (bridging) tworzy wirtualny most i pozwala maszynom wirtualnym oraz kontenerom Dockera komunikować się bezpośrednio z fizycznym portem Ethernet.
+Spajanie i mostkowanie można łączyć, aby maszyny wirtualne lub kontenery komunikowały się przez interfejs *spojony*.
 :end
 
 :eth_bridging_members_help:
-Select which interfaces are member of the *bridged* interface. By default eth0 is a member, while other interfaces are optional.
+Należy wybrać, które interfejsy są członkami interfejsu *mostkowanego*. Domyślnie członkiem jest eth0, pozostałe interfejsy są opcjonalne.
 :end
 
 :eth_network_protocol_help:
-Select which protocol(s) are used. By default IPv4 only is used.<br>
-When both IPv4 and IPv6 is selected, each protocol can be configured independently.
+Należy wybrać, które protokoły są używane. Domyślnie używany jest tylko IPv4.<br>
+Po wybraniu zarówno IPv4, jak i IPv6 każdy protokół można skonfigurować niezależnie.
 :end
 
 :eth_ipv4_address_assignment_help:
-The following settings are possible:
+Dostępne ustawienia:
 
-*Automatic* - the server will attempt to obtain a IPv4 address from the local DHCP server<br>
-*Static* - the IPv4 address is manually set for this interface<br>
-*None* - no IPv4 address is assigned to the interface (only available for VLANs)
+*Automatycznie* - serwer spróbuje uzyskać adres IPv4 z lokalnego serwera DHCP<br>
+*Statyczny* - adres IPv4 jest ustawiany ręcznie dla tego interfejsu<br>
+*Brak* - do interfejsu nie jest przypisany żaden adres IPv4 (dostępne tylko dla sieci VLAN)
 :end
 
 :eth_ipv4_address_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv4 address and mask of the system.
+Pole jest wyszarzone przy automatycznym przypisaniu adresu IP. W przeciwnym razie należy tu podać adres IPv4 i maskę systemu.
 :end
 
 :eth_ipv4_default_gateway_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv4 address of your router.
+Pole jest wyszarzone przy automatycznym przypisaniu adresu IP. W przeciwnym razie należy tu podać adres IPv4 routera.
 :end
 
 :eth_ipv4_dns_server_assignment_help:
-If set to *Automatic* the server will use IPv4 DNS server(s) returned by the local automatic assignment.<br>
-If set to *Static* you may enter your own list.
+Przy ustawieniu *Automatycznie* serwer użyje serwerów DNS IPv4 zwróconych przez lokalne automatyczne przypisanie.<br>
+Przy ustawieniu *Statyczny* można wpisać własną listę.
 
-This is useful in Active Directory configurations where you need to set the first DNS Server entry to the IP address of your AD Domain server.
+Jest to przydatne w konfiguracjach Active Directory, w których pierwszym wpisem serwera DNS musi być adres IP serwera domeny AD.
 :end
 
 :eth_ipv4_dns_server_help:
-This is the primary IPv4 DNS server to use. Enter a IPv4 address.
+Jest to główny używany serwer DNS IPv4. Należy wpisać adres IPv4.
 
-Note: for *Active Directory* you **must** ensure this is set to the IP address of your AD Domain server.
+Uwaga: w przypadku *Active Directory* **należy** upewnić się, że jest tu ustawiony adres IP serwera domeny AD.
 :end
 
 :eth_ipv4_dns_server2_help:
-This is the IPv4 DNS server to use when IPv4 DNS server 1 is down.
+Jest to serwer DNS IPv4 używany, gdy serwer DNS IPv4 1 nie działa.
 :end
 
 :eth_ipv4_dns_server3_help:
-This is the IPv4 DNS server to use when IPv4 DNS servers 1 and 2 are both down.
+Jest to serwer DNS IPv4 używany, gdy serwery DNS IPv4 1 i 2 nie działają.
 :end
 
 :eth_ipv6_address_assignment_help:
-The following settings are possible:
+Dostępne ustawienia:
 
-*Automatic* - the server will attempt to obtain a IPv6 address from the local DHCP server or Router Advertisement (RA)<br>
-*Static* - the IPv6 address is manually set for this interface<br>
-*None* - no IPv6 address is assigned to the interface (only available for VLANs)
+*Automatycznie* - serwer spróbuje uzyskać adres IPv6 z lokalnego serwera DHCP lub z ogłoszenia routera (Router Advertisement, RA)<br>
+*Statyczny* - adres IPv6 jest ustawiany ręcznie dla tego interfejsu<br>
+*Brak* - do interfejsu nie jest przypisany żaden adres IPv6 (dostępne tylko dla sieci VLAN)
 :end
 
 :eth_ipv6_address_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv6 address of the system.
+Pole jest wyszarzone przy automatycznym przypisaniu adresu IP. W przeciwnym razie należy tu podać adres IPv6 systemu.
 :end
 
 :eth_ipv6_default_gateway_help:
-Greyed out when using automatic IP assignment. Otherwise specify here the IPv6 address of your router.
+Pole jest wyszarzone przy automatycznym przypisaniu adresu IP. W przeciwnym razie należy tu podać adres IPv6 routera.
 :end
 
 :eth_ipv6_privacy_extensions_help:
-Enable or disable the generation of a random IPv6 interface identifier according to RFC4941. This is similar to the temporary IPv6 address generation on Windows machines.
+Włącza lub wyłącza generowanie losowego identyfikatora interfejsu IPv6 zgodnie z RFC4941. Jest to podobne do generowania tymczasowych adresów IPv6 w systemach Windows.
 :end
 
 :eth_ipv6_dns_server_assignment_help:
-If set to *Automatic* the server will use IPv6 DNS server(s) returned by the local automatic assignment.<br>
-If set to *Static* you may enter your own list.
+Przy ustawieniu *Automatycznie* serwer użyje serwerów DNS IPv6 zwróconych przez lokalne automatyczne przypisanie.<br>
+Przy ustawieniu *Statyczny* można wpisać własną listę.
 :end
 
 :eth_ipv6_dns_server_help:
-This is the primary IPv6 DNS server to use. Enter a IPv6 address.
+Jest to główny używany serwer DNS IPv6. Należy wpisać adres IPv6.
 :end
 
 :eth_ipv6_dns_server2_help:
-This is the IPv6 DNS server to use when IPv6 DNS server 1 is down.
+Jest to serwer DNS IPv6 używany, gdy serwer DNS IPv6 1 nie działa.
 :end
 
 :eth_ipv6_dns_server3_help:
-This is the IPv6 DNS server to use when IPv6 DNS servers 1 and 2 are both down.
+Jest to serwer DNS IPv6 używany, gdy serwery DNS IPv6 1 i 2 nie działają.
 :end
 
 :eth_desired_mtu_help:
-This is the MTU size to use on the physical Ethernet interface.
-If left blank, the MTU will automatically be determined (by default 1500 bytes).
+Jest to rozmiar MTU używany na fizycznym interfejsie Ethernet.
+Jeśli pole zostanie puste, MTU zostanie ustalone automatycznie (domyślnie 1500 bajtów).
 :end
 
 :eth_enable_vlans_help:
-By default no VLANs are configured.<br>
-Enabling VLANs extends the number of logical connections over the same physical connection.
+Domyślnie nie jest skonfigurowana żadna sieć VLAN.<br>
+Włączenie sieci VLAN zwiększa liczbę połączeń logicznych w ramach tego samego połączenia fizycznego.
 
-Note: your router and switch must support VLANs too when this feature is used.
+Uwaga: przy użyciu tej funkcji router i przełącznik również muszą obsługiwać sieci VLAN.
 :end
 
 :eth_vlan_number_help:
-Give each VLAN a unique identifier. Numbers range from 1 to 4095.
+Każdej sieci VLAN należy nadać unikalny identyfikator. Numery mieszczą się w zakresie od 1 do 4095.
 :end
 
 :eth_network_rules_help:
@@ -1704,12 +1704,12 @@ Deleting the file *network-rules.cfg* from the flash device will restore automat
 :end
 
 :eth_routing_table_help:
-Enter a valid IPv4 route in the format *nnn.nnn.nnn.nnn/xx*, e.g. *192.168.1.0/24*<br>
-or enter a valid IPv6 route in the format *nnnn:nnnn:nnnn::nnnn/xxx*, e.g. *fe80::3ad8:2fff:fe25:9709/64*
+Należy wpisać prawidłową trasę IPv4 w formacie *nnn.nnn.nnn.nnn/xx*, np. *192.168.1.0/24*<br>
+lub prawidłową trasę IPv6 w formacie *nnnn:nnnn:nnnn::nnnn/xxx*, np. *fe80::3ad8:2fff:fe25:9709/64*
 
-Select the gateway from the dropdown list or enter a valid IPv4/IPv6 address as gateway value.
+Bramkę można wybrać z listy rozwijanej lub wpisać jako wartość prawidłowy adres IPv4/IPv6.
 
-The metric value is optional, it defaults to 1. Use it to select the preferred gateway when more than one entry of the same route exists.
+Wartość metryki jest opcjonalna, domyślnie wynosi 1. Służy do wskazania preferowanej bramki, gdy istnieje więcej niż jeden wpis tej samej trasy.
 :end
 
 :apc_ups_daemon_help:
@@ -2391,15 +2391,15 @@ increase I/O performance.
 :end
 
 :eth_network_extra_include_help:
-Enter one or more interface names or IP addresses which will be included in the list of listening interfaces for local system services.
+Należy wpisać jedną lub więcej nazw interfejsów albo adresów IP, które zostaną dodane do listy interfejsów nasłuchujących dla lokalnych usług systemowych.
 
-This is particularly useful when you have created custom interfaces (e.g. tailscale VPN tunnel) which are used to access local system services.
+Jest to przydatne zwłaszcza po utworzeniu własnych interfejsów (np. tunelu VPN tailscale), przez które uzyskuje się dostęp do lokalnych usług systemowych.
 :end
 
 :eth_network_extra_exclude_help:
-Enter one or more interface names or IP addresses which will be excluded from the list of listening interfaces for local system services.
+Należy wpisać jedną lub więcej nazw interfejsów albo adresów IP, które zostaną wyłączone z listy interfejsów nasłuchujących dla lokalnych usług systemowych.
 
-This can be used to exclude dedicated local interfaces (e.g. p-t-p connections) or exclude dynamic interfaces (WireGuard tunnels) from using local system services.
+Można w ten sposób wykluczyć dedykowane interfejsy lokalne (np. połączenia punkt-punkt) lub interfejsy dynamiczne (tunele WireGuard) z korzystania z lokalnych usług systemowych.
 :end
 
 ; New entries (1) - 2023-11-17
