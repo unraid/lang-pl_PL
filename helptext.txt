@@ -1950,18 +1950,18 @@ Należy wpisać nazwę użytkownika i hasło do logowania na konto pocztowe. Has
 :end
 
 :plugin_install_help:
-To download and install a plugin, enter the plg file URL and click **Install**. A window will open
-that displays install progress. Do not close this window until install has completed. You may also specify
-the local file name of an extension.
+Aby pobrać i zainstalować wtyczkę, należy wpisać adres URL pliku plg i kliknąć **Instaluj**. Otworzy się okno
+z postępem instalacji. Nie należy go zamykać do zakończenia instalacji. Można również podać
+lokalną nazwę pliku rozszerzenia.
 :end
 
 :plugin_error_help:
-These plugins were not installed because of some kind of installation error.  You should delete these
-plugins and then **reboot** your server.*
+Te wtyczki nie zostały zainstalowane z powodu błędu instalacji.  Należy je usunąć,
+a następnie **zrestartować** serwer.*
 :end
 
 :plugin_stale_help:
-These plugins were not installed because newer code already exists.  It is safe to simply delete these.
+Te wtyczki nie zostały zainstalowane, ponieważ istnieje już nowszy kod.  Można je bezpiecznie usunąć.
 :end
 
 :docker_client_general_help:
