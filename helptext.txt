@@ -320,6 +320,37 @@ W oknie pojawia się niewiele informacji, ale postęp operacji można potwierdzi
 odczytu i zapisu dla urządzenia na stronie Główna.
 :end
 
+:info_ext_check_help:
+**Sprawdź** uruchamia program *e2fsck*, który bada spójność systemu plików na urządzeniu. Mimo nazwy *e2fsck* służy
+do sprawdzania całej rodziny systemów plików ext2/ext3/ext4.
+
+W przypadku **Napraw** pole *Opcje* jest wstępnie wypełnione opcją *-p*, która automatycznie naprawia wszystkie problemy systemu plików, jakie można bezpiecznie naprawić
+bez ingerencji użytkownika.  Jeśli zostanie wykryty problem, który może wymagać dodatkowych działań naprawczych, e2fsck wypisze
+jego opis i zakończy pracę.
+
+Po rozpoczęciu sprawdzania warto śledzić postęp i stan.  Zależnie od rozmiaru systemu plików i rodzaju napotkanych błędów
+operacja może trwać **bardzo długo** (godziny).
+W oknie pojawia się niewiele informacji, ale postęp operacji można potwierdzić, obserwując rosnące liczniki
+odczytu i zapisu dla urządzenia na stronie Główna.
+:end
+
+:info_ntfs_check_help:
+**Sprawdź** uruchamia program *ntfsfix*, który bada spójność systemu plików na urządzeniu. To narzędzie naprawia niektóre typowe
+problemy NTFS, ale NIE jest linuksową wersją *chkdsk*. Naprawia tylko niektóre podstawowe niespójności NTFS i resetuje
+plik dziennika NTFS. Jeśli istnieje podejrzenie uszkodzenia systemu plików, zaleca się użycie narzędzia *chkdsk* z systemu Windows.
+
+Uwaga: *ntfsfix* natychmiast zakończy pracę, jeśli wykryje plik hibernacji (aby zapobiec uszkodzeniom).
+
+Pole *Opcje* jest wstępnie wypełnione opcją *-d*, która czyści flagę „brudnego” woluminu, jeśli wolumin można naprawić i zamontować.
+:end
+
+:info_exfat_check_help:
+**Sprawdź** uruchamia program *fsck.exfat*, który bada spójność systemu plików na urządzeniu.
+
+W przypadku **Napraw** pole *Opcje* jest wstępnie wypełnione opcją *-p*, która naprawia system plików bez udziału użytkownika, jeśli
+można to zrobić bezpiecznie.
+:end
+
 :info_xfs_cancel_help:
 **Anuluj** przerywa trwającą operację Sprawdzania.
 :end
@@ -861,6 +892,18 @@ Wybiera harmonogram wejścia-wyjścia jądra używany dla wszystkich urządzeń 
 **Auto** pozostawia ustawienie każdego urządzenia bez zmian (mq-deadline).
 
 Uwaga: po wybraniu Auto konieczne jest ponowne uruchomienie, aby ustawienie zaczęło obowiązywać.
+:end
+
+:disk_tunable_zfs_arc_max_help:
+Ustawia maksymalny rozmiar ZFS ARC.
+
+Dostępne tryby:
+- **Nieograniczony (dynamiczny)**: ustawia `zfs_arc_max=0`, pozwalając ARC zajmować tyle pamięci, ile potrzeba, i zwalniać ją, gdy system jej potrzebuje.
+- **10%..90% pamięci**: używa gotowego procentu zainstalowanej pamięci systemu.
+- **Wartość własna (GB)**: pozwala wpisać wartość w GB (ograniczoną do 90% pamięci, zaokrąglaną w górę do pełnego GB).
+
+Po zastosowaniu wartość w GB jest przeliczana na bajty i zapisywana jako `options zfs zfs_arc_max=...` w `/boot/config/modprobe.d/zfs.conf`.
+Bieżąca wartość jest też stosowana w `/sys/module/zfs/parameters/zfs_arc_max`, o ile jest dostępny.
 :end
 
 :disk_tunable_md_num_stripes_help:
@@ -1416,6 +1459,18 @@ Wybór, czy ponowne uruchomienie albo wyłączenie serwera wymaga zaznaczenia po
 
 :confirm_array_stop_help:
 Wybór, czy zatrzymanie macierzy wymaga zaznaczenia pola potwierdzenia.
+:end
+
+:powerbutton_behavior_help:
+Określa, co się dzieje po naciśnięciu fizycznego przycisku zasilania serwera.
+
+**Wyłącz** wykonuje czyste wyłączenie (zatrzymuje macierz i wyłącza zasilanie). Jest to zachowanie domyślne.
+
+**Uruchom ponownie** wykonuje czysty restart.
+
+**Nic nie rób** ignoruje naciśnięcie przycisku i tylko zapisuje zdarzenie w dzienniku. Jest to przydatne w urządzeniach o małych gabarytach, w których przycisk zasilania łatwo przypadkowo trącić, aby zapobiec niezamierzonym wyłączeniom.
+
+Wtyczki mogą dodawać kolejne akcje (na przykład Uśpienie za pomocą wtyczki S3 Sleep lub uruchomienie skryptu użytkownika).
 :end
 
 :display_settings_help:
@@ -2028,6 +2083,12 @@ Aby dołączyć dodatkowe argumenty PO definicji kontenera, można je tu podać.
 Zawartość tego pola zależy od kontenera.
 :end
 
+:docker_memory_limit_help:
+Maksymalna ilość pamięci, z której kontener może korzystać (Docker <code>--memory</code>).<br>
+Można podać zwykłą liczbę oznaczającą bajty albo użyć przyrostka: <b>b</b>, <b>k</b>, <b>m</b>, <b>g</b> (na przykład <b>512m</b> lub <b>2g</b>). Minimalna dozwolona wartość to 6m.<br>
+Puste pole oznacza brak limitu (domyślnie). Jeśli <code>--memory</code> zostanie też ustawione w Dodatkowych parametrach, ta wartość ma pierwszeństwo.
+:end
+
 :docker_cpu_pinning_help:
 Zaznaczenie rdzeni procesora ogranicza działanie kontenera wyłącznie do wybranych rdzeni. Brak zaznaczonych rdzeni pozwala kontenerowi działać na wszystkich dostępnych rdzeniach (domyślnie)
 :end
@@ -2038,6 +2099,12 @@ Po wybraniu typu Host aplikacja otrzyma dostęp do komunikacji na dowolnym porci
 Ogólnie zaleca się pozostawienie tego ustawienia na wartości domyślnej, określonej przez szablon danej aplikacji.
 
 WAŻNE:  Przy zmianie mapowania portów nie należy modyfikować ustawień portu kontenera (Container port), ponieważ można zmienić tylko port hosta (Host port).
+:end
+
+:docker_fixed_mac_help:
+Przypisuje adres MAC kontenera na wybranym punkcie końcowym sieci Docker. Należy użyć prawidłowego adresu MAC typu unicast; pierwszy oktet musi być parzysty, np. 02:42:9a:0d:7e:c0.
+
+Pozwala to uniknąć używania przestarzałej opcji --mac-address na poziomie kontenera w Dodatkowych parametrach.
 :end
 
 :docker_privileged_help:
@@ -2655,6 +2722,13 @@ For more details see the <a href="https://tailscale.com/kb/1242/tailscale-serve"
 
 :docker_tailscale_show_advanced_help:
 Tu mieszkają smoki! (Here there be dragons!)
+:end
+
+:docker_tailscale_serve_target_help:
+Gdy wartość nie zostanie podana, domyślnie jest to http://localhost. Jest ona przekazywana w części `<serve_target>` poniższego polecenia uruchamiającego serve lub funnel:<br>
+`tailscale [serve|funnel] --bg --<protocol><protocol_port><path> <serve_target>:<serve_port><local_path>`<br>
+Więcej szczegółów w dokumentacji <a href="https://tailscale.com/kb/1242/tailscale-serve" target="_blank">Tailscale Serve Command Line</a>.<br>
+Należy pamiętać, że obsługiwane są tylko `localhost` lub `127.0.0.1`.
 :end
 
 :docker_tailscale_serve_local_path_help:
