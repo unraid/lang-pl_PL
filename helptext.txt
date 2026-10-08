@@ -2456,24 +2456,24 @@ Ustawienie 'Tak' sprawia, że historia basha jest zachowywana po ponownym urucho
 ; New entries (2) - 2023-12-17
 
 :ssd_default_warning_temperature_help:
-*Warning SSD temperature* sets the default warning threshold for all SSD devices temperature. Exceeding this threshold will result in a warning notification.
+*Temperatura ostrzeżenia dla SSD* ustawia domyślny próg ostrzegawczy temperatury dla wszystkich dysków SSD. Przekroczenie tego progu spowoduje wysłanie powiadomienia ostrzegawczego.
 
-A value of zero will disable the warning threshold (including notifications).
+Wartość zero wyłącza próg ostrzegawczy (wraz z powiadomieniami).
 :end
 
 :ssd_default_critical_temperature_help:
-*Critical disk temperature* sets the default critical threshold for all SSD devices temperature. Exceeding this threshold will result in an alert notification.
+*Krytyczna temperatura dla SSD* ustawia domyślny próg krytyczny temperatury dla wszystkich dysków SSD. Przekroczenie tego progu spowoduje wysłanie powiadomienia alarmowego.
 
-A value of zero will disable the critical threshold (including notifications).
+Wartość zero wyłącza próg krytyczny (wraz z powiadomieniami).
 :end
 
 ; New entries (8) - 2023-12-28
 
 :syslog_shutdown_flash_help:
-This setting is YES by default and enables the system to copy the syslog file to the USB device on shutdown or reboot.
+To ustawienie jest domyślnie TAK i pozwala systemowi skopiować plik syslog na urządzenie USB podczas zamykania lub ponownego uruchamiania.
 
-After rebooting, the syslog from this run will be visible on Tools > Syslog > syslog-previous;
-it will also be included in diagnostics as logs/syslog-previous.txt
+Po ponownym uruchomieniu syslog z poprzedniej sesji będzie widoczny w Narzędzia > Syslog > syslog-previous;
+zostanie też dołączony do diagnostyki jako logs/syslog-previous.txt
 :end
 
 :WOL_enable_help:
@@ -2556,12 +2556,11 @@ Te adresy URL będą działać tylko po połączeniu z odpowiednią siecią Tail
 :end
 
 :syslog_remote_system_identifier_help:
-Select the identifier for the remote system (used in the logfile name). 
+Należy wybrać identyfikator systemu zdalnego (używany w nazwie pliku dziennika). 
 
-* "IP Address" uses the IP address (IPv4 or IPv6) of the sending system.
-* "Hostname (from syslog message)" uses the hostname included in each syslog message.
-* "Hostname (from DNS reverse lookup)" performs a DNS reverse lookup for the sending IP and uses the result.
-
+* "Adres IP" używa adresu IP (IPv4 lub IPv6) systemu wysyłającego.
+* "Nazwa hosta (z komunikatu syslog)" używa nazwy hosta zawartej w każdym komunikacie syslog.
+* "Nazwa hosta (z odwrotnego wyszukiwania DNS)" wykonuje odwrotne wyszukiwanie DNS dla adresu IP nadawcy i używa wyniku.
 :end
 
 :display_favorites_enabled_help:
