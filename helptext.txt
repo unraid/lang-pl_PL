@@ -2394,20 +2394,20 @@ Aby zmienić adresy URL lub przekierowania, patrz pomoc dla „Użyj SSL/TLS”.
 :end
 
 :vms_network_source_help:
-Select the name of the network you wish to use as default for your VMs.
-You can choose between **'bridges'** created under network settings or
-**'libvirt'** created with virsh command in the terminal.
-The bridge **'virbr0'** and the associated virtual network **'default'** are
-created by libvirt.  
-Both utilizes NAT (network address translation) and act as a DHCP server to hand out IP addresses to virtual machines directly.
-More optional selections are present for bridges under network settings or for libvirt networks with the virsh command in the terminal.
+Należy wybrać nazwę sieci, która ma być domyślna dla maszyn wirtualnych.
+Do wyboru są **'mosty'** (bridges) utworzone w ustawieniach sieci lub
+sieci **'libvirt'** utworzone poleceniem virsh w terminalu.
+Most **'virbr0'** i powiązana z nim sieć wirtualna **'default'** są
+tworzone przez libvirt.  
+Obie korzystają z NAT (translacji adresów sieciowych) i działają jako serwer DHCP, przydzielający adresy IP bezpośrednio maszynom wirtualnym.
+Dodatkowe opcje są dostępne dla mostów w ustawieniach sieci oraz dla sieci libvirt poleceniem virsh w terminalu.
 
-**If your are unsure, choose 'virbr0' as the recommended Unraid default.**
+**W razie wątpliwości należy wybrać 'virbr0', czyli zalecaną domyślną wartość Unraid.**
 
-NOTE: You can also specify a network source on a per-VM basis.
+UWAGA: Źródło sieci można też wskazać osobno dla każdej maszyny wirtualnej.
 
-**IMPORTANT: Neither Libvirt nor Unraid automatically brings up an interface that is assigned to a Libvirt network.
-Before you use a Libvirt network, please go to Settings -> Network Settings and, if necessary, manually set the associated interface to up.**
+**WAŻNE: Ani Libvirt, ani Unraid nie podnoszą automatycznie interfejsu przypisanego do sieci Libvirt.
+Przed użyciem sieci Libvirt należy przejść do Ustawienia -> Ustawienia sieciowe i w razie potrzeby ręcznie ustawić powiązany interfejs jako włączony (up).**
 :end
 
 ; New entries (5) - 2023-04-25
@@ -2441,8 +2441,8 @@ gdy skonfigurowane są obie.
 :end
 
 :vms_console_help:
-For setting the console options to show on context menus. Web will show only inbuild web clients(VNC and SPICE), 
-Virtual Manager Remote Viewer will only show the Remote Viewer option. Both will show both Web and Remote Viewer.
+Ustawia opcje konsoli wyświetlane w menu kontekstowych. Opcja Sieć pokaże tylko wbudowanych klientów webowych (VNC i SPICE), 
+Virtual Manager Remote Viewer pokaże tylko opcję Remote Viewer. Opcja Oba pokaże zarówno klienta webowego, jak i Remote Viewer.
 :end
 
 ; New entries (3) - 2023-06-02
@@ -2491,7 +2491,7 @@ Click the edit button to add/modify/delete any modprobe.d config file in the con
 :end
 
 :vms_disable_help:
-Stop VMs from Autostarting\Starting when VM Manager starts or open is run from the gui to start, error message will be seen.
+Zapobiega automatycznemu uruchamianiu maszyn wirtualnych po starcie menedżera maszyn wirtualnych. Przy próbie uruchomienia z poziomu interfejsu zostanie wyświetlony komunikat o błędzie.
 :end
 
 :notifications_auto_close_help:
@@ -2590,10 +2590,10 @@ Ustawienie na tak powoduje, że po odebraniu pakietów Wake-on-LAN wykonywane s�
 ; New entries (35) - 2024-12-08
 
 :info_zfs_scrub_help:
-**Scrub** runs the *zfs scrub* program which will read all data and metadata blocks from all
-devices and verify checksums.
+**Oczyszczanie** uruchamia program *zfs scrub*, który odczyta wszystkie bloki danych i metadanych ze wszystkich
+urządzeń i zweryfikuje sumy kontrolne.
 
-Click the **Upgrade Pool** button to upgrade the ZFS pool to enable the latest ZFS features.
+Przycisk **Ulepsz Pulę** pozwala uaktualnić pulę ZFS, aby włączyć najnowsze funkcje ZFS.
 :end
 
 :docker_pid_limit_help:
@@ -2634,15 +2634,15 @@ Włącza obsługę ulubionych. Po wyłączeniu ikona serca przestanie się pojaw
 :end
 
 :vms_rdpopt_help:
-Adds option to menu to start RDP. RDP file is downloaded. You need to set browser to open when ready.
+Dodaje do menu opcję uruchomienia RDP. Plik RDP zostaje pobrany. W przeglądarce trzeba ustawić jego automatyczne otwieranie po pobraniu.
 :end
 
 :vms_usage_help:
-Show metrics for CPU both guest and host percentage, memory, disk io and network io.
+Pokazuje metryki procesora (procent dla gościa i hosta), pamięci oraz operacji wejścia/wyjścia dysku i sieci.
 :end
 
 :vms_usage_timer_help:
-Setting in seconds for metrics refresh time.
+Czas odświeżania metryk w sekundach.
 :end
 
 :apc_ups_override_ups_capacity_help:
