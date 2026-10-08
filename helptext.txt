@@ -2331,7 +2331,7 @@ Zmienia rozmiar czcionki w oknach terminala.
 :end
 
 :display_page_view_help:
-Zmienia sposób wyświetlania niektórych stron. W trybie **Oznaczony** poszczególne sekcje są wyświetlane na osobnych kartach,
+Zmienia sposób wyświetlania niektórych stron. W trybie **Z kartami** poszczególne sekcje są wyświetlane na osobnych kartach,
 a w trybie **Bez kart** sekcje są wyświetlane jedna pod drugą.
 :end
 
@@ -2343,7 +2343,7 @@ Menu użytkowników można przenieść, jeśli w nagłówku brakuje miejsca na w
 :display_listing_height_help:
 **Automatycznie** : długie listy są wyświetlane w całości, a aby zobaczyć ich koniec, trzeba przewijać całą stronę
 
-**Naprawiony** : długie listy są wyświetlane w oknie o stałym rozmiarze, a aby zobaczyć ich koniec, można przewijać to okno
+**Stała** : długie listy są wyświetlane w oknie o stałym rozmiarze, a aby zobaczyć ich koniec, można przewijać to okno
 :end
 
 :unraidnet_extraorigins_help:
@@ -2485,7 +2485,7 @@ Click the edit button to add/modify/delete any modprobe.d config file in the con
 ; New entries (6) - 2023-11-17
 
 :display_width_help:
-**W pudełku** to dawne ustawienie ograniczające szerokość treści do maksymalnie 1920 pikseli
+**W ramce** to dawne ustawienie ograniczające szerokość treści do maksymalnie 1920 pikseli
 
 **Nieograniczony** pozwala treści wykorzystać całą dostępną szerokość, co może być przydatne na szerokich ekranach
 :end
