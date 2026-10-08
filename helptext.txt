@@ -1829,6 +1829,10 @@ W pozostałych harmonogramach należy tu wskazać porę dnia, o której mover ma
 Zapisuje komunikaty movera w pliku syslog.
 :end
 
+:mover_progress_help:
+Włącza wyświetlanie postępu i pozwala na jego zmianę przez użytkownika.
+:end
+
 :notifications_display_help:
 In *Detailed* view all notifications will be displayed on screen as soon as they arrive.<br>
 Notifications can be acknowledged individually or all in once.
@@ -1838,11 +1842,11 @@ Click on the counters to either acknowledge or view the unread notifications.
 :end
 
 :notifications_date_format_help:
-Select the desired date format which is used in the notifications archive. Recommended is YYYY-MM-DD, which makes the date/time column sortable in a sensible way.
+Należy wybrać format daty używany w archiwum powiadomień. Zalecany jest RRRR-MM-DD, dzięki któremu kolumnę daty/godziny można sensownie sortować.
 :end
 
 :notifications_time_format_help:
-Select the desired time format which is used in the notifications archive. Recommended is 24 hours, which makes the date/time column sortable in a sensible way.
+Należy wybrać format godziny używany w archiwum powiadomień. Zalecany jest format 24-godzinny, dzięki któremu kolumnę daty/godziny można sensownie sortować.
 :end
 
 :notifications_display_position_help:
@@ -1855,54 +1859,54 @@ Notifications may be stored permanently on the flash drive under folder '/boot/c
 :end
 
 :notifications_system_help:
-By default the notifications system is disabled. Enable it here to start receiving notifications.
-The following sections give more options about which and what type of notifications will be sent.
+Domyślnie system powiadomień jest wyłączony. Należy go tu włączyć, aby zacząć otrzymywać powiadomienia.
+Kolejne sekcje oferują więcej opcji dotyczących tego, jakie i jakiego rodzaju powiadomienia będą wysyłane.
 :end
 
 :notifications_os_update_help:
-Start a periodic verification and notify the user when a new version of the Unraid OS system is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+Uruchamia okresowe sprawdzanie i powiadamia użytkownika po wykryciu nowej wersji systemu Unraid OS.
+Pola wyboru poniżej pozwalają określić sposób powiadamiania: przez przeglądarkę, e-mail i/lub własnego agenta.
 :end
 
 :notifications_plugins_update_help:
-Start a periodic verification and notify the user when a new version of one or more of the installed plugins is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+Uruchamia okresowe sprawdzanie i powiadamia użytkownika po wykryciu nowej wersji co najmniej jednej z zainstalowanych wtyczek.
+Pola wyboru poniżej pozwalają określić sposób powiadamiania: przez przeglądarkę, e-mail i/lub własnego agenta.
 :end
 
 :notifications_docker_update_help:
-Start a periodic verification and notify the user when a new version of one or more of the installed dockers is detected.
-Use the checkboxes below to select how notifications need to be given; by browser, by email and/or by custom agent.
+Uruchamia okresowe sprawdzanie i powiadamia użytkownika po wykryciu nowej wersji co najmniej jednego z zainstalowanych kontenerów Docker.
+Pola wyboru poniżej pozwalają określić sposób powiadamiania: przez przeglądarkę, e-mail i/lub własnego agenta.
 :end
 
 :notifications_array_status_help:
-Start a periodic array health check (preventive maintenance) and notify the user the result of this check.
+Uruchamia okresowe sprawdzanie kondycji macierzy (konserwacja zapobiegawcza) i powiadamia użytkownika o jego wyniku.
 :end
 
 :notifications_agent_selection_help:
-Use the checkboxes above to select what and how notifications need to be given; by browser, by email and/or by a service.<br>
-<b>Tip:</b> you can use custom notification agents; just add them to "/boot/config/plugins/dynamix/notification/agents" directory and check 'Agents'.
+Pola wyboru powyżej pozwalają określić, o czym i w jaki sposób mają być wysyłane powiadomienia: przez przeglądarkę, e-mail i/lub usługę.<br>
+<b>Wskazówka:</b> można używać własnych agentów powiadomień; wystarczy dodać je do katalogu "/boot/config/plugins/dynamix/notification/agents" i zaznaczyć 'Agenci'.
 :end
 
 :notifications_classification_help:
-Notifications are classified as:
+Powiadomienia dzielą się na:
 
-*notice* - these are informative notifications and do not indicate a problem situation, e.g. a new version is available<br>
-*warning* - these are attentive notifications and may indicate future problems, e.g. a hard disk is hotter than usual<br>
-*alert* - these are serious notifications and require immediate attention, e.g. a failing hard disk<br>
+*komunikat* - powiadomienia informacyjne, nie wskazujące na sytuację problemową, np. dostępna jest nowa wersja<br>
+*ostrzeżenie* - powiadomienia zwracające uwagę, mogące wskazywać na przyszłe problemy, np. dysk twardy jest cieplejszy niż zwykle<br>
+*alert* - poważne powiadomienia wymagające natychmiastowej uwagi, np. uszkodzony dysk twardy<br>
 
-Choose for each classification how you want to be notified.
+Dla każdej klasyfikacji należy wybrać sposób powiadamiania.
 :end
 
 :smtp_preset_service_help:
-Select a preset service to set the basic service settings.
+Należy wybrać gotową usługę, aby ustawić jej podstawowe ustawienia.
 :end
 
 :smtp_email_address_help:
-Email address of your mail account. This address is used as sender of the notifications.
+Adres e-mail konta pocztowego. Adres ten jest używany jako nadawca powiadomień.
 :end
 
 :smtp_recipients_help:
-Recipients of status and error notifications. Specify one or more email addresses, separate multiple email addresses with a space.
+Odbiorcy powiadomień o stanie i błędach. Można podać jeden lub więcej adresów e-mail, oddzielając je spacją.
 :end
 
 :smtp_priority_help:
@@ -1914,35 +1918,35 @@ Set a prefix for easy recognition of Unraid messages.
 :end
 
 :smtp_mail_server_help:
-Specify the name of the email server. Use the preset service selection to have this filled-in automatically.
+Należy podać nazwę serwera poczty. Wybór gotowej usługi wypełni to pole automatycznie.
 :end
 
 :smtp_mail_server_port_help:
-Specify the port of the email server. Use the preset service selection to have this filled-in automatically.
+Należy podać port serwera poczty. Wybór gotowej usługi wypełni to pole automatycznie.
 :end
 
 :smtp_use_ssl_tls_help:
-Specifies whether to use SSL/TLS to talk to the SMTP server.
+Określa, czy do komunikacji z serwerem SMTP używać SSL/TLS.
 :end
 
 :smtp_use_starttls_help:
-Specifies whether to use STARTTLS before starting SSL negotiation - See RFC 2487.
+Określa, czy przed rozpoczęciem negocjacji SSL używać STARTTLS - patrz RFC 2487.
 :end
 
 :smtp_define_tls_cert_help:
-Select only when you have a certificate which required for communication.
+Należy zaznaczyć tylko wtedy, gdy do komunikacji wymagany jest certyfikat.
 :end
 
 :smtp_tls_cert_location_help:
-The file name of an RSA certificate to use for TLS - as required.
+Nazwa pliku certyfikatu RSA używanego dla TLS - w razie potrzeby.
 :end
 
 :smtp_authentication_method_help:
-Select the correct authentication method for your email server. Use test to verify that access is working properly.
+Należy wybrać właściwą metodę uwierzytelniania dla serwera poczty. Przycisk testu pozwala sprawdzić, czy dostęp działa prawidłowo.
 :end
 
 :smtp_username_password_help:
-Enter the username and password to login to your email account. Be aware that the password is stored unencrypted in the email configuration file.
+Należy wpisać nazwę użytkownika i hasło do logowania na konto pocztowe. Hasło jest przechowywane w pliku konfiguracji poczty w postaci niezaszyfrowanej.
 :end
 
 :plugin_install_help:
@@ -2425,8 +2429,8 @@ Stop VMs from Autostarting\Starting when VM Manager starts or open is run from t
 :end
 
 :notifications_auto_close_help:
-Number of seconds before notifications are automatically closed in *Detailed* view.<br>
-A value of 0 disables automatic closure.
+Liczba sekund, po których powiadomienia są automatycznie zamykane w widoku *Szczegółowym*.<br>
+Wartość 0 wyłącza automatyczne zamykanie.
 :end
 
 :console_keyboard_help:
